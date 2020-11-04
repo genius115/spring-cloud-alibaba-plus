@@ -1,0 +1,109 @@
+# 公共配置
+spring:
+  profiles:
+    active: dev
+  application:
+      name: alibaba-nacos-consumer-openfeign
+  thymeleaf:
+    #模板的模式，支持 HTML, XML TEXT JAVASCRIPT
+    mode: HTML5
+    #编码 可不用配置
+    encoding: UTF-8
+    #内容类别,可不用配置
+    content-type: text/html
+    #开发配置为false,避免修改模板还要重启服务器
+    cache: false
+    #配置模板路径，默认是templates，可以不用配置
+    prefix: classpath:/templates
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000  # 指定Feign客户端连接提供者的超时时限   取决于网络环境
+        readTimeout: 5000   # 指定Feign客户端从请求到获取到提供者给出的响应的超时时限  取决于业务逻辑运算时间
+  compression:
+    request:
+      enabled: true   # 开启对请求的压缩
+      mime-types: text/xml, application/xml
+      min-request-size: 2048   # 指定启用压缩的最小文件大小
+    response:
+      enabled: true   # 开启对响应的压缩
+  #httpclient:
+          #enabled: true
+ribbon:
+  ReadTimeout:  5000
+  ConnectTimeout: 5000
+
+#开启端点  actuator
+management:
+  health:
+    mail:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"  #开启actuator全部端点      http://IP:PORT/actuator
+
+logging:
+  level:
+    # feign日志以什么级别监控哪个接口
+    com.xiaomai.cloud.services.PaymentService: debug
+
+
+---
+# 开发环境
+server:
+  port: 20011
+spring:
+  profiles: dev
+  servlet: /
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:48848
+#是否开启Swagger
+swagger:
+  enable: true
+
+
+---
+# 测试环境
+server:
+  port: 21011
+spring:
+  profiles: test
+  servlet: /
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:48848
+#是否开启Swagger
+swagger:
+  enable: false
+
+---
+# 生产环境
+server:
+  port: 22011
+spring:
+  profiles: prod
+  servlet: /
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:48848
+#是否开启Swagger
+swagger:
+  enable: false
+
+
