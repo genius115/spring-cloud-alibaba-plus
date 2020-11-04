@@ -16,6 +16,7 @@
     <module>cloud-plus-comm</module>
     <module>cloud-plus-xxljob</module>
       <module>alibaba-nacos-consumer-openfeign</module>
+    <module>nacos-provider-sentinel</module>
   </modules>
   <packaging>pom</packaging>
 

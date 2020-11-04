@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/alibaba-nacos-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-plus-comm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-plus-xxljob" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-provider-sentinel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-dynamic-mysql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-dynamic-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-server" charset="UTF-8" />
