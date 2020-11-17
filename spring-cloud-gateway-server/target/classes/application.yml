@@ -63,6 +63,8 @@ spring:
         #namespace:   #命名空间
 
     sentinel:
+      filter:
+        enabled: false #spring.cloud.sentinel.filter.enabled 配置项置为 false（若在网关流控控制台上看到了 URL 资源，就是此配置项没有置为 false）。
       transport:
         dashboard: localhost:8088
         client-ip: 127.0.0.1
@@ -74,12 +76,22 @@ spring:
           mode: response
           response-status: 455
           response-body: error!
+      datasource:
+        ds1:
+          nacos:
+            server-addr: localhost:48848
+            namespace: 3c5520b1-d16c-48a6-b2e1-129596f41b57
+            dataId: gateway
+            group: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
   security:
-      user:
-        name: test
-        password: 123456
-  redis:
-      host: localhost
-      pool: 6379
+    user:
+      name: test
       password: 123456
-      database: 1
+
+  redis:
+    host: localhost
+    pool: 6379
+    password: 123456
+    database: 1

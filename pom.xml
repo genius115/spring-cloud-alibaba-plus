@@ -7,6 +7,7 @@
   <groupId>com.xiaomai</groupId>
   <artifactId>spring-cloud-alibaba-plus</artifactId>
   <version>1.0-SNAPSHOT</version>
+
   <modules>
     <module>alibaba-nacos-consumer</module>
     <module>alibaba-nacos-provider</module>
@@ -15,9 +16,10 @@
     <module>spring-cloud-gateway-dynamic-mysql</module>
     <module>cloud-plus-comm</module>
     <module>cloud-plus-xxljob</module>
-      <module>alibaba-nacos-consumer-openfeign</module>
+    <module>alibaba-nacos-consumer-openfeign</module>
     <module>nacos-provider-sentinel</module>
   </modules>
+
   <packaging>pom</packaging>
 
   <name>Maven</name>
@@ -125,6 +127,40 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <name>Central Repository</name>
+      <url>https://repo.maven.apache.org/maven2</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>aliyun</id>
+      <url>https://maven.aliyun.com/repository/public</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>aliyun-plugin</id>
+      <url>https://maven.aliyun.com/repository/public</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->

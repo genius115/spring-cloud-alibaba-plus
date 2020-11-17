@@ -1,0 +1,84 @@
+# 公共配置
+spring:
+  profiles:
+    active: dev
+  application:
+      name: nacos-provider-sentinel
+
+#开启端点  actuator
+management:
+  health:
+    mail:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"  #开启actuator全部端点      http://IP:PORT/actuator
+
+---
+# 开发环境
+server:
+  port: 10012
+spring:
+  profiles: dev
+  servlet: /
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:48848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        client-ip: 127.0.0.1
+        port: 8719
+      # 服务启动直接建立心跳连接
+      eager: true
+      scg:
+        fallback:
+          mode: response
+          response-status: 455
+          response-body: error!
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 127.0.0.1:48848
+            namespace: 3c5520b1-d16c-48a6-b2e1-129596f41b57
+            dataId: provide_sentinel
+            group: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+---
+# 测试环境
+server:
+  port: 11012
+spring:
+  profiles: test
+  servlet: /
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:48848
+
+
+---
+# 生产环境
+server:
+  port: 12012
+spring:
+  profiles: prod
+  servlet: /
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:48848
+
+

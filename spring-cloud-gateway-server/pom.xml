@@ -46,6 +46,12 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
+        <!--sentinel指定nacos为数据源 -->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+            <version>1.5.1</version>
+        </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -54,10 +60,10 @@
         </dependency>
 
         <!--鉴权配置-->
-        <dependency>
+       <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+        </dependency>-->
 
         <!-- token管理  1、jwt  2、Session+redis共享  -->
         <dependency>
