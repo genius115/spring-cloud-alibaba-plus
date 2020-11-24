@@ -1,0 +1,2 @@
+2020-11-20 14:02:48,269 INFO (SpringApplication.java:655)- The following profiles are active: dev
+2020-11-20 14:02:50,736 INFO (StartupInfoLogger.java:61)- Started AlibabaNacosProviderApplication in 3.728 seconds (JVM running for 4.394)

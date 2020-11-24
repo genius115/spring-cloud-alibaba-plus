@@ -11,6 +11,11 @@
 
     <artifactId>spring-cloud-gateway-server</artifactId>
 
+    <properties>
+        <swagger2.version>2.9.2</swagger2.version>
+        <knife4j-spring-boot.version>2.0.2</knife4j-spring-boot.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -77,6 +82,19 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- Swagger API文档 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>${knife4j-spring-boot.version}</version>
+        </dependency>
+
     </dependencies>
 
 </project>

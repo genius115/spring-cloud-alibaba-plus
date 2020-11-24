@@ -1,5 +1,6 @@
 package com.xiaomai.cloud.controller;
 
+import io.swagger.annotations.Api;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,6 +14,7 @@ import java.util.concurrent.TimeUnit;
  */
 @RestController
 @RefreshScope
+@Api(value = "test", tags = "测试接口")
 public class TestController {
 
     @GetMapping("/get")

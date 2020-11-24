@@ -3,7 +3,7 @@ spring:
   profiles:
     active: dev
   application:
-      name: alibaba-nacos-provider
+      name: nacos-swagger
 
 #开启端点  actuator
 management:
@@ -15,10 +15,11 @@ management:
       exposure:
         include: "*"  #开启actuator全部端点      http://IP:PORT/actuator
 
+
 ---
 # 开发环境
 server:
-  port: 10010
+  port: 10013
 spring:
   profiles: dev
   servlet: /
@@ -30,11 +31,10 @@ spring:
       discovery:
         server-addr: 127.0.0.1:48848
 
-
 ---
 # 测试环境
 server:
-  port: 11010
+  port: 11013
 spring:
   profiles: test
   servlet: /
@@ -46,11 +46,10 @@ spring:
       discovery:
         server-addr: 127.0.0.1:48848
 
-
 ---
 # 生产环境
 server:
-  port: 12010
+  port: 12013
 spring:
   profiles: prod
   servlet: /
@@ -61,5 +60,3 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:48848
-
-

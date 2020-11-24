@@ -81,7 +81,7 @@ spring:
           nacos:
             server-addr: localhost:48848
             namespace: 3c5520b1-d16c-48a6-b2e1-129596f41b57
-            dataId: gateway
+            dataId: gateway_sentinel
             group: DEFAULT_GROUP
             data-type: json
             rule-type: flow

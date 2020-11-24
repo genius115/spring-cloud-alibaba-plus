@@ -11,7 +11,10 @@
         <module name="alibaba-nacos-consumer-openfeign" />
         <module name="alibaba-nacos-provider" />
         <module name="cloud-plus-comm" />
+        <module name="cloud-plus-session" />
         <module name="cloud-plus-xxljob" />
+        <module name="nacos-boot-rabbitmq" />
+        <module name="nacos-boot-swagger" />
         <module name="nacos-provider-sentinel" />
         <module name="spring-cloud-gateway-dynamic-mysql" />
         <module name="spring-cloud-gateway-dynamic-nacos" />

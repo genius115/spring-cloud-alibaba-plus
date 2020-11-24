@@ -18,6 +18,9 @@
     <module>cloud-plus-xxljob</module>
     <module>alibaba-nacos-consumer-openfeign</module>
     <module>nacos-provider-sentinel</module>
+    <module>nacos-boot-swagger</module>
+      <module>cloud-plus-session</module>
+    <module>nacos-boot-rabbitmq</module>
   </modules>
 
   <packaging>pom</packaging>
@@ -48,11 +51,19 @@
     <log4j.version>1.2.17</log4j.version>
     <lombok.version>1.16.18</lombok.version>
     <hutool-all.version>5.1.0</hutool-all.version>
+    <guava.version>28.1-jre</guava.version>
+    <commons-lang3.version>3.11</commons-lang3.version>
 
     <druid.version>1.1.16</druid.version>
-    <mysql.version>5.1.47</mysql.version>
+    <mysql-connector.version>8.0.21</mysql-connector.version>
     <mybatis-spring-boot.version>1.3.0</mybatis-spring-boot.version>
+    <mybatis-plus-boot.version>3.4.1</mybatis-plus-boot.version>
+    <dynamic-datasource-boot.version>2.5.5</dynamic-datasource-boot.version>
+
     <springfox-boot.version>3.0.0</springfox-boot.version>
+
+    <swagger2.version>2.9.2</swagger2.version>
+    <knife4j-spring-boot.version>2.0.5</knife4j-spring-boot.version>
 
   </properties>
 
@@ -87,7 +98,7 @@
       <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>${mysql.version}</version>
+        <version>${mysql-connector.version}</version>
       </dependency>
       <dependency>
         <groupId>com.alibaba</groupId>
@@ -99,6 +110,17 @@
         <artifactId>mybatis-spring-boot-starter</artifactId>
         <version>${mybatis-spring-boot.version}</version>
       </dependency>
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-boot-starter</artifactId>
+        <version>${mybatis-plus-boot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+        <version>${dynamic-datasource-boot.version}</version>
+      </dependency>
+
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
@@ -115,6 +137,16 @@
         <version>${hutool-all.version}</version>
       </dependency>
       <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>${guava.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>${commons-lang3.version}</version>
+      </dependency>
+      <dependency>
         <groupId>io.springfox</groupId>
         <artifactId>springfox-boot-starter</artifactId>
         <version>${springfox-boot.version}</version>
@@ -125,6 +157,19 @@
         <version>${lombok.version}</version>
         <optional>true</optional>
       </dependency>
+
+      <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger2</artifactId>
+        <version>${swagger2.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.github.xiaoymin</groupId>
+        <artifactId>knife4j-spring-boot-starter</artifactId>
+        <version>${knife4j-spring-boot.version}</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 

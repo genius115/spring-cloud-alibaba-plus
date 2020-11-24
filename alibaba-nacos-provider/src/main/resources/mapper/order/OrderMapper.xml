@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaomai.cloud.mapper.order.OrderMapper">
+    <select id="paymentBySerial" resultType="com.xiaomai.cloud.po.order.Payment">
+        SELECT * FROM payment WHERE serial= #{serial}
+    </select>
+</mapper>

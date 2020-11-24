@@ -9,7 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nacos-provider-sentinel</artifactId>
+    <artifactId>nacos-boot-swagger</artifactId>
+
+    <properties>
+        <swagger2.version>2.9.2</swagger2.version>
+        <swagger-bootstrap-ui.version>1.9.2</swagger-bootstrap-ui.version>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -28,22 +33,24 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!--sentinel依赖包-->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
-        </dependency>
-        <!--sentinel 持久化Nacos -->
-        <dependency>
-            <groupId>com.alibaba.csp</groupId>
-            <artifactId>sentinel-datasource-nacos</artifactId>
-        </dependency>
-
         <!-- Nacos注册 -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+
+        <!--swagger-api 依赖开始-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>swagger-bootstrap-ui</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+        <!--swagger-api 依赖结束-->
 
         <dependency>
             <groupId>org.projectlombok</groupId>

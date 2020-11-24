@@ -1,0 +1,70 @@
+# 公共配置
+spring:
+  profiles:
+    active: dev
+  application:
+      name: nacos-boot-rabbitmq
+
+#开启端点  actuator
+management:
+  health:
+    mail:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"  #开启actuator全部端点      http://IP:PORT/actuator
+---
+# 开发环境
+server:
+  port: 10015
+spring:
+  profiles: dev
+  servlet: /
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:48848
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: /
+    username: guest
+    password: guest
+    listener:
+      concurrency: 10
+      max-concurrency: 20
+      prefetch: 5
+
+---
+# 测试环境
+server:
+  port: 11015
+spring:
+  profiles: test
+  servlet: /
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:48848
+
+---
+# 生产环境
+server:
+  port: 12015
+spring:
+  profiles: prod
+  servlet: /
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:48848
