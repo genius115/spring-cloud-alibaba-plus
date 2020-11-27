@@ -14,17 +14,19 @@ import java.util.List;
  * @date 2020/11/21
  */
 @Service
-public class OrderServiceImpl extends ServiceImpl<OrderMapper, Payment> {
+public class OrderServiceImpl extends ServiceImpl<OrderMapper, Payment> implements OrderService{
 
     @Autowired
-    private OrderMapper  orderMapper;
+    private OrderMapper orderMapper;
 
-    public List<Payment> listPayments(){
+    @Override
+    public List<Payment> listPayments() {
         QueryWrapper<Payment> queryWrapper = new QueryWrapper<Payment>();
         return orderMapper.selectList(queryWrapper);
     }
 
-    public List<Payment> listPaymentsBySerial(String serial){
+    @Override
+    public List<Payment> listPaymentsBySerial(String serial) {
         return orderMapper.paymentBySerial(serial);
     }
 

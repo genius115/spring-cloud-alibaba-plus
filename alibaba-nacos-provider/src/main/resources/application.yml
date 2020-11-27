@@ -3,7 +3,13 @@ spring:
   profiles:
     active: dev
   application:
-      name: alibaba-nacos-provider
+    name: alibaba-nacos-provider
+  servlet:
+    multipart:
+      # 最大支持文件大小
+      max-file-size: 50MB
+      # 最大支持请求大小
+      max-request-size: 50MB
 
 #开启端点  actuator
 management:
@@ -42,10 +48,13 @@ mybatis-plus:
       field-strategy: NOT_EMPTY
       #数据库大写下划线转换
       capital-mode: true
+      #逻辑删除字段标识
+      #logic-delete-field: flag
       #逻辑删除值
-      logic-delete-value: 0
+      logic-delete-value: 1
       #逻辑未删除值
-      logic-not-delete-value: 1
+      logic-not-delete-value: 0
+
 
 ---
 # 开发环境
@@ -63,6 +72,9 @@ spring:
         server-addr: 127.0.0.1:48848
   # dynamic DataSource Config
   datasource:
+    hikari:
+      maximum-pool-size: 30
+      minimum-idle: 1
     dynamic:
       primary: master #设置默认的数据源或者数据源组,默认值即为master，如果读者只是单数据源只需要注释掉slave相关配置即可，这里为了方便演示master与slave保持相同
       datasource:
@@ -71,6 +83,18 @@ spring:
           url: jdbc:mysql://127.0.0.1:3306/db2020?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
           username: root
           password: mysql
+        slave:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://127.0.0.1:13306/db2020?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+          username: root
+          password: mysql
+# Minio文件存储配置信息
+minio:
+  endpoint: http://127.0.0.1:9000
+  accessKey: minioadmin
+  secretKey: minioadmin
+  bucketNameHtml: html
+  bucketNameImage: image
 
 #==================== 日志配合·标准  ============================
 #logging:

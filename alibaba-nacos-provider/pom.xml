@@ -38,6 +38,45 @@
             </exclusions>-->
         </dependency>
 
+        <!--
+        spring boot使用spring-boot-configuration-processor获取配置文件
+            spring boot中获取配置文件的方式，通常大家最常用的是@Value("${mail.username}")的形式，
+            也可以用spring-boot-configuration-processor来更优雅得读取配置文件
+            上@PropertySource("classpath:your.properties")，其余用法与加载yml的配置一样
+
+            @Component
+            @PropertySource(value = {"classpath:static/config/authorSetting.properties"},
+                    ignoreResourceNotFound = false, encoding = "UTF-8", name = "authorSetting.properties")
+            public class AuthorTest {
+                @Value("${author.name}")
+                private String name;
+                @Value("${author.age}")
+                private int age;
+            }
+            @PropertySource 中的属性解释
+            1.value：指明加载配置文件的路径。
+            2.ignoreResourceNotFound：指定的配置文件不存在是否报错，默认是false。当设置为 true 时，若该文件不存在，程序不会报错。实际项目开发中，最好设置 ignoreResourceNotFound 为 false。
+            3.encoding：指定读取属性文件所使用的编码，我们通常使用的是UTF-8。
+
+            @ConfigurationProperties
+
+            @Component
+            @ConfigurationProperties(prefix = "author")
+            @PropertySource(value = {"classpath:static/config/authorSetting.properties"},
+                    ignoreResourceNotFound = false, encoding = "UTF-8", name = "authorSetting.properties")
+            public class AuthorTest {
+                private String name;
+                private int age;
+            }
+
+            使用 @EnableConfigurationProperties 开启 @ConfigurationProperties 注解。
+        -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
         <!-- 监控-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -69,7 +108,13 @@
             <version>1.5.21</version>
         </dependency>
 
-        <!--使用springboot2.3.3.RELEASE 没有自动引入 validation对应的包-->
+        <!--使用springboot2.3.3.RELEASE 没有自动引入 validation对应的包
+        验证 spring-boot-starter-web   2.3之后去掉了验证
+
+        hibernate validation：hibernate validation是对这个规范的实现，并增加了一些其他校验注解，如@Email，@Length，@Range等等
+        spring validation：spring validation对hibernate validation进行了二次封装，在springmvc模块中添加了自动校验，并将校验信息封装进了特定的类中
+
+       -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
@@ -85,6 +130,12 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.baomidou</groupId>
+                    <artifactId>mybatis-plus-generator</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!--动态数据源dynamic-->
         <dependency>
@@ -94,6 +145,13 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <!--Minio 文件对象存储 3.0.12  8.0.2-->
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+            <version>3.0.12</version>
         </dependency>
 
         <dependency>

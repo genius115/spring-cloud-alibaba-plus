@@ -1,11 +1,22 @@
 package com.xiaomai.cloud.controller.user;
 
 import com.xiaomai.cloud.beans.user.UserEntity;
+import com.xiaomai.cloud.config.BusinessException;
+import com.xiaomai.cloud.po.order.Payment;
+import com.xiaomai.cloud.po.user.User;
+import com.xiaomai.cloud.service.minio.UploadService;
+import com.xiaomai.cloud.service.order.OrderService;
+import com.xiaomai.cloud.service.user.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 /**
  * @author wangfeng
@@ -15,6 +26,11 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class UserController {
 
+    @Autowired
+    private UserService userServiceImpl;
+
+    @Autowired
+    private UploadService UploadServiceImpl;
 
     @ApiOperation(value = "获取用户信息接口", nickname = "根据用户ID获取用户相关信息")
     @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "int")
@@ -50,6 +66,36 @@ public class UserController {
         userEntity.setName(userName);
         userEntity.setId(id);
         return userEntity;
+    }
+
+    @ApiOperation(value = "新增用户-Mysql8", nickname = "新增")
+    @PostMapping("/user/add")
+    public String addUser(@Validated @RequestBody User user, BindingResult bindingResult){
+        if (bindingResult.hasErrors()) {
+            for (FieldError fieldError : bindingResult.getFieldErrors()) {
+                System.out.println(fieldError);
+            }
+            return "fail";
+        }
+        return userServiceImpl.addUser(user);
+    }
+
+    @ApiOperation(value = "删除用户-Mysql8", nickname = "删除")
+    @DeleteMapping("/user/remove")
+    public String removeUser(String id){
+        return userServiceImpl.removeUser(id);
+    }
+
+
+    @ApiOperation("上传文件")
+    @PostMapping(value = "/user/upload/file",consumes = "multipart/*", headers = "content-type=multipart/form-data")
+    public String upload(@RequestParam("file") MultipartFile file) {
+        try {
+            return UploadServiceImpl.upload(file);
+        } catch (BusinessException e) {
+            e.printStackTrace();
+            return "error" + System.currentTimeMillis();
+        }
     }
 
 }
