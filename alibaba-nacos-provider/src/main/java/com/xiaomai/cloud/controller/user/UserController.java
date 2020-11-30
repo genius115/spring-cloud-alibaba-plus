@@ -2,6 +2,7 @@ package com.xiaomai.cloud.controller.user;
 
 import com.xiaomai.cloud.beans.user.UserEntity;
 import com.xiaomai.cloud.config.BusinessException;
+import com.xiaomai.cloud.config.minio.MinIoUtils;
 import com.xiaomai.cloud.po.order.Payment;
 import com.xiaomai.cloud.po.user.User;
 import com.xiaomai.cloud.service.minio.UploadService;
@@ -31,6 +32,7 @@ public class UserController {
 
     @Autowired
     private UploadService UploadServiceImpl;
+
 
     @ApiOperation(value = "获取用户信息接口", nickname = "根据用户ID获取用户相关信息")
     @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "int")
@@ -96,6 +98,14 @@ public class UserController {
             e.printStackTrace();
             return "error" + System.currentTimeMillis();
         }
+    }
+
+    @ApiOperation("下载文件")
+    @ApiImplicitParams({
+            @ApiImplicitParam(paramType = "query", name = "objectName", value = "资源名", required = true, dataType = "String")})
+    @GetMapping(value = "/user/downurl/file")
+    public String downurl(@RequestParam String objectName) {
+       return UploadServiceImpl.downurl(objectName);
     }
 
 }
