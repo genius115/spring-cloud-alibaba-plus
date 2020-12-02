@@ -13,6 +13,7 @@
         <module name="cloud-plus-comm" />
         <module name="cloud-plus-session" />
         <module name="cloud-plus-xxljob" />
+        <module name="nacos-boot-jpa" />
         <module name="nacos-boot-rabbitmq" />
         <module name="nacos-boot-swagger" />
         <module name="nacos-provider-sentinel" />

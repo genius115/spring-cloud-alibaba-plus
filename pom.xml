@@ -19,7 +19,7 @@
     <module>alibaba-nacos-consumer-openfeign</module>
     <module>nacos-provider-sentinel</module>
     <module>nacos-boot-swagger</module>
-      <module>cloud-plus-session</module>
+    <module>cloud-plus-session</module>
     <module>nacos-boot-rabbitmq</module>
   </modules>
 
@@ -38,32 +38,47 @@
   </distributionManagement>
 
   <properties>
+    <!--系统、编译、配置等版本-->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <java.version>1.8</java.version>
 
+    <!--Spring相关版本-->
     <spring-boot.version>2.3.3.RELEASE</spring-boot.version>
     <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
     <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
 
+    <!--测试、日志、工具版本-->
     <junit.version>4.12</junit.version>
     <log4j.version>1.2.17</log4j.version>
     <lombok.version>1.16.18</lombok.version>
     <hutool-all.version>5.1.0</hutool-all.version>
+    <hutool.version>5.5.1</hutool.version>
     <guava.version>28.1-jre</guava.version>
     <commons-lang3.version>3.11</commons-lang3.version>
+    <gson.version>2.8.6</gson.version>
+    <fastjson.version>1.2.75</fastjson.version>
 
+    <!--持久化、驱动、连接池等版本-->
     <druid.version>1.1.16</druid.version>
     <mysql-connector.version>8.0.21</mysql-connector.version>
-    <mybatis-spring-boot.version>1.3.0</mybatis-spring-boot.version>
+    <mybatis-boot.version>1.3.0</mybatis-boot.version>
     <mybatis-plus-boot.version>3.4.1</mybatis-plus-boot.version>
     <dynamic-datasource-boot.version>2.5.5</dynamic-datasource-boot.version>
 
-    <springfox-boot.version>3.0.0</springfox-boot.version>
+    <!--MQ（RocketMQ/RabbitMQ/ActiveMQ）、Redis、ElasticSearch、中间件版本-->
 
+
+    <!--接口可视化版本-->
+    <springfox-boot.version>3.0.0</springfox-boot.version>
     <swagger2.version>2.9.2</swagger2.version>
     <knife4j-spring-boot.version>2.0.5</knife4j-spring-boot.version>
+
+    <!--第三方版本-->
+    <jsoup.version>1.13.1</jsoup.version>
+
+    <!--其他（验证码、加密等）-->
 
   </properties>
 
@@ -108,7 +123,7 @@
       <dependency>
         <groupId>org.mybatis.spring.boot</groupId>
         <artifactId>mybatis-spring-boot-starter</artifactId>
-        <version>${mybatis-spring-boot.version}</version>
+        <version>${mybatis-boot.version}</version>
       </dependency>
       <dependency>
         <groupId>com.baomidou</groupId>
@@ -136,6 +151,13 @@
         <artifactId>hutool-all</artifactId>
         <version>${hutool-all.version}</version>
       </dependency>
+
+      <dependency>
+        <groupId>cn.hutool</groupId>
+        <artifactId>hutool-core</artifactId>
+        <version>${hutool.version}</version>
+      </dependency>
+
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
@@ -158,6 +180,25 @@
         <optional>true</optional>
       </dependency>
 
+      <!--Json处理工具-->
+      <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>${gson.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>${fastjson.version}</version>
+      </dependency>
+
+      <!-- 网页元素解析与处理 -->
+      <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>${jsoup.version}</version>
+      </dependency>
+
       <dependency>
         <groupId>io.springfox</groupId>
         <artifactId>springfox-swagger2</artifactId>
@@ -173,6 +214,7 @@
     </dependencies>
   </dependencyManagement>
 
+  <!--代理仓库-->
   <repositories>
     <repository>
       <id>central</id>
@@ -193,11 +235,33 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>aliyun-spring</id>
+      <url>https://maven.aliyun.com/repository/spring</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
   </repositories>
+
+  <!--插件代理仓库-->
   <pluginRepositories>
     <pluginRepository>
       <id>aliyun-plugin</id>
       <url>https://maven.aliyun.com/repository/public</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+    <pluginRepository>
+      <id>aliyun-spring-plugin</id>
+      <url>https://maven.aliyun.com/repository/spring-plugin</url>
       <releases>
         <enabled>true</enabled>
       </releases>
