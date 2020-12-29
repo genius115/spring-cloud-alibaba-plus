@@ -21,6 +21,8 @@
     <module>nacos-boot-swagger</module>
     <module>cloud-plus-session</module>
     <module>nacos-boot-rabbitmq</module>
+      <module>nacos-boot-webservice</module>
+      <module>cloud-plus-generator</module>
   </modules>
 
   <packaging>pom</packaging>

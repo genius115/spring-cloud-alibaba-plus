@@ -51,8 +51,9 @@ public class OrderController {
 
     @ApiOperation(value = "分页查询订单列表", nickname = "分页订单")
     @GetMapping("/listpage")
-    public Page<Payment> listPaymentsPage(@RequestParam("page") int pageNum,@RequestParam("size") int sizeNum) {
-        return slaveOrderServiceImpl.listPaymentsPage(pageNum,sizeNum);
+    public List<Payment> listPaymentsPage(@RequestParam("page") int pageNum,@RequestParam("size") int sizeNum) {
+        Page<Payment> pages = slaveOrderServiceImpl.listPaymentsPage(pageNum,sizeNum);
+        return pages.getRecords();
     }
 
     @ApiOperation(value = "数据迁移", nickname = "数据迁移")

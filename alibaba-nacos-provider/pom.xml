@@ -137,6 +137,25 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!--代码生成器 START -->
+        <!--<dependency>-->
+            <!--<groupId>com.baomidou</groupId>-->
+            <!--<artifactId>mybatis-plus-generator</artifactId>-->
+            <!--<version>3.4.1</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.velocity</groupId>-->
+            <!--<artifactId>velocity-engine-core</artifactId>-->
+            <!--<version>2.2</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.freemarker</groupId>-->
+            <!--<artifactId>freemarker</artifactId>-->
+            <!--<version>2.3.30</version>-->
+        <!--</dependency>-->
+        <!--代码生成器 END -->
+
         <!--动态数据源dynamic-->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -153,6 +172,20 @@
             <artifactId>minio</artifactId>
             <version>7.0.2</version>
         </dependency>
+
+        <!--验证码-开始-->
+        <!--<dependency>-->
+            <!--<groupId>com.github.whvcse</groupId>-->
+            <!--<artifactId>easy-captcha</artifactId>-->
+            <!--<version>1.6.2</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>com.github.penggle</groupId>-->
+            <!--<artifactId>kaptcha</artifactId>-->
+            <!--<version>2.3.2</version>-->
+        <!--</dependency>-->
+        <!--验证码-结束-->
 
         <dependency>
             <groupId>org.projectlombok</groupId>
