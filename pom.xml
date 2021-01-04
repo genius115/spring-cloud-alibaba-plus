@@ -23,6 +23,7 @@
     <module>nacos-boot-rabbitmq</module>
       <module>nacos-boot-webservice</module>
       <module>cloud-plus-generator</module>
+      <module>data-transform</module>
   </modules>
 
   <packaging>pom</packaging>

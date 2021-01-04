@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaomai.cloud.mapper.postgres.BookMapper">
+    <select id="selectPageVo" resultType="com.xiaomai.cloud.po.postgres.Book">
+        <!--  模糊查询不能用#, #在是用prepareStatement的?插入参数,$是文本替换
+        匹配正则
+        -->
+        SELECT A.*
+        FROM book A
+        WHERE A.name = #{arg1,jdbcType=VARCHAR}
+              OR A.name LIKE #{arg2,jdbcType=VARCHAR}
+              -- OR A.name LIKE '%${arg3}%'
+              OR A.name LIKE concat('%',#{arg3,jdbcType=VARCHAR},'%')
+        ORDER BY A.ID
+    </select>
+
+    <select id="selectPageVo2" resultType="com.xiaomai.cloud.po.postgres.Book">
+        SELECT A.*
+        FROM book A
+        WHERE A.code = #{arg1.code,jdbcType=VARCHAR}
+            OR A.name = #{arg1.name,jdbcType=VARCHAR}
+        ORDER BY A.ID
+    </select>
+</mapper>

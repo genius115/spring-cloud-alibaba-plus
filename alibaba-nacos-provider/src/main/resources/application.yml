@@ -88,6 +88,11 @@ spring:
           url: jdbc:mysql://127.0.0.1:13306/db2020?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
           username: root
           password: mysql
+        postgresdb:
+          driver-class-name: org.postgresql.Driver
+          url: jdbc:postgresql://127.0.0.1:5432/testdb
+          username: postgres
+          password: postgre
 # Minio文件存储配置信息
 minio:
   url: http://127.0.0.1:9000
@@ -117,7 +122,15 @@ logging:
 #接口文档开启
 knife4j:
   enable: true
-
+# 接口文档配置
+swagger:
+  production: false  # 生产环境关闭 true: You do not have permission to access this page
+  basic:
+    enable: true
+    ## Basic认证用户名  默认密码：admin/123321
+    username: zhangsan
+    ## Basic认证密码
+    password: 123456
 
 
 ---
@@ -134,6 +147,7 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:48848
+
 
 ---
 # 生产环境

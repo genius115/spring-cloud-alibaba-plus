@@ -50,7 +50,7 @@
             <artifactId>swagger-bootstrap-ui</artifactId>
             <version>1.9.2</version>
         </dependency>
-        <!--swagger-api 依赖结束-->
+        <!--swagger-api 依赖结束  1.9.6 -->
 
         <dependency>
             <groupId>com.huaweicloud.dws</groupId>

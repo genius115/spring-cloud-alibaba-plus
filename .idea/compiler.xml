@@ -24,5 +24,8 @@
         <module name="spring-cloud-gateway-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="data-transform" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

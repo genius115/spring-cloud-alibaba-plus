@@ -30,9 +30,9 @@ public class AlibabaNacosProviderApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(AlibabaNacosProviderApplication.class, args);
-        System.out.println("*********************************************");
+        System.out.println("******************************************************************************************");
         System.out.println("Start AlibabaNacosProviderApplication Success.....");
-        System.out.println("*********************************************");
+        System.out.println("******************************************************************************************");
     }
 
     @PostConstruct
