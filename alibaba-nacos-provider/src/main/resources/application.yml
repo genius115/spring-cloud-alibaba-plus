@@ -2,8 +2,6 @@
 spring:
   profiles:
     active: dev
-  application:
-    name: alibaba-nacos-provider
   servlet:
     multipart:
       # 最大支持文件大小
@@ -66,10 +64,7 @@ spring:
   jackson:
       date-format: yyyy-MM-dd HH:mm:ss
       time-zone: GMT+8
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:48848
+
   # dynamic DataSource Config
   datasource:
     hikari:
@@ -122,6 +117,7 @@ logging:
 #接口文档开启
 knife4j:
   enable: true
+
 # 接口文档配置
 swagger:
   production: false  # 生产环境关闭 true: You do not have permission to access this page
@@ -143,11 +139,6 @@ spring:
   jackson:
       date-format: yyyy-MM-dd HH:mm:ss
       time-zone: GMT+8
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:48848
-
 
 ---
 # 生产环境
@@ -159,10 +150,6 @@ spring:
   jackson:
       date-format: yyyy-MM-dd HH:mm:ss
       time-zone: GMT+8
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:48848
 #接口文档关闭
 knife4j:
   production: true

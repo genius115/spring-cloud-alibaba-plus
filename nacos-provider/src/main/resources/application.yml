@@ -1,0 +1,16 @@
+# server配置
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 10017
+# spring配置
+spring:
+  application:
+    name: nacos-provider
+  http:
+    messages:
+      encoding: UTF-8
+# 日志配置
+logging:
+  level:
+    com.alibaba.nacos.client.config.impl: WARN
