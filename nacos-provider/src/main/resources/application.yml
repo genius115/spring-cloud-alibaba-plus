@@ -7,10 +7,18 @@ server:
 spring:
   application:
     name: nacos-provider
+  #profiles:
+    #active: dev
   http:
     messages:
       encoding: UTF-8
-# 日志配置
+# 日志配置  参数值TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF
 logging:
   level:
     com.alibaba.nacos.client.config.impl: WARN
+
+#自定义属性
+user:
+ name: ${random.int(10)}
+ code: ${random.int}
+

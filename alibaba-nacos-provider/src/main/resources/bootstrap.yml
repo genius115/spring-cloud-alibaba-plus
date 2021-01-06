@@ -11,6 +11,7 @@ spring:
       config:
         #enabled: false #通过设置 spring.cloud.nacos.config.enabled = false 来完全关闭 Spring Cloud Nacos Config
         server-addr: 127.0.0.1:48848
+        #encode: UTF-8
         file-extension: yaml
         #namespace: bb703ef1-5b28-4dde-a97f-e97d6c5ac884
         #group: DEFAULT_GROUP
@@ -20,3 +21,9 @@ spring:
 server:
   tomcat:
     uri-encoding: UTF-8
+
+
+# 日志配置
+logging:
+  level:
+    com.alibaba.nacos.client.config.impl: WARN
