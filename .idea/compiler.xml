@@ -20,6 +20,7 @@
         <module name="nacos-boot-webservice" />
         <module name="nacos-provider" />
         <module name="nacos-provider-sentinel" />
+        <module name="nacos-webflux" />
         <module name="spring-cloud-gateway-dynamic-mysql" />
         <module name="spring-cloud-gateway-dynamic-nacos" />
         <module name="spring-cloud-gateway-server" />
