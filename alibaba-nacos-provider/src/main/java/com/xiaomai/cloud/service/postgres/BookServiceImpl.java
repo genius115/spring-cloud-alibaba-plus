@@ -9,6 +9,7 @@ import com.xiaomai.cloud.po.postgres.Book;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -23,6 +24,7 @@ public class BookServiceImpl extends ServiceImpl<BookMapper, Book> {
     @Autowired
     private BookMapper bookMapper;
 
+    @Transactional
     public List<Book> selectAllBook(Integer pageNum,Integer sizeNum){
         QueryWrapper<Book> queryWrapper = new QueryWrapper<>();
         // queryWrapper.lt(true,"id",5);

@@ -14,7 +14,7 @@
     <groupId>com.xiaomai.cloud</groupId>
     <artifactId>nacos-boot-webservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-cxf-demo</name>
+    <name>nacos-boot-webservice</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

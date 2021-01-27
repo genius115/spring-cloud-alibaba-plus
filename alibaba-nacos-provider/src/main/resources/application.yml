@@ -116,7 +116,14 @@ logging:
     com.baomidou.dynamic: debug
 #接口文档开启
 knife4j:
-  enable: true
+  enable: true #开启增强功能 2.0.2以上
+  setting:
+    #禁用默认的Footer显示
+    enableFooter: false
+    #自定义Footer
+    enableFooterCustom: true
+    #自定义展示内容
+    footerCustomContent: Apache License 2.0 | Copyright 2020-XiaoMai
 
 # 接口文档配置
 swagger:

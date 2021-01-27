@@ -7,15 +7,23 @@ server:
 spring:
   application:
     name: nacos-provider
-  #profiles:
-    #active: dev
+  profiles:
+    active: dev
   http:
     messages:
       encoding: UTF-8
+  #thymeleaf:
+    #prefix: classpath:/templates/
+
+
 # 日志配置  参数值TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF
 logging:
   level:
+    #c.a.n.client.config.impl.ClientWorker    : get changedGroupKeys:[]
     com.alibaba.nacos.client.config.impl: WARN
+    #Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+    #o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+    org.springframework.boot.actuate.endpoint: ERROR
 
 #自定义属性
 user:
