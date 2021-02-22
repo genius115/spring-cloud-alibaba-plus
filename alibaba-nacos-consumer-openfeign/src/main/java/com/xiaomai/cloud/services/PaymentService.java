@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date 2020/11/3
  */
 // @FeignClient标注的默认配置类为FeignClientsConfiguration，
-@FeignClient(value = "alibaba-nacos-provider")
+@FeignClient(value = "alibaba-nacos-provider",url="111")
 @RequestMapping
 public interface PaymentService {
     @GetMapping("/get")
@@ -23,5 +23,4 @@ public interface PaymentService {
 
     @GetMapping("/time/out")
     String requestTimeOut();
-
 }

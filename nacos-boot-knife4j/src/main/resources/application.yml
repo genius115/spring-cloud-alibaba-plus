@@ -1,0 +1,44 @@
+knife4j:
+  enable: true
+  documents:
+    -
+      group: 2.X版本
+      name: 接口签名
+      locations: classpath:sign/*
+
+  setting:
+    language: zh-CN
+    enableSwaggerModels: true
+    enableDocumentManage: true
+    swaggerModelName: 实体类列表
+    enableVersion: false
+    enableReloadCacheParameter: false
+    enableAfterScript: true
+    enableFilterMultipartApiMethodType: POST
+    enableFilterMultipartApis: false
+    # 对于调试中的请求参数是否缓存进行开启配置，该参数默认为true
+    enableRequestCache: true
+    # 是否启用Host
+    enableHost: false
+    # 启用Host后地址，例如：http://192.168.0.111:8080
+    enableHostText: 192.168.0.193:8000
+    enableHomeCustom: true
+    homeCustomLocation: classpath:markdown/home.md
+    enableSearch: false #禁用搜索框
+    enableFooter: false
+    enableFooterCustom: true
+    footerCustomContent: Apache License 2.0 | Copyright  2019-[浙江八一菜刀股份有限公司](https://gitee.com/xiaoym/knife4j)
+    enableDynamicParameter: false
+    enableDebug: true #禁用调试
+    enableOpenApi: false  #禁用OpenApi结构显示 2.0.8
+    enableGroup: true
+  cors: false
+  # 开启生产环境屏蔽
+  production: false
+  # 开启Swagger的Basic认证功能,默认是false
+  basic:
+    enable: false
+    # Basic认证用户名
+    username: test
+    # Basic认证密码
+    password: 12313

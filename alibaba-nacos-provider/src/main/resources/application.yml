@@ -64,6 +64,9 @@ spring:
   jackson:
       date-format: yyyy-MM-dd HH:mm:ss
       time-zone: GMT+8
+  redis:
+    url: localhost
+    password: 123456
 
   # dynamic DataSource Config
   datasource:
@@ -80,7 +83,8 @@ spring:
           password: mysql
         slave:
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://127.0.0.1:13306/db2020?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+          #url: jdbc:mysql://127.0.0.1:13306/db2020?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+          url: jdbc:mysql://127.0.0.1:3306/db2020?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
           username: root
           password: mysql
         postgresdb:
@@ -113,7 +117,9 @@ logging:
     org.springfromework.web: ERROR
     #Excel工具日志（DEBUG、INFO、WARN、ERROR和FATAL）
     #com.github.liaochong.myexcel.core: ERROR
-    com.baomidou.dynamic: debug
+    com.baomidou.dynamic: DEBUG
+    com.xiaomai.cloud.service: DEBUG
+
 #接口文档开启
 knife4j:
   enable: true #开启增强功能 2.0.2以上
@@ -124,6 +130,7 @@ knife4j:
     enableFooterCustom: true
     #自定义展示内容
     footerCustomContent: Apache License 2.0 | Copyright 2020-XiaoMai
+
 
 # 接口文档配置
 swagger:

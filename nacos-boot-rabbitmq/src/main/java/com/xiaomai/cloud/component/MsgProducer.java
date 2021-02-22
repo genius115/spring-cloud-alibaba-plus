@@ -32,10 +32,15 @@ public class MsgProducer implements RabbitTemplate.ConfirmCallback {
         rabbitTemplate.setConfirmCallback(this);
     }
 
+
     public void sendMsg(String content) {
         CorrelationData correlationId = new CorrelationData(UUID.randomUUID().toString());
         //把消息放入ROUTINGKEY_A对应的队列当中去，对应的是队列A
-        rabbitTemplate.convertAndSend(RabbitConfig.EXCHANGE_A, RabbitConfig.ROUTINGKEY_A, content, correlationId);
+        if(content != null && 1 == (content.length() % 2)){
+            rabbitTemplate.convertAndSend(RabbitConfig.EXCHANGE_A, RabbitConfig.ROUTINGKEY_A, content, correlationId);
+        }else {
+            rabbitTemplate.convertAndSend(RabbitConfig.EXCHANGE_A, RabbitConfig.ROUTINGKEY_B, content, correlationId);
+        }
     }
 
     /**

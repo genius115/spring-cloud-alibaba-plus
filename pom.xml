@@ -91,11 +91,14 @@
         <springfox-boot.version>3.0.0</springfox-boot.version>
         <swagger2.version>2.9.2</swagger2.version>
         <knife4j.version>2.0.5</knife4j.version>
-
+        <!--
+            knife4j-spring-boot-starter        springfox-swagger2
+        版本 >=2.0.6                            2.10.5
+        版本 <=2.0.5                            2.9.2
+        -->
 
         <!--第三方库版本-->
         <jsoup.version>1.13.1</jsoup.version>
-
 
 
         <!--其他（验证码、加密等）-->
@@ -254,16 +257,30 @@
                 <artifactId>commons-io</artifactId>
                 <version>${commons-io.version}</version>
             </dependency>
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-boot-starter</artifactId>
-                <version>${springfox-boot.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
                 <optional>true</optional>
+            </dependency>
+
+            <!-- sa-token 权限认证, 在线文档：http://sa-token.dev33.cn/ -->
+            <dependency>
+                <groupId>cn.dev33</groupId>
+                <artifactId>sa-token-spring-boot-starter</artifactId>
+                <version>1.12.1</version>
+            </dependency>
+
+            <!--远程调用 Http RPC
+            Retrofit是适用于Android和Java且类型安全的HTTP客户端，其最大的特性的是支持通过接口的方式发起HTTP请求。
+            而spring-boot是使用最广泛的Java开发框架，但是Retrofit官方没有支持与spring-boot框架快速整合，
+            因此我们开发了retrofit-spring-boot-starter。
+            -->
+            <dependency>
+                <groupId>com.github.lianjiatech</groupId>
+                <artifactId>retrofit-spring-boot-starter</artifactId>
+                <version>2.2.6</version>
             </dependency>
 
             <!--Json处理工具-->
@@ -287,6 +304,12 @@
 
             <dependency>
                 <groupId>io.springfox</groupId>
+                <artifactId>springfox-boot-starter</artifactId>
+                <version>${springfox-boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger2</artifactId>
                 <version>${swagger2.version}</version>
             </dependency>
@@ -305,18 +328,19 @@
                 <artifactId>knife4j-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-micro-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
             </dependency>
+
+            <!--封装了一些常用Java操作方法,便于重复开发利用-->
             <dependency>
-                <groupId>com.github.xiaoymin</groupId>
-                <artifactId>knife4j-spring-boot-starter</artifactId>
-                <version>${knife4j.version}</version>
+                <groupId>com.0opslab</groupId>
+                <artifactId>opslabJutil</artifactId>
+                <version>1.0.8</version>
             </dependency>
-
-
 
         </dependencies>
     </dependencyManagement>

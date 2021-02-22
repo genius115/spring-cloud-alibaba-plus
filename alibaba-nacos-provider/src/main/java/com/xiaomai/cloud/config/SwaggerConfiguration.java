@@ -12,7 +12,8 @@ import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
+// import springfox.documentation.swagger2.annotations.EnableSwagger2;
+import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 
 /**
  * 接口文档配置
@@ -21,11 +22,26 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @date 2020/11/20
  */
 @Configuration
-@EnableSwagger2
+@EnableSwagger2WebMvc  //2.10.5版本
+// @EnableSwagger2  //2.9.2版本
 @EnableKnife4j
 @Import(BeanValidatorPluginsConfiguration.class)
 // @Profile({"!pord"})
 public class SwaggerConfiguration {
+
+    @Bean(value = "defaultApi")
+    public Docket defaultApi() {
+        Docket docket=new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo())
+                //分组名称
+                //.groupName("2.X版本")
+                .select()
+                //这里指定Controller扫描包路径(项目路径也行)
+                .apis(RequestHandlerSelectors.basePackage("com.xiaomai.cloud"))
+                .paths(PathSelectors.any())
+                .build();
+        return docket;
+    }
 
     @Bean(value = "defaultApi2")
     public Docket defaultApi2() {
@@ -41,8 +57,8 @@ public class SwaggerConfiguration {
         return docket;
     }
 
-    @Bean("defaultApi1")
-    public Docket defaultApi1() {
+    @Bean("defaultApi3")
+    public Docket defaultApi3() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .groupName("3.X 版本")

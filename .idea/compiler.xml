@@ -15,6 +15,7 @@
         <module name="cloud-plus-session" />
         <module name="cloud-plus-xxljob" />
         <module name="nacos-boot-jpa" />
+        <module name="nacos-boot-knife4j" />
         <module name="nacos-boot-rabbitmq" />
         <module name="nacos-boot-swagger" />
         <module name="nacos-boot-webservice" />
@@ -23,6 +24,7 @@
         <module name="nacos-webflux" />
         <module name="spring-cloud-gateway-dynamic-mysql" />
         <module name="spring-cloud-gateway-dynamic-nacos" />
+        <module name="spring-cloud-gateway-knife4j" />
         <module name="spring-cloud-gateway-server" />
       </profile>
     </annotationProcessing>

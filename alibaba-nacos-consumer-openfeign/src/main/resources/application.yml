@@ -22,6 +22,10 @@ feign:
       default:
         connectTimeout: 5000  # 指定Feign客户端连接提供者的超时时限   取决于网络环境
         readTimeout: 5000   # 指定Feign客户端从请求到获取到提供者给出的响应的超时时限  取决于业务逻辑运算时间
+        loggerLevel: FULL
+        #针对某个级别设置输出级别(设置局部的优先级别是最高的)
+      alibaba-nacos-provider:
+        loggerLevel: FULL
   compression:
     request:
       enabled: true   # 开启对请求的压缩
@@ -35,6 +39,11 @@ ribbon:
   ReadTimeout:  5000
   ConnectTimeout: 5000
 
+# 修改负载均衡策略
+alibaba-nacos-provider:   # 要负载均衡的提供者微服务名称
+  ribbon:   # 指定要使用的负载均衡策略
+    NFLoadBalancerRuleClassName: com.xiaomai.cloud.config.CustomRule
+
 #开启端点  actuator
 management:
   health:
@@ -45,11 +54,12 @@ management:
       exposure:
         include: "*"  #开启actuator全部端点      http://IP:PORT/actuator
 
+
+#开启 feign 日志打印
 logging:
   level:
     # feign日志以什么级别监控哪个接口
     com.xiaomai.cloud.services.PaymentService: debug
-
 
 ---
 # 开发环境

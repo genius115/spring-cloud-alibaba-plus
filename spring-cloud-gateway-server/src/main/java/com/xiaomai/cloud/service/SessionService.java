@@ -21,7 +21,7 @@ public class SessionService {
     Long expireTime = 10800L;
 
     public void saveSession(LoginUser loginUser) {
-        String key =String.format("login:user:%s", loginUser.userToken);
+        String key =String.format("login:user:%s", LoginUser.userToken);
         redisTemplate.opsForValue().set(key, JSON.toJSONString(loginUser),expireTime,TimeUnit.SECONDS);
     }
 

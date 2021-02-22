@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: spring-cloud-gateway-knife4j
+  http:
+    messages:
+      encoding: UTF-8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:48848
+      config:
+        #enabled: false #通过设置 spring.cloud.nacos.config.enabled = false 来完全关闭 Spring Cloud Nacos Config
+        server-addr: 127.0.0.1:48848
+        #encode: UTF-8
+        file-extension: yaml
+        #namespace: bb703ef1-5b28-4dde-a97f-e97d6c5ac884
+        #group: DEFAULT_GROUP
+
+        #Data ID = ${spring.cloud.nacos.config.prefix}.${spring.profiles.active}.${spring.cloud.nacos.config.file-extension} 最终拼接出来的就是：member-dev.yaml  （一定要注意约定！）
+                 #Group = ${spring.cloud.nacos.config.group}
+server:
+  tomcat:
+    uri-encoding: UTF-8
+
+
+# 日志配置
+logging:
+  level:
+    com.alibaba.nacos.client.config.impl: WARN

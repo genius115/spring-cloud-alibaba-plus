@@ -22,3 +22,18 @@
 
 Swagger访问地址：
  http://IP:PORT/swagger-ui/index.html
+
+
+
+
+//swagger版本支持
+ compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.10.5'
+ compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.10.5'
+ compile 'io.springfox:springfox-spring-webmvc:2.10.5'
+ //swagger注解无默认值错误忽略
+ compile group: 'io.swagger', name: 'swagger-annotations', version: '1.5.22'
+ compile group: 'io.swagger', name: 'swagger-models', version: '1.5.22'
+ //knife2.x版本
+ compile group: 'com.github.xiaoymin', name: 'knife4j-spring-boot-starter', version: '2.0.8'
+ //升级spring-plugin-core，否则会有冲突
+ compile 'org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE'

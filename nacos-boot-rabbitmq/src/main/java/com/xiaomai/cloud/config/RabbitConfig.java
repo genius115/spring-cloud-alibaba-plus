@@ -54,8 +54,10 @@ public class RabbitConfig {
     public static final String EXCHANGE_A = "my-mq-exchange_A";
 
     public static final String QUEUE_A = "QUEUE_A";
+    public static final String QUEUE_B = "QUEUE_B";
 
     public static final String ROUTINGKEY_A = "spring-boot-routingKey_A";
+    public static final String ROUTINGKEY_B = "spring-boot-routingKey_B";
 
     @Bean
     public ConnectionFactory connectionFactory() {
@@ -63,6 +65,7 @@ public class RabbitConfig {
         connectionFactory.setUsername(username);
         connectionFactory.setPassword(password);
         connectionFactory.setVirtualHost(vhost);
+        //默认自动确认机制
         connectionFactory.setPublisherConfirms(true);
         return connectionFactory;
     }
@@ -87,6 +90,15 @@ public class RabbitConfig {
     }
 
     /**
+     * 获取队列A
+     * @return
+     */
+    @Bean
+    public Queue queueB() {
+        //队列持久
+        return new Queue(QUEUE_B, true);
+    }
+    /**
      * 针对消费者配置
      * 1. 设置交换机类型
      * 2. 将队列绑定到交换机
@@ -108,6 +120,15 @@ public class RabbitConfig {
     @Bean
     public Binding binding() {
         return BindingBuilder.bind(queueA()).to(defaultExchange()).with(RabbitConfig.ROUTINGKEY_A);
+    }
+
+    /**
+     * 声明绑定关系
+     * @return
+     */
+    @Bean
+    public Binding bindingB() {
+        return BindingBuilder.bind(queueB()).to(defaultExchange()).with(RabbitConfig.ROUTINGKEY_B);
     }
 
    /* @Bean

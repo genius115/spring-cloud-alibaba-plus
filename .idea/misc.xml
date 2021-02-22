@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/nacos-boot-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-provider/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-boot-knife4j/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-knife4j/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

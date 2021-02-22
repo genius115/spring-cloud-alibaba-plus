@@ -1,0 +1,21 @@
+server:
+  port: 38888
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          #          enabled: true
+          lowerCaseServiceId: true
+      routes:
+        - id: nacos-boot-knife4j
+          uri: lb://nacos-boot-knife4j
+          predicates:
+            - Path=/knife4j/**
+          #- Header=Cookie,Set-Cookie
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+logging:
+  level:
+    org.springframework:cloud.gateway: debug

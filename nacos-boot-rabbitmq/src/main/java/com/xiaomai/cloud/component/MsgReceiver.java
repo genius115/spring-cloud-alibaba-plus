@@ -16,20 +16,34 @@ import org.springframework.stereotype.Component;
  * @date 2020/11/23
  */
 @Component
-@RabbitListener(queues = RabbitConfig.QUEUE_A)
 public class MsgReceiver {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @RabbitHandler
-    public void process(String content) {
+    @RabbitListener(queues = RabbitConfig.QUEUE_A)
+    public void processA(String content) {
+        try {
+            Thread.sleep(3000L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         logger.info("接收处理队列A当中的消息： " + content);
     }
-/*
+
+
+    @RabbitHandler
+    @RabbitListener(queues = RabbitConfig.QUEUE_B)
+    public void processB(String content) {
+        logger.info("接收处理队列B当中的消息： " + content);
+    }
+
+    /*
     @RabbitHandler
     public void onMessage(Message message, Channel channel) throws Exception{
         logger.info("接收处理队列A当中的消息： " + JSON.toJSONString(message));
         channel.basicAck(message.getMessageProperties().getDeliveryTag(),false);
         logger.info("onMessage="+new String(message.getBody()));
-    }*/
+    }
+    */
 }

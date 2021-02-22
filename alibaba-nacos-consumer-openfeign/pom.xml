@@ -48,13 +48,38 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!--Swagger 生成接口文档-->
+        <!--Swagger3 集成 生成接口文档 START-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-boot-starter</artifactId>
-            <scope>${swagger.scope}</scope>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>3.0.0</version>
         </dependency>
 
+        <!--<dependency>-->
+            <!--<groupId>com.github.xiaoymin</groupId>-->
+            <!--<artifactId>swagger-bootstrap-ui</artifactId>-->
+            <!--<version>1.9.6</version>-->
+        <!--</dependency>-->
+        <!--END -->
+
+        <!--Swagger2 集成 生成接口文档 START-->
+        <!--<dependency>-->
+            <!--<groupId>io.springfox</groupId>-->
+            <!--<artifactId>springfox-swagger2</artifactId>-->
+            <!--<version>2.9.2</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>io.springfox</groupId>-->
+            <!--<artifactId>springfox-swagger-ui</artifactId>-->
+            <!--<version>2.9.2</version>-->
+        <!--</dependency>-->
+        <!-- END -->
+        
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -72,41 +97,5 @@
             </exclusions>
         </dependency>
     </dependencies>
-
-
-    <profiles>
-        <profile>
-            <id>dev</id>
-            <properties>
-                <profiles.active>dev</profiles.active>
-                <swagger.scope>compile</swagger.scope>
-            </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
-        <profile>
-            <id>test</id>
-            <properties>
-                <profiles.active>test</profiles.active>
-                <swagger.scope>compile</swagger.scope>
-            </properties>
-        </profile>
-        <profile>
-            <id>prod</id>
-            <properties>
-                <profiles.active>prod</profiles.active>
-                <swagger.scope>provided</swagger.scope>
-            </properties>
-        </profile>
-        <profile>
-            <id>online</id>
-            <properties>
-                <profiles.active>online</profiles.active>
-                <swagger.scope>provided</swagger.scope>
-            </properties>
-        </profile>
-    </profiles>
-
 
 </project>

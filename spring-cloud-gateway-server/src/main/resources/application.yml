@@ -13,7 +13,7 @@ spring:
           lower-case-service-id: true #服务id设置为小写
      routes:
         - id: gateway-test-route
-          uri: https://www.12306.cn
+          uri: https://www.baidu.cn
           predicates:
             - Path=/gatewaytest/**
           filters:
@@ -85,6 +85,7 @@ spring:
             group: DEFAULT_GROUP
             data-type: json
             rule-type: flow
+            #sentinel持久化spring.cloud.sentinel.datasource.dsl.nacos.rule-type一直报错的问题    jdk版本问题1.8.60+
   security:
     user:
       name: test
