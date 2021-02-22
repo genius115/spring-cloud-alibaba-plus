@@ -1,169 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59476833-6d8b-47e8-961d-75549b2ec125" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/config/CustomRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/libs/opslabJutil-3.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/controller/SerialNumberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/mapper/serialnumber/GroupMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/po/serialnumber/SerialNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/service/serialnumber/GroupServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/service/serialnumber/IGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/resources/mapper/serialnumber/GroupMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/AtomicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/CarMethodRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/Java8Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/Java8Test1Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/Java8Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/Java8Test3Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/Java8Test4Optional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/Java8Test5DefaultMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/Java8Test6Date_Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/Java8Test7Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/test/TestHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/test/TestHashMapLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/test/TestJvmGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/test/TestOpslabJutil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-plus-xxljob/src/main/java/com/xiaomai/cloud/plusxxljob/XxlJobApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-plus-xxljob/src/main/java/com/xiaomai/cloud/plusxxljob/core/config/XxlJobConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-plus-xxljob/src/main/java/com/xiaomai/cloud/plusxxljob/mvc/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-plus-xxljob/src/main/java/com/xiaomai/cloud/plusxxljob/service/jobhandler/SampleXxlJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-plus-xxljob/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-plus-xxljob/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/微服务系统架构图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/文档/RabbitMQ.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/文档/java8新特性.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/文档/java枚举常见用法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid19516.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/applogs/xxl-job/xxl-job-executor-sample-springboot.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/src/main/java/com/xiaomai/boot/nacosbootknife4j/NacosBootKnife4jApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/src/main/java/com/xiaomai/boot/nacosbootknife4j/config/Knife4jConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/src/main/java/com/xiaomai/boot/nacosbootknife4j/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/src/main/resources/markdown/home.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/src/main/resources/sign/sign.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-knife4j/src/test/java/com/xiaomai/boot/nacosbootknife4j/NacosBootKnife4jApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/DirectCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/FanoutCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/HelloCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/TopicsCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/WorkCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/MsgControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/RabbitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/RabbitUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Consumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Consumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Consumer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Provide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/helloworld/TestRabbitmqConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/helloworld/TestRabbitmqProvide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/routing/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/routing/Consumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/routing/Provide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/topic/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/topic/Consumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/topic/Provide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Consumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Provide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/java/com/xiaomai/cloud/nacosprovider/controller/SocketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/java/com/xiaomai/cloud/nacosprovider/socketio/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/java/com/xiaomai/cloud/nacosprovider/socketio/MessageEventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/java/com/xiaomai/cloud/nacosprovider/socketio/MessageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/java/com/xiaomai/cloud/nacosprovider/socketio/ServerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/resources/static/js/socket.io.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/test/java/com/xiaomai/cloud/nacosprovider/test/JunitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/test/java/com/xiaomai/cloud/nacosprovider/test/Myclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/test/java/com/xiaomai/cloud/test/SocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/test/java/com/xiaomai/cloud/test/mockito/MockitoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/test/java/com/xiaomai/cloud/test/mockito/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/test/java/com/xiaomai/cloud/test/mockito/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/test/java/com/xiaomai/cloud/test/mockito/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/test/java/com/xiaomai/cloud/test/mockito/PersonServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/test/java/com/xiaomai/cloud/test/satoken/SaTokenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/src/main/java/com/xiaomai/cloud/springcloudgatewayknife4j/SpringCloudGatewayKnife4jApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/src/main/java/com/xiaomai/cloud/springcloudgatewayknife4j/config/SwaggerResourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/src/main/java/com/xiaomai/cloud/springcloudgatewayknife4j/filter/SwaggerHeaderFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/src/main/java/com/xiaomai/cloud/springcloudgatewayknife4j/handler/SwaggerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/src/test/java/com/xiaomai/cloud/springcloudgatewayknife4j/SpringCloudGatewayKnife4jApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/AlibabaNacosConsumerOpenfeignApplicaton.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/AlibabaNacosConsumerOpenfeignApplicaton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/config/MyRibbonConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/config/MyRibbonConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/services/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/services/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/com/xiaomai/cloud/AlibabaNacosConsumerOpenfeignApplicaton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/com/xiaomai/cloud/config/MyOpenFeignConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/com/xiaomai/cloud/config/MyRibbonConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/com/xiaomai/cloud/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/com/xiaomai/cloud/controller/TestConsumerOpenfeignController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/com/xiaomai/cloud/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/com/xiaomai/cloud/po/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/com/xiaomai/cloud/services/PaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/static/favicon1.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/target/classes/templates/user/show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer/target/classes/com/xiaomai/cloud/AlibabaNacosConsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-consumer/target/classes/com/xiaomai/cloud/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/config/SwaggerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-plus-xxljob/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-plus-xxljob/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/平台说明.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/文档/1-Swagger注解说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/文档/1-Swagger注解说明.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/component/MsgProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/component/MsgProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/component/MsgReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/component/MsgReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/RabbitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/src/main/java/com/xiaomai/cloud/service/SessionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway-server/src/main/java/com/xiaomai/cloud/service/SessionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/GatewayServerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/Handler/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/bean/LoginUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/config/GatewayConfiguration$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/config/GatewayConfiguration$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/config/GatewayConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/config/RateLimiterConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/controller/MyFallbackController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/filter/AuthCheckFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/filter/LoggerGlobalFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/filter/SecurityBasicAuthorizationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/service/SessionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-server/target/classes/com/xiaomai/cloud/util/TokenUtils.class" beforeDir="false" />
-    </list>
+    <list default="true" id="59476833-6d8b-47e8-961d-75549b2ec125" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/alibaba-nacos-consumer/target/" />
@@ -401,7 +239,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -732,12 +570,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3298611" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.40903825" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.27114716" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.17844728" />
       <window_info anchor="bottom" id="Run" order="15" weight="0.31170335" />
       <window_info anchor="bottom" id="Sequence" order="14" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.3626883" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.23870221" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49602544" visible="true" weight="0.19957082" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49602544" visible="true" weight="0.17864807" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299356" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" weight="0.32792583" />
