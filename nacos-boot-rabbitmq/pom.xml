@@ -21,6 +21,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
+
         <!-- 监控-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -39,12 +44,36 @@
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
 
-
         <!-- RabbitMq客户端 -->
+        <!--<dependency>-->
+            <!--<groupId>com.rabbitmq</groupId>-->
+            <!--<artifactId>amqp-client</artifactId>-->
+            <!--<version>5.7.3</version>-->
+        <!--</dependency>-->
+
+        <!--Rocket MQ 客户端-->
         <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.7.2</version>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>4.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-common</artifactId>
+            <version>4.7.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <!--<version>1.2.44</version>-->
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-spring-boot-starter -->
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-spring-boot-starter</artifactId>
+            <version>2.2.0</version>
         </dependency>
 
         <dependency>
@@ -52,6 +81,7 @@
             <artifactId>hutool-all</artifactId>
         </dependency>
 
+        <!--简化javabean相关操作-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

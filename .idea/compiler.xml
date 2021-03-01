@@ -17,6 +17,7 @@
         <module name="nacos-boot-jpa" />
         <module name="nacos-boot-knife4j" />
         <module name="nacos-boot-rabbitmq" />
+        <module name="nacos-boot-sharejdbc" />
         <module name="nacos-boot-swagger" />
         <module name="nacos-boot-webservice" />
         <module name="nacos-provider" />

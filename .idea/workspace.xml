@@ -1,8 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="59476833-6d8b-47e8-961d-75549b2ec125" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/文档/RocketMQ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/文档/images/rocket/Rocket消息生产与消费流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/文档/images/rocket/Rocket过滤语法.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/rocket/ConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/rocket/ParamConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/rocket/ProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/controller/TestRocketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rocket/RocketMsgListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/AsyncConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/AsyncProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/OneWayProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/batch/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/batch/ListSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/batch/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/delay/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/delay/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/filter/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/filter/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/order/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/order/OrderStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/order/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/transaction/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/transaction/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-sharejdbc/nacos-boot-sharejdbc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-sharejdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/SharejdbcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/dao/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/技术栈,.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/技术栈,.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-boot-rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +73,7 @@
     <ignored path="$PROJECT_DIR$/nacos-webflux/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-gateway-knife4j/target/" />
     <ignored path="$PROJECT_DIR$/nacos-boot-knife4j/target/" />
+    <ignored path="$PROJECT_DIR$/nacos-boot-sharejdbc/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,15 +106,14 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CachingOperationNameGenerator</find>
       <find>CreateTable</find>
       <find>BusinessException</find>
       <find>getBucketName</find>
@@ -96,6 +143,7 @@
       <find>knife4j.version</find>
       <find>SecurityBasicAuthorizationFilte</find>
       <find>gatewaytest</find>
+      <find>fastjson</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -109,57 +157,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-cloud-gateway-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-gateway-server/pom.xml" />
-        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/nacos-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/nacos-provider/src/test/java/com/xiaomai/cloud/test/satoken/SaTokenTest.java" />
-        <option value="$PROJECT_DIR$/alibaba-nacos-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/test/TestOpslabJutil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/component/MsgReceiverB.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/component/MsgReceiver.java" />
-        <option value="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/config/CustomRule.java" />
-        <option value="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/config/MyRibbonConfiguration.java" />
-        <option value="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/java/com/xiaomai/cloud/services/PaymentService.java" />
-        <option value="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/src/test/java/com/xiaomai/cloud/TestRabbitmq.java" />
-        <option value="$PROJECT_DIR$/alibaba-nacos-consumer-openfeign/pom.xml" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/RabbitConfig.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/TestRabbitmq.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/TestRabbitmqConsumer.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/RabbitUtils.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/TestRabbitmqProvide.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/TestRabbitmqConsumer.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/TestRabbitmqProvide.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/helloworld/TestRabbitmqConsumer.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/helloworld/TestRabbitmqProvide.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Provide2.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Consumer2.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Consumer.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/RabbitUtils.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Provide.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Consumer1.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Consumer3.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Consumer2.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/topic/Provide.java" />
-        <option value="$PROJECT_DIR$/doc/文档/RabbitMQ.md" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/topic/Consumer2.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/topic/Consumer.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/routing/Provide.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/routing/Consumer2.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/routing/Consumer.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/controller/MsgControllerTest.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/pom.xml" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Provide.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/WorkCustomer.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/DirectCustomer.java" />
         <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/HelloCustomer.java" />
         <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/TopicsCustomer.java" />
         <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/FanoutCustomer.java" />
         <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/component/MsgProducer.java" />
         <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/RabbitTest.java" />
         <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/MsgControllerTest.java" />
+        <option value="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" />
+        <option value="$PROJECT_DIR$/doc/技术栈,.md" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/UserProducer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/resources/rocketmq.properties" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/RocketMQProperties.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/ProducerConfig.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/ConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/ParamConfigService.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/RocketMsgListener.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/controller/TestRocketController.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rocket/RocketMsgListener.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/rocket/ProducerConfig.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/Consumer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/Producer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/User.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/AsyncConsumer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/OneWayProducer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/AsyncProducer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/Producer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/Consumer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/order/OrderStep.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/order/Consumer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/RocketStartStatus.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/delay/Consumer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/delay/Producer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/batch/Consumer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/batch/ListSplitter.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/batch/Producer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/filter/Producer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/filter/Consumer.java" />
+        <option value="$PROJECT_DIR$/doc/文档/RocketMQ.md" />
+        <option value="$PROJECT_DIR$/nacos-boot-sharejdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/entity/Book.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/dao/BookMapper.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/service/BookService.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/resources/mapper/BookMapper.xml" />
+        <option value="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/service/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/SharejdbcApplication.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/transaction/Producer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/transaction/Consumer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/order/Producer.java" />
       </list>
     </option>
   </component>
@@ -184,7 +232,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="nacos-boot-rabbitmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="nacos-boot-rabbitmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -195,8 +253,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="286" />
-    <option name="y" value="92" />
+    <option name="x" value="128" />
+    <option name="y" value="95" />
     <option name="width" value="1389" />
     <option name="height" value="882" />
   </component>
@@ -209,7 +267,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,6 +279,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +292,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../work-ticket" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -248,22 +306,25 @@
       <recent name="com.xiaomai.cloud.controller" />
       <recent name="com.xiaomai.cloud.test.mockito" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.xiaomai.cloud.rabbit.topic" />
-      <recent name="com.xiaomai.cloud.rabbit.routing" />
-      <recent name="com.xiaomai.cloud.rabbit.fanout" />
-      <recent name="com.xiaomai.cloud.rabbit.workqueue" />
-      <recent name="com.xiaomai.cloud" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\alibaba-nacos-provider\libs" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\libs" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\cloud-plus-xxljob\src\main\java\com\xiaomai\cloud\plusxxljob" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\cloud-plus-xxljob\src\main\resources" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\spring-cloud-gateway-knife4j\src\main\resources" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xiaomai.cloud.rocket" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-sharejdbc\src\main\resources\mapper" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\doc\文档\images\rocket" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-rabbitmq\src\test\java\com\xiaomai\cloud\rocket\base" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\alibaba-nacos-provider\libs" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\libs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiaomai.cloud.rocket.transaction" />
+      <recent name="com.xiaomai.cloud.rocket.delay" />
+      <recent name="com.xiaomai.cloud.rocket.order" />
+      <recent name="com.xiaomai.cloud.rocket.base" />
+      <recent name="com.xiaomai.cloud.rabbit.topic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-provider\src\main\resources\static\js" />
@@ -286,126 +347,66 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.18421052" />
+    <option name="contentProportion" value="0.16721492" />
   </component>
-  <component name="RunManager" selected="JUnit.MsgControllerTest.addLearn">
+  <component name="RunManager" selected="Application.Producer">
+    <configuration name="Consumer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.rocket.transaction.Consumer" />
+      <module name="nacos-boot-rabbitmq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaomai.cloud.rocket.transaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.rocket.filter.Consumer" />
+      <module name="nacos-boot-rabbitmq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaomai.cloud.rocket.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Producer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.rocket.filter.Producer" />
+      <module name="nacos-boot-rabbitmq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaomai.cloud.rocket.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.rocket.transaction.Producer" />
+      <module name="nacos-boot-rabbitmq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaomai.cloud.rocket.transaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SharejdbcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.SharejdbcApplication" />
+      <module name="nacos-boot-sharejdbc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaomai.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="MsgControllerTest.addLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nacos-boot-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaomai.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.cloud" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.MsgControllerTest" />
-      <option name="METHOD_NAME" value="addLearn" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RabbitTest.TestDirect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nacos-boot-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaomai.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.cloud" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.RabbitTest" />
-      <option name="METHOD_NAME" value="TestDirect" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RabbitTest.TestFanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nacos-boot-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaomai.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.cloud" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.RabbitTest" />
-      <option name="METHOD_NAME" value="TestFanout" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RabbitTest.TestTopics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nacos-boot-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaomai.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.cloud" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.RabbitTest" />
-      <option name="METHOD_NAME" value="TestTopics" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RabbitTest.TestWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nacos-boot-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaomai.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.cloud" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.RabbitTest" />
-      <option name="METHOD_NAME" value="TestWork" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -470,6 +471,10 @@
       <module name="nacos-webflux" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaomai.cloud.nacoswebflux.NacosWebfluxApplication" />
     </configuration>
+    <configuration name="SharejdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-boot-sharejdbc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaomai.cloud.SharejdbcApplication" />
+    </configuration>
     <configuration name="XxlJobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-plus-xxljob" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaomai.cloud.plusxxljob.XxlJobApplication" />
@@ -490,24 +495,25 @@
       <item itemvalue="Spring Boot.NacosWebfluxApplication" />
       <item itemvalue="Spring Boot.AlibabaNacosProviderApplication" />
       <item itemvalue="Spring Boot.XxlJobApplication" />
-      <item itemvalue="JUnit.RabbitTest.TestWork" />
-      <item itemvalue="JUnit.RabbitTest.TestFanout" />
-      <item itemvalue="JUnit.RabbitTest.TestDirect" />
-      <item itemvalue="JUnit.RabbitTest.TestTopics" />
-      <item itemvalue="JUnit.MsgControllerTest.addLearn" />
+      <item itemvalue="Application.Producer (3)" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.SharejdbcApplication" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.Consumer (1)" />
+      <item itemvalue="Spring Boot.SharejdbcApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MsgControllerTest.addLearn" />
-        <item itemvalue="JUnit.RabbitTest.TestTopics" />
-        <item itemvalue="JUnit.RabbitTest.TestDirect" />
-        <item itemvalue="JUnit.RabbitTest.TestFanout" />
-        <item itemvalue="JUnit.RabbitTest.TestWork" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.Consumer (1)" />
+        <item itemvalue="Application.SharejdbcApplication" />
+        <item itemvalue="Application.Producer (3)" />
+        <item itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\wangfeng\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TestHistory">
     <history-entry file="RabbitTest_TestDirect - 2021.02.22 at 13h 35m 56s.xml">
@@ -556,27 +562,28 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.24570815" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="5" weight="0.3299356" />
       <window_info id="Structure" order="1" sideWeight="0.50397456" side_tool="true" weight="0.22585838" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.35457706" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.40672073" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3696408" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.37427577" />
       <window_info anchor="right" id="Codota" order="11" weight="0.3299356" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3298611" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32908458" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.40903825" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.28968713" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.17844728" />
-      <window_info anchor="bottom" id="Run" order="15" weight="0.31170335" />
+      <window_info anchor="bottom" id="Run" order="16" weight="0.3511008" />
       <window_info anchor="bottom" id="Sequence" order="14" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.3626883" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23870221" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49602544" visible="true" weight="0.18133047" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23870221" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49602544" visible="true" weight="0.22156653" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299356" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" weight="0.32792583" />
@@ -584,14 +591,14 @@
       <window_info id="Alibaba Cloud Explorer" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.38354576" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.3251073" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.3251073" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.37427577" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908458" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +644,8 @@
     <MESSAGE value="Fix:完善说明文档" />
     <MESSAGE value="ADD:JDK8新特性、Redis缓存" />
     <MESSAGE value="ADD:Web socket" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD:Web socket" />
+    <MESSAGE value="ADD:Fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD:Fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,340 +666,460 @@
           </properties>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rocket/RocketMsgListener.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/controller/TestRocketController.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="14" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/com.rabbitmq.client.Consumer">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.rabbitmq.client.Consumer</OriginalElement>
-          <nodes>
-            <node x="" y="">com.rabbitmq.client.Consumer</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="65.0" y="18.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/rocket/ProducerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2.jar!/com/rabbitmq/client/Channel.class">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/rocket/ParamConfigService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.7.0/rocketmq-common-4.7.0.jar!/org/apache/rocketmq/common/protocol/heartbeat/MessageModel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2.jar!/com/rabbitmq/client/DefaultConsumer.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.7.0/rocketmq-client-4.7.0.jar!/org/apache/rocketmq/client/ClientConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="215">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+          <folding>
+            <element signature="e#2745#2746#0" expanded="true" />
+            <element signature="e#2793#2794#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2.jar!/com/rabbitmq/client/Consumer.class">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.7.0/rocketmq-client-4.7.0.jar!/org/apache/rocketmq/client/producer/DefaultMQProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#22022#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.7.0/rocketmq-client-4.7.0.jar!/org/apache/rocketmq/client/consumer/DefaultMQPushConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1078">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/OneWayProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/AsyncConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2-sources.jar!/com/rabbitmq/client/DefaultConsumer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/lombok/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        <state relative-caret-position="374">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2-sources.jar!/com/rabbitmq/client/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-767">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="396">
+          <caret line="39" column="106" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="106" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2.pom">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.7.0/rocketmq-client-4.7.0.jar!/org/apache/rocketmq/client/consumer/listener/MessageListenerOrderly.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="154">
+          <caret line="11" column="91" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/TestRabbitmqProvide.java" />
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/TestRabbitmqConsumer.java" />
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/helloworld.java" />
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/helloworld/TestRabbitmqConsumer.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/order/OrderStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="283">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Provide2.java" />
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Consumer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.7.0/rocketmq-common-4.7.0.jar!/org/apache/rocketmq/common/message/Message.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+        <state relative-caret-position="333">
+          <caret line="126" column="36" lean-forward="true" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+          <folding>
+            <element signature="e#3526#3527#0" expanded="true" />
+            <element signature="e#3590#3591#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/RabbitUtils.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/base/AsyncProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="676">
+          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Consumer2.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.7.0/rocketmq-common-4.7.0.jar!/org/apache/rocketmq/common/message/MessageExt.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        <state relative-caret-position="198">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#6898#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Consumer2.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.7.0/rocketmq-common-4.7.0-sources.jar!/org/apache/rocketmq/common/message/MessageExt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="308">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#7758#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/routing.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.10.RELEASE/spring-rabbit-2.2.10.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/PublisherCallbackChannel.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/RocketStartStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="154">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2-sources.jar!/com/rabbitmq/client/impl/ChannelN.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/delay/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4410">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="133">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2-sources.jar!/com/rabbitmq/client/Channel.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/batch/ListSplitter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        <state relative-caret-position="110">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/文档/RabbitMQ.md">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/batch/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/batch/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="20" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.7.0/rocketmq-client-4.7.0-sources.jar!/org/apache/rocketmq/client/consumer/MessageSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding>
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/filter/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/文档/RocketMQ.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="396">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <first_editor relative-caret-position="222">
+            <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/topic/Consumer2.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/lombok/EqualsAndHashCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state relative-caret-position="480">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/topic/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/routing/Provide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/routing/Consumer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/controller/MsgControllerTest.java" />
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/config/RabbitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="121" column="98" selection-start-line="121" selection-start-column="73" selection-end-line="121" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="68" column="29" selection-start-line="63" selection-start-column="11" selection-end-line="68" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.10.RELEASE/spring-amqp-2.2.10.RELEASE-sources.jar!/org/springframework/amqp/core/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-817">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.10.RELEASE/spring-rabbit-2.2.10.RELEASE-sources.jar!/org/springframework/amqp/rabbit/annotation/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1379">
-          <caret line="88" column="36" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Consumer3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/workqueue/Provide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/helloworld/TestRabbitmqProvide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="59" column="60" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Provide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/fanout/Consumer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/routing/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/WorkCustomer.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/entity/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rabbit/topic/Provide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/TopicsCustomer.java">
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/mapper/order/OrderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/HelloCustomer.java">
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/service/minio/UploadService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="148">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/FanoutCustomer.java">
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/service/minio/UploadServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="-336">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/NacosBootRabbitMQ.java">
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/mapper/order/SlaveOrderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/AlibabaNacosProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/resources/mapper/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/resources/mapper/postgres/BookMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/dao/BookMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484" />
+        <state relative-caret-position="198">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/rabbit/DirectCustomer.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/service/user/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="16" column="11" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/service/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/Test.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/java/com/xiaomai/cloud/SharejdbcApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/controller/MsgController.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="689">
+          <caret line="38" column="31" selection-start-line="17" selection-start-column="7" selection-end-line="38" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/component/MsgProducer.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/order/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="483">
+          <caret line="45" column="26" selection-start-line="45" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/component/MsgReceiver.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/filter/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="457">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/RabbitTest.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/delay/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="435">
+          <caret line="32" column="76" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/MsgControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/transaction/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
+        <state relative-caret-position="523">
+          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/transaction/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="46" column="80" selection-start-line="46" selection-start-column="80" selection-end-line="46" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/rocket/order/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -24,6 +24,7 @@
         <module>nacos-boot-webservice</module>
         <module>cloud-plus-generator</module>
         <module>nacos-provider</module>
+        <module>nacos-boot-sharejdbc</module>
     </modules>
 
     <packaging>pom</packaging>
