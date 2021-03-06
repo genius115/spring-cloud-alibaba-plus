@@ -1,22 +1,32 @@
-# spring-cloud-alibaba-plus
-基于Spring Boot(2.3.3.RELEASE)、Spring Cloud Hoxton版(Hoxton.SR8)和 Spring Cloud Alibaba(2.2.1.RELEASE)框架，构建微服务应用简单、快速、高效开发平台，致力于，服务于程序爱好者、程序猿、攻城狮等广大人群，不足之处请各位武林高手批评、指正。在此，仅代表个人表达衷心的感谢和敬意。
-
 `技术之路永无止境，菜鸟永远在路上`
+
+# spring-cloud-alibaba-plus
+基于Spring Boot(2.3.3.RELEASE)、Spring Cloud Hoxton版(Hoxton.SR8)和 Spring Cloud Alibaba(2.2.1.RELEASE)框架，构建微服务应用简单、快速、高效开发平台，致力于，服务于程序爱好者、程序猿、攻城狮等广大人群，不足之处请各位武林高手批评、指正。在此，仅代表个人对您表达衷心的感谢和敬意。
 
 ## 1、简介
 > 本项目即为学习实战资料，也为二次进行开发平台。
 ## 2、技术栈
 ### 2.1后端技术
 1.分布式系统套版本：Spring Cloud Hoxton.SR8
+
 2.服务治理注册与发现：Spring Cloud Nacos (Eureka/Consul)
+
 3.分布式统一配置中心：Spring Cloud Nacos (Config)
+
 4.熔断隔离限流降级：Spring Cloud Sentinel (Hystrix)
+
 5.网关路由代理调用：Spring Cloud Gateway(动态网关)
+
 6.声明式服务调用：Spring Cloud OpenFeign
+
 7.客户端负载均衡：Spring CLoud Ribbon
+
 8.分布式链路追踪：Spring Cloud Zipkin (SkyWalking)
+
 9.分布式事务框架：Seata
+
 10.分布式任务调度：xxl-job
+
 11.工作流引擎框架：Activiti 6 
 
 ### 2.2前端技术
