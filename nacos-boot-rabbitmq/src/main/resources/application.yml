@@ -54,6 +54,8 @@ rocketmq:
     sendMsgTimeout: 3000
     # 发送消息失败重试次数，默认2
     retryTimesWhenSendFailed: 2
+    # 发送者组名
+    group: my-group
   # 消费者配置
   consumer:
     isOnOff: on
@@ -67,6 +69,7 @@ rocketmq:
     consumeThreadMax: 64
     # 设置一次消费消息的条数，默认为1条
     consumeMessageBatchMaxSize: 1
+  name-server: localhost:9876
 
 # Rocket 配置 Group  Topic  Tag
 plat:

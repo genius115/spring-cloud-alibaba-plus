@@ -1,0 +1,9 @@
+2021-03-04 13:35:09.422  INFO 23260 --- [main] com.xiaomai.cloud.test.LogTest           : Starting LogTest on DESKTOP-6LPQ9E4 with PID 23260 (started by wangfeng in C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-test)
+2021-03-04 13:35:09.422 DEBUG 23260 --- [main] com.xiaomai.cloud.test.LogTest           : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-03-04 13:35:09.423  INFO 23260 --- [main] com.xiaomai.cloud.test.LogTest           : No active profile set, falling back to default profiles: default
+2021-03-04 13:35:10.591  INFO 23260 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-04 13:35:11.028  INFO 23260 --- [main] com.xiaomai.cloud.test.LogTest           : Started LogTest in 1.945 seconds (JVM running for 2.781)
+2021-03-04 13:35:11.220  INFO 23260 --- [main] org.slf4j.Logger                         : 这是info日志。。。。。。
+2021-03-04 13:35:11.220  WARN 23260 --- [main] org.slf4j.Logger                         : 这是warn日志。。。。。。
+2021-03-04 13:35:11.220 ERROR 23260 --- [main] org.slf4j.Logger                         : 这是error日志。。。。。。
+2021-03-04 13:35:11.227  INFO 23260 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -43,7 +43,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
-
         <!-- RabbitMq客户端 -->
         <!--<dependency>-->
             <!--<groupId>com.rabbitmq</groupId>-->
@@ -51,7 +50,7 @@
             <!--<version>5.7.3</version>-->
         <!--</dependency>-->
 
-        <!--Rocket MQ 客户端-->
+        <!--Rocket MQ 客户端、SpringBoot启动器--><!--Rocket MQ 客户端-->
         <dependency>
             <groupId>org.apache.rocketmq</groupId>
             <artifactId>rocketmq-client</artifactId>
@@ -66,15 +65,19 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <!--<version>1.2.44</version>-->
         </dependency>
-
+        <!--用于日志输入到RocketMQ消息中间件-->
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-logappender</artifactId>
+            <version>4.5.0</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-spring-boot-starter -->
         <dependency>
             <groupId>org.apache.rocketmq</groupId>
             <artifactId>rocketmq-spring-boot-starter</artifactId>
-            <version>2.2.0</version>
         </dependency>
+        <!--Rocket MQ 客户端、SpringBoot启动器-->
 
         <dependency>
             <groupId>cn.hutool</groupId>

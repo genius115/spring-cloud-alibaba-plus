@@ -1,0 +1,5 @@
+1、使用POM插件  maven-Plugins-screw  screw:run
+screw:run
+
+2、代码生成
+com.xiaomai.cloud.GenerateDatabaseDocumnet执行此类的main方法
