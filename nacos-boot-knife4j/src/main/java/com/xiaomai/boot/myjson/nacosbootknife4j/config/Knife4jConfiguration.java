@@ -1,4 +1,4 @@
-package com.xiaomai.boot.nacosbootknife4j.config;
+package com.xiaomai.boot.myjson.nacosbootknife4j.config;
 
 import com.github.xiaoymin.knife4j.spring.extension.OpenApiExtensionResolver;
 import org.springframework.beans.factory.annotation.Autowired;

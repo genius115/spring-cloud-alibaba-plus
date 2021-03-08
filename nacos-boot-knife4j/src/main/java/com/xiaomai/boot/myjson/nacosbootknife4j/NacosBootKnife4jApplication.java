@@ -1,4 +1,4 @@
-package com.xiaomai.boot.nacosbootknife4j;
+package com.xiaomai.boot.myjson.nacosbootknife4j;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

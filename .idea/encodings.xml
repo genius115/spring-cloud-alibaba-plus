@@ -14,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/nacos-boot-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-boot-sharejdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-boot-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-boot-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-boot-webservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-provider-sentinel" charset="UTF-8" />
@@ -22,6 +23,8 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-dynamic-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-knife4j" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaomai-spring-boot-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaomai-spring-boot-starter" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

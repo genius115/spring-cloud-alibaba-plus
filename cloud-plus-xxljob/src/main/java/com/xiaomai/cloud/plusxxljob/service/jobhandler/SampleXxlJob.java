@@ -226,6 +226,7 @@ public class SampleXxlJob {
         XxlJobLogger.log("XXL-JOB, Hello World.");
         return ReturnT.SUCCESS;
     }
+
     public void init(){
         logger.info("init");
     }

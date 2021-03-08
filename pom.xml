@@ -25,6 +25,9 @@
         <module>cloud-plus-generator</module>
         <module>nacos-provider</module>
         <module>nacos-boot-sharejdbc</module>
+        <module>xiaomai-spring-boot-start</module>
+        <module>xiaomai-spring-boot-starter</module>
+        <module>nacos-boot-test</module>
     </modules>
 
     <packaging>pom</packaging>

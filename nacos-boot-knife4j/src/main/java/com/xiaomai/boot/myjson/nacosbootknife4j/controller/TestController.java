@@ -1,4 +1,4 @@
-package com.xiaomai.boot.nacosbootknife4j.controller;
+package com.xiaomai.boot.myjson.nacosbootknife4j.controller;
 
 import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;

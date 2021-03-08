@@ -15,6 +15,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/data-transform/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-start/pom.xml" />
       </set>
     </option>
   </component>

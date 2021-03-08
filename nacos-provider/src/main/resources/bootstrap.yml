@@ -15,3 +15,10 @@ spring:
         #Data ID = ${spring.cloud.nacos.config.prefix}.${spring.profiles.active}.${spring.cloud.nacos.config.file-extension} 最终拼接出来的就是：member-dev.yaml  （一定要注意约定！）
                  #Group = ${spring.cloud.nacos.config.group}
 
+#自定义启动器参数 xiaomai-spring-boot-starter
+nobody:
+  json:
+    enable: true
+    prefix-name: AAA
+    suffix-name: ZZZ
+
