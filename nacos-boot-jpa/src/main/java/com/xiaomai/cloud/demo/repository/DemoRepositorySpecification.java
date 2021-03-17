@@ -9,4 +9,5 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
  * @date 2020/12/2
  */
 public interface DemoRepositorySpecification extends JpaRepository<Demo,Integer>,JpaSpecificationExecutor<Demo> {
+
 }
