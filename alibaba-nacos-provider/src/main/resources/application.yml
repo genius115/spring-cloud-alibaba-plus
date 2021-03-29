@@ -78,13 +78,13 @@ spring:
       datasource:
         master:
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://127.0.0.1:3306/db2020?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+          url: jdbc:mysql://127.0.0.1:3306/db2020?characterEncoding=utf8&useSSL=false&rewriteBatchedStatements=true&serverTimezone=Asia/Shanghai
           username: root
           password: mysql
         slave:
           driver-class-name: com.mysql.cj.jdbc.Driver
           #url: jdbc:mysql://127.0.0.1:13306/db2020?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
-          url: jdbc:mysql://127.0.0.1:3306/db2020?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+          url: jdbc:mysql://127.0.0.1:3306/db2020?characterEncoding=utf8&useSSL=false&rewriteBatchedStatements=true&serverTimezone=Asia/Shanghai
           username: root
           password: mysql
         postgresdb:

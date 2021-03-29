@@ -1,0 +1,21 @@
+一、属性值填充策略
+mybatis-plus的自动填充，实际上是在MetaObjectHandler中的方法给entity属性设置值，同时在字段声明TableField注解来预留sql的注入字段，达到自动填充的功能。
+
+mp在执行INSERT语句时，会调用insertFill()方法填充有INSERT或INSERT_UPDATE策略的字段值
+mp在执行UPDATE语句时，会调用updateFill()方法填充有UPDATE或INSERT_UPDATE策略的字段值
+
+注意事项：
+
+1、填充原理是直接给entity的属性设置值!!!
+
+2、注解则是指定该属性在对应情况下必有值,如果无值则入库会是null
+
+3、MetaObjectHandler提供的默认方法的策略均为:如果属性有值则不覆盖,如果填充值为null则不填充
+
+4、字段必须声明TableField注解,属性fill选择对应策略,该声明告知Mybatis-Plus需要预留注入SQL字段
+
+5、填充处理器MyMetaObjectHandler在 Spring Boot 中需要声明@Component或@Bean注入
+
+6、要想根据注解FieldFill.xxx和字段名以及字段类型来区分必须使用父类的strictInsertFill或者strictUpdateFill方法
+
+7、不需要根据任何来区分可以使用父类的fillStrategy方法

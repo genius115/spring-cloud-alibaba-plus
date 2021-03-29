@@ -39,6 +39,12 @@
             <artifactId>sentinel-datasource-nacos</artifactId>
         </dependency>
 
+        <!--hystrix 断路器 降级、熔断-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
         <!-- Nacos注册 -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

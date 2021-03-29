@@ -15,6 +15,15 @@ management:
       exposure:
         include: "*"  #开启actuator全部端点      http://IP:PORT/actuator
 
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutlnMillisecond: 500 #配置Hystrix等待时间
+
+
 ---
 # 开发环境
 server:

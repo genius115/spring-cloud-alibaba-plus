@@ -12,6 +12,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParser
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import java.util.Properties;
 
@@ -36,6 +37,7 @@ import java.util.Properties;
  */
 @Configuration
 @MapperScan("com.xiaomai.cloud.mapper")
+@EnableTransactionManagement
 public class MyBatisPlusConfig {
 
     /**
@@ -60,6 +62,9 @@ public class MyBatisPlusConfig {
         // <!-- 对于单一数据库类型来说,都建议配置该值,避免每次分页都去抓取数据库类型 -->
         // interceptor.addInnerInterceptor(new PaginationInnerInterceptor(DbType.MYSQL));
         // interceptor.addInnerInterceptor(new PaginationInnerInterceptor(DbType.POSTGRE_SQL));
+
+        //乐观锁  实体类和数据库新增字段version 更新操作时出现
+        interceptor.addInnerInterceptor(new OptimisticLockerInnerInterceptor());
 
         // 多数据源则每次进行抓取数据库类型
 

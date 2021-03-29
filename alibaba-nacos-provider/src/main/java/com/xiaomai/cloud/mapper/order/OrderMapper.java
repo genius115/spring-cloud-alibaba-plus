@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.xiaomai.cloud.po.order.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -14,6 +15,7 @@ import java.util.List;
  */
 @DS("master")
 // @Mapper
+@Repository
 public interface OrderMapper extends BaseMapper<Payment> {
     List<Payment> paymentBySerial(@Param("serial")String serial);
 }

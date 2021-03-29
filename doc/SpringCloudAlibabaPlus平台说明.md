@@ -9,14 +9,23 @@
 ### 1.3 alibaba-nacos-provider 10010 提供者
    1、Nacos配置中心  com.xiaomai.cloud.controller.test.TestNacosController  
    公共配置、私有配置     
+   
    2、Mybaits-Plus  多数据源、多类型(Mysql/PostgresQL)数据库、分页     
+   
    3、Swagger-ui  knife4j-spring-boot-starter(2.9.6+)     
+   
    4、MinIO     
+   
    5、验证码 captcha     
+   
    6、Spring Boot 配置: spring-boot-configuration-processor  
+   
    7、生成流水号
    单应用部署环境（项目启动时，从数据库获取当前最大值，作为静态变量存储）、
-   分布式部署环境（线程同步+redis分布式锁实现））  
+   分布式部署环境（线程同步+redis分布式锁实现）） 
+   
+   8、opslabJutil项目-Java Utils
+   封装了一些常用Java操作方法,便于重复开发利用。可以直接导出成jar包引用到项目中。 
 
 > 基于cloud-plus-XXX项目
 ### 2.1 cloud-plus-comm 公共服务
@@ -36,6 +45,13 @@
 ### 3.2 nacos-boot-rabbitmq 10015 消息中间件RabbitMQ
 
 ### 3.3 nacos-boot-swagger 10013 接口文档
+
+### 3.3.1nacos-boot-test 1088 测试项目
+  1、sa-token 
+  http://sa-token.dev33.cn/
+  2、数据库文档生成 screw-core
+  
+  3、
 
 ### 3.4 nacos-boot-webservice 10014 WebService服务
 
@@ -92,6 +108,14 @@
     
 ### 2.3 SpringBoot系列之缓存使用教程
     https://www.cnblogs.com/mzq123/p/12629142.html
+    
+### 2.4 Springboot+Poi实现Excel的导入导出 
+    https://blog.csdn.net/typ1805/article/details/83279532?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=1328741.24803.16168966130071077&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
+
+
+### 2.5 
+
+### 2.6 
     
 
 # 项目介绍
