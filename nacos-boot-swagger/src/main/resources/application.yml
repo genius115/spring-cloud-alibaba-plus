@@ -15,6 +15,17 @@ management:
       exposure:
         include: "*"  #开启actuator全部端点      http://IP:PORT/actuator
 
+#kk-anti-reptile 反爬虫组件  https://gitee.com/kekingcn/kk-anti-reptile
+anti:
+  reptile:
+    manager:
+      enabled: true
+      include-urls:  /get,/user/list,^/admin/.*$ #或者方法上注解
+      ua-rule:
+        allowed-pc: true
+      ip-rule:
+        expiration-time: 5000
+        request-max-size: 20
 
 ---
 # 开发环境
@@ -30,6 +41,9 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:48848
+  redisson:
+    address: redis://127.0.0.1:6379
+    password: 123456
 
 ---
 # 测试环境

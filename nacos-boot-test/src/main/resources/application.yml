@@ -47,9 +47,6 @@ spring:
       #默认uuid
       token-style: simple-uuid
 
-
-
-
 #日志配置
 logging:
   #pattern:

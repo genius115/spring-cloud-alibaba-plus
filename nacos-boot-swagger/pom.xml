@@ -53,10 +53,30 @@
         <!--swagger-api 依赖结束  1.9.6 -->
 
         <dependency>
+            <groupId>io.github.swagger2markup</groupId>
+            <artifactId>swagger2markup</artifactId>
+            <version>1.3.3</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.huaweicloud.dws</groupId>
             <artifactId>huaweicloud-dws-jdbc</artifactId>
             <version>1.3.1</version>
         </dependency>
+
+        <!--kk-anti-reptile 是适用于基于 spring-boot 开发的分布式系统的反爬虫组件。-->
+        <dependency>
+            <groupId>cn.keking.project</groupId>
+            <artifactId>kk-anti-reptile</artifactId>
+            <version>1.0.0-RELEASE</version>
+        </dependency>
+
+        <!--JAVA版本的开源WAF（Java Web Application Firewall）-->
+        <!--<dependency>-->
+            <!--<groupId>com.gitee.haison</groupId>-->
+            <!--<artifactId>jWAF</artifactId>-->
+            <!--<version>1.0.1</version>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -76,5 +96,130 @@
             </exclusions>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <!--swagger2markup插件方式
+                生成asciidoc或markdown文档
+                添加swagger2markup插件-->
+            <plugin>
+                <groupId>io.github.swagger2markup</groupId>
+                <artifactId>swagger2markup-maven-plugin</artifactId>
+                <version>1.3.3</version>
+                <configuration>
+                    <swaggerInput>http://localhost:10013/v2/api-docs?group=%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86</swaggerInput>
+                    <!-- 生成asciidoc格式 -->
+                    <outputFile>src/docs/asciidoc/generated/all</outputFile>
+                    <!--                    <outputDir>src/docs/asciidoc/generated</outputDir>-->
+                    <!-- 生成markdown格式 -->
+                    <!--                    <outputFile>src/docs/markdown/generated/all</outputFile>-->
+                    <config>
+                        <!-- 生成asciidoc格式 -->
+                        <swagger2markup.markupLanguage>ASCIIDOC</swagger2markup.markupLanguage>
+                        <!-- 生成markdown格式 -->
+                        <!-- <swagger2markup.markupLanguage>MARKDOWN</swagger2markup.markupLanguage>-->
+                        <swagger2markup.outputLanguage>ZH</swagger2markup.outputLanguage>
+                        <swagger2markup.generatedExamplesEnabled>true</swagger2markup.generatedExamplesEnabled>
+                        <swagger2markup.inlineSchemaEnabled>false</swagger2markup.inlineSchemaEnabled>
+                        <swagger2markup.pathsGroupedBy>TAGS</swagger2markup.pathsGroupedBy>
+                    </config>
+                </configuration>
+            </plugin>
+
+            <!--生成HTML文档
+                添加asciidoctor插件-->
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+                <version>1.5.6</version>
+                <configuration>
+                    <sourceDirectory>src/docs/asciidoc/generated</sourceDirectory>
+                    <outputDirectory>src/docs/asciidoc/html</outputDirectory>
+                    <backend>html5</backend>
+                    <attributes>
+                        <!--导航栏在左-->
+                        <toc>left</toc>
+                        <!--显示层级数-->
+                        <toclevels>3</toclevels>
+                        <!--自动打数字序号-->
+                        <sectnums>true</sectnums>
+                    </attributes>
+                </configuration>
+            </plugin>
+
+            <!--生成PDF文档
+添加asciidoctor插件-->
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+                <version>1.5.6</version>
+                <configuration>
+                    <sourceDirectory>src/docs/asciidoc/generated</sourceDirectory>
+                    <outputDirectory>src/docs/asciidoc/pdf</outputDirectory>
+                    <backend>pdf</backend>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-pdf</artifactId>
+                        <version>1.5.0-alpha.16</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
+            <!--同时生成HTML与PDF文档
+添加插件-->
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+                <version>1.5.6</version>
+                <configuration>
+                    <sourceDirectory>src/docs/asciidoc/generated</sourceDirectory>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-pdf</artifactId>
+                        <version>1.5.0-alpha.16</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <id>output-html</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>process-asciidoc</goal>
+                        </goals>
+                        <configuration>
+                            <backend>html5</backend>
+                            <outputDirectory>src/docs/asciidoc/html</outputDirectory>
+                            <attributes>
+                                <!--导航栏在左-->
+                                <toc>left</toc>
+                                <!--显示层级数-->
+                                <toclevels>3</toclevels>
+                                <!--自动打数字序号-->
+                                <sectnums>true</sectnums>
+                            </attributes>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>output-pdf</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>process-asciidoc</goal>
+                        </goals>
+                        <configuration>
+                            <backend>pdf</backend>
+                            <outputDirectory>src/docs/asciidoc/pdf</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+
+
 
 </project>

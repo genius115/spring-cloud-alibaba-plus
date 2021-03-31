@@ -27,6 +27,8 @@
    8、opslabJutil项目-Java Utils
    封装了一些常用Java操作方法,便于重复开发利用。可以直接导出成jar包引用到项目中。 
 
+   9、Spring Boot获取配置文件信息
+
 > 基于cloud-plus-XXX项目
 ### 2.1 cloud-plus-comm 公共服务
 
@@ -45,13 +47,46 @@
 ### 3.2 nacos-boot-rabbitmq 10015 消息中间件RabbitMQ
 
 ### 3.3 nacos-boot-swagger 10013 接口文档
+  1、Swagger-ui
+  原生文档访问地址：Swagger
+  http://localhost:10013/swagger-ui.html
+  接口文档访问地址：Swagger-ui
+  http://localhost:10013/doc.html
+  
+> swagger-ui默认访问地址
+  boot工程格式如下  
+  http://${ip}:{port}/swagger-ui.html  
+  非boot工程加个自己项目名  
+  http://${ip}:{port}/xxx/swagger-ui.html
+  
+  
+  2、SpringBoot启动后自动执行方法
+  A:实现ApplicatonRunner接口 B:实现COmmandLinrRUnner接口
+  
+  3、依据Swagger生成静态文档  Swagger2Markup 导出swagger 接口文档(html，pdf)
+  https://blog.csdn.net/fly910905/article/details/105504324
+  https://blog.csdn.net/asenseof/article/details/106461884
+ 
+  https://github.com/Swagger2Markup/spring-swagger2markup-demo
+  https://github.com/Swagger2Markup/swagger2markup
+  
+  4/
+  
+  5/
+  
 
 ### 3.3.1nacos-boot-test 1088 测试项目
   1、sa-token 
   http://sa-token.dev33.cn/
+  
   2、数据库文档生成 screw-core
   
-  3、
+  3、Poi操作Excel
+  
+  4、Validate入参验证
+  
+  5、
+  
 
 ### 3.4 nacos-boot-webservice 10014 WebService服务
 
@@ -97,6 +132,15 @@
 ### 9.2 log 日志
    1、日志
    
+
+### 10 部署
+
+#### 10.1 Spring Boot启动配置文件优先级
+    
+#### 10.2
+
+
+
 ## 2、文档
 ### 2.1 Nacos配置中心
     Nacos Config
@@ -109,13 +153,24 @@
 ### 2.3 SpringBoot系列之缓存使用教程
     https://www.cnblogs.com/mzq123/p/12629142.html
     
-### 2.4 Springboot+Poi实现Excel的导入导出 
+### 2.4 SpringBoot+Poi实现Excel的导入导出 
     https://blog.csdn.net/typ1805/article/details/83279532?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=1328741.24803.16168966130071077&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
 
+### 2.5 前、后端代码规范（参考：阿里巴巴规约、SmartAdmin项目规范）
+    http://smartadmin.1024lab.net/doc/2/157
+    简介
+    SmartAdmin由河南·洛阳 1024创新实验室团队研发的一套互联网企业级的通用型中后台解决方案！使用最前沿的前后台技术栈SpringBoot和Vue，前后端分离，我们开源一套漂亮的代码和一套整洁的代码规范，让大家在这浮躁的代码世界里感受到一股把代码写好的清流！同时又让开发者节省大量的时间，减少加班，快乐工作，热爱生活。SmartAdmin 让你从认识到忘不了，绝对是你最想要的！
+    开源地址 (欢迎 Star ~ ~ ╰(￣▽￣)╭)
+    
+    github: https://github.com/1024-lab/smart-admin
+    gitee: https://gitee.com/lab1024/smart-admin
+    在线预览： http://preview.smartadmin.1024lab.net
+    部署文档：http://smartadmin.1024lab.net/doc/2/168
+    平滑升级：http://smartadmin.1024lab.net/doc/2/173
 
-### 2.5 
+### 2.6
 
-### 2.6 
+ 
     
 
 # 项目介绍
