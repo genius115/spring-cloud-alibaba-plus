@@ -14,7 +14,6 @@
         <module name="cloud-plus-generator" />
         <module name="cloud-plus-session" />
         <module name="cloud-plus-xxljob" />
-        <module name="nacos-boot-api" />
         <module name="nacos-boot-jpa" />
         <module name="nacos-boot-knife4j" />
         <module name="nacos-boot-rabbitmq" />

@@ -5,15 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59476833-6d8b-47e8-961d-75549b2ec125" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/sa_token/MySaTokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/sa_token/StpInterfaceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/mapper/order/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/mapper/order/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/mapper/order/SlaveOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/mapper/order/SlaveOrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/po/order/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/po/order/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-provider/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/技术文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/技术文档.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-boot-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-test/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/TestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/thread/ThreadLocalTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/thread/ThreadLocalTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-boot-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-test/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/META-INF/sun-jaxb.episode" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/META-INF/sun-jaxb.episode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ZFII00JGJSWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ZFII00JGJSWS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ZFII00JGJSWSResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ZFII00JGJSWSResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider-sentinel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-provider-sentinel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider-sentinel/src/main/java/com/xiaomai/cloud/NacosProviderSentinelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-provider-sentinel/src/main/java/com/xiaomai/cloud/NacosProviderSentinelApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider-sentinel/src/main/java/com/xiaomai/cloud/controller/TestSentinelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-provider-sentinel/src/main/java/com/xiaomai/cloud/controller/TestSentinelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider-sentinel/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-provider-sentinel/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,7 +56,6 @@
     <ignored path="$PROJECT_DIR$/xiaomai-spring-boot-start/target/" />
     <ignored path="$PROJECT_DIR$/xiaomai-spring-boot-starter/target/" />
     <ignored path="$PROJECT_DIR$/nacos-boot-test/target/" />
-    <ignored path="$PROJECT_DIR$/nacos-boot-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +64,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/spring_cloud_alibaba_plus$TestApplication.ic" NAME="TestApplication Coverage Results" MODIFIED="1617100273665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/spring_cloud_alibaba_plus$JunitTest_testHello.ic" NAME="JunitTest.testHello Coverage Results" MODIFIED="1611738780629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
@@ -70,11 +82,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ApiBootApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/ApiBootApplication.java">
+      <file leaf-file-name="ThreadLocalTest01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/thread/ThreadLocalTest01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="286">
+              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,49 +94,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/test/controller/TestController.java">
+      <file leaf-file-name="IntConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java8/jdk1.8.0_60/src.zip!/java/util/function/IntConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="550">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyExceptionHandle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/config/handle/MyExceptionHandle.java">
+      <file leaf-file-name="Runnable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java8/jdk1.8.0_60/src.zip!/java/lang/Runnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="490">
+              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LimitException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/comm/exception/LimitException.java">
+      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java8/jdk1.8.0_60/src.zip!/java/lang/ThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="697">
+              <caret line="297" column="17" selection-start-line="297" selection-start-column="17" selection-end-line="297" selection-end-column="17" />
               <folding>
-                <element signature="e#365#366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RateLimiterAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/comm/aspect/RateLimiterAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-256">
-              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#7765#7766#0" expanded="true" />
+                <element signature="e#7802#7803#0" expanded="true" />
+                <element signature="e#8068#8069#0" expanded="true" />
+                <element signature="e#8137#8138#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,15 +133,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Enum" />
-        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>Page</find>
+      <find>Copyright</find>
+      <find>Apache</find>
+      <find>Apache License 2.0 | Copyright</find>
+      <find>spring-cloud-starter-alibaba-nacos-discovery</find>
       <find>provider-session</find>
       <find>UserRepository</find>
       <find>user</find>
@@ -170,17 +172,11 @@
       <find>sa</find>
       <find>token</find>
       <find>commons-pool2</find>
-      <find>spring-boot-starter-jdbc</find>
-      <find>guava</find>
-      <find>Test6</find>
-      <find>ops</find>
-      <find>lang</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>CityMongDBRepository</replace>
       <replace>city</replace>
-      <replace>TestLimit6</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -189,57 +185,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-server/src/main/java/com/xiaomai/cloud/bean/R.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-server/src/main/java/com/xiaomai/cloud/bean/Constants.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-server/src/main/java/com/xiaomai/cloud/Handler/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/exception/UserNotExistException.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/bean/JsonResult.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/TestGlobeExceptionController.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/bean/ErrorEnum.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/exception/DefinitionException.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/bean/Result.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/handler/ControllerHandler.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/controller/TestRocketController.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/main/java/com/xiaomai/cloud/component/RocketConsumer.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-rabbitmq/src/test/java/com/xiaomai/cloud/RocketProducerTest.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-jpa/src/main/java/com/xiaomai/cloud/demo/repository/DemoRepositorySpecification.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-jpa/src/main/java/com/xiaomai/cloud/demo/repository/DemoRepositoryQueryAnnotation.java" />
+        <option value="$PROJECT_DIR$/nacos-provider-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-provider-sentinel/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/mapper/order/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/mapper/order/SlaveOrderMapper.java" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/po/order/Payment.java" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/config/MyBatisCaseHandler.java" />
+        <option value="$PROJECT_DIR$/doc/文档/MyBatis-plus文档.md" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/config/MyBatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/controller/test/TestController.java" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/po/test/Test.java" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/po/test/TestVo.java" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/test/TestDemo.java" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/testcode/TestDemo.java" />
+        <option value="$PROJECT_DIR$/nacos-provider-sentinel/src/main/java/com/xiaomai/cloud/controller/TestSentinelController.java" />
+        <option value="$PROJECT_DIR$/nacos-provider-sentinel/src/main/java/com/xiaomai/cloud/NacosProviderSentinelApplication.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/TestApplication.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/StpInterfaceImpl.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/MySaTokenConfig.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/sa_token/MySaTokenConfig.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/sa_token/StpInterfaceImpl.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-test/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" />
         <option value="$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/PoiTest.java" />
         <option value="$PROJECT_DIR$/doc/技术文档.md" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/resources/db/migration/1.sql" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/resources/db/migration/V 2018.10.25 __ ship_dev .sql" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/config/MyCommandLineRunner.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/config/MyApplicationRunner.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/NacosSwaggerApplication.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/swagger2markup/swagger2markup.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/swagger2markup/Swagger2MarkupTest.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-swagger/src/test/java/com/swagger2markup/Swagger2MarkupTest.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/config/MyWebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/config/MyMvcConfig.java" />
-        <option value="$PROJECT_DIR$/doc/技术栈,.md" />
-        <option value="$PROJECT_DIR$/nacos-boot-swagger/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/TestApplication.java" />
         <option value="$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/thread/ThreadLocalTest01.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/RateLimitAspect.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/RateLimitAop.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/guava/TestDemo.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/guava/TestLimit6.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/guava/RateLimiterTest.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/RateLimit.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/RateLimitAspect2.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/LimitAspect3.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/LimitAspect4.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-swagger/pom.xml" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/RateLimitGuavaAspect.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/service/GuavaRateLimiterService.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/bean/R.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/LimitAspect.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/RateLimitAspect.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/pom.xml" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/exception/LimitAccessException.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/Limit.java" />
-        <option value="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/pom.xml" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/ana/Limiter.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/annotation/Limiter.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/exception/LimitException.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/comm/R.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/user/controller/ApiUserController.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/ApiBootApplication.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/test/Controller/TestController.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/test/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/comm/aspect/RateLimiterAspect.java" />
-        <option value="$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/config/handle/MyExceptionHandle.java" />
       </list>
     </option>
   </component>
@@ -267,28 +263,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+          <item name="nacos-boot-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="nacos-boot-swagger" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="nacos-boot-swagger" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="nacos-boot-swagger" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="asciidoctor" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="nacos-boot-swagger" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="swagger2markup" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="nacos-boot-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -301,8 +281,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="133" />
-    <option name="y" value="91" />
+    <option name="x" value="217" />
+    <option name="y" value="108" />
     <option name="width" value="1389" />
     <option name="height" value="882" />
   </component>
@@ -324,173 +304,13 @@
             <path>
               <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba-nacos-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="comm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="comm" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="comm" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="handle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos-boot-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -507,7 +327,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="ExceptionHandlerExceptionResolver&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver&#10;SpringApplication&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java&#10;RuntimeExce&#9;PSI&#9;JAVA://java.lang.RuntimeException&#10;DataModelProcess&#9;PSI&#9;JAVA://cn.smallbun.screw.core.process.DataModelProcess&#10;doc&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/cn/smallbun/screw/screw-core/1.0.3/screw-core-1.0.3.jar!/cn/smallbun/screw/core/execute/DocumentationExecute.class&#10;PropertySourcedRequestMappingHandlerMapping&#9;PSI&#9;JAVA://springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping&#10;NacosPropertySourceBuilder&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2.2.1.RELEASE/spring-cloud-starter-alibaba-nacos-config-2.2.1.RELEASE-sources.jar!/com/alibaba/cloud/nacos/client/NacosPropertySourceBuilder.java&#10;EndpointId&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/org/springframework/boot/spring-boot-actuator/2.3.3.RELEASE/spring-boot-actuator-2.3.3.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/EndpointId.java&#10;URLConfigurationSource&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6-sources.jar!/com/netflix/config/sources/URLConfigurationSource.java&#10;NacosDataYamlParser &#9;PSI&#9;JAVA://com.alibaba.cloud.nacos.parser.NacosDataYamlParser&#10;ClientWorker&#9;PSI&#9;JAVA://com.alibaba.nacos.client.config.impl.ClientWorker&#10;Copyright&#9;null&#9;null&#10;Driver&#9;PSI&#9;JAVA://org.postgresql.Driver&#10;EnableAutoConfiguration&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java&#10;cachema&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheManagerCustomizer.java&#10;web&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java" />
+    <property name="SearchEverywhereHistoryKey" value="RuntimeExce&#9;PSI&#9;JAVA://java.lang.RuntimeException&#10;DataModelProcess&#9;PSI&#9;JAVA://cn.smallbun.screw.core.process.DataModelProcess&#10;doc&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/cn/smallbun/screw/screw-core/1.0.3/screw-core-1.0.3.jar!/cn/smallbun/screw/core/execute/DocumentationExecute.class&#10;PropertySourcedRequestMappingHandlerMapping&#9;PSI&#9;JAVA://springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping&#10;NacosPropertySourceBuilder&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2.2.1.RELEASE/spring-cloud-starter-alibaba-nacos-config-2.2.1.RELEASE-sources.jar!/com/alibaba/cloud/nacos/client/NacosPropertySourceBuilder.java&#10;EndpointId&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/org/springframework/boot/spring-boot-actuator/2.3.3.RELEASE/spring-boot-actuator-2.3.3.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/EndpointId.java&#10;URLConfigurationSource&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6-sources.jar!/com/netflix/config/sources/URLConfigurationSource.java&#10;NacosDataYamlParser &#9;PSI&#9;JAVA://com.alibaba.cloud.nacos.parser.NacosDataYamlParser&#10;ClientWorker&#9;PSI&#9;JAVA://com.alibaba.nacos.client.config.impl.ClientWorker&#10;Copyright&#9;null&#9;null&#10;Driver&#9;PSI&#9;JAVA://org.postgresql.Driver&#10;EnableAutoConfiguration&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java&#10;cachema&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheManagerCustomizer.java&#10;web&#9;FILE&#9;jar://E:/apache-maven-3.3.9/localRepository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -518,7 +338,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -528,12 +348,15 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-provider\src\main\resources\static\js" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\doc\文档" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.xiaomai.cloud.rocket" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-test" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-test\src\main\resources" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-sharejdbc\src\main\resources\mapper" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\doc\文档\images\rocket" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-rabbitmq\src\test\java\com\xiaomai\cloud\rocket\base" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xiaomai.cloud.rocket.transaction" />
@@ -542,12 +365,9 @@
       <recent name="com.xiaomai.cloud.rocket.base" />
       <recent name="com.xiaomai.cloud.rabbit.topic" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-api\src\main\java\com\xiaomai\cloud\api\comm" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-test" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-test\src\main\resources" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-sharejdbc\src\main\resources\mapper" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\doc\文档\images\rocket" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-provider\src\main\resources\static\js" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\doc\文档" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -566,38 +386,16 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.17595628" />
+    <option name="contentProportion" value="0.18935236" />
   </component>
-  <component name="RunManager" selected="Application.ApiBootApplication">
-    <configuration name="ApiBootApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.api.ApiBootApplication" />
-      <module name="nacos-boot-api" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaomai.cloud.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RateLimiterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.test.guava.RateLimiterTest" />
+  <component name="RunManager" selected="Application.ThreadLocalTest01">
+    <configuration name="ThreadLocalTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.test.thread.ThreadLocalTest01" />
       <module name="nacos-boot-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiaomai.cloud.test.guava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestLimit6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.test.guava.TestLimit6" />
-      <module name="nacos-boot-test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaomai.cloud.test.guava.*" />
+          <option name="PATTERN" value="com.xiaomai.cloud.test.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -605,20 +403,20 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PoiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nacos-boot-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiaomai.cloud.test.guava.*" />
+          <option name="PATTERN" value="com.xiaomai.cloud.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.cloud.test.guava" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.test.guava.TestDemo" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.xiaomai.cloud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.test.PoiTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -628,19 +426,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestDemo.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nacos-boot-test" />
+    <configuration name="TestDemo.TestBuilder (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-nacos-provider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiaomai.cloud.test.guava.*" />
+          <option name="PATTERN" value="com.xiaomai.cloud.testcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.cloud.test.guava" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.test.guava.TestDemo" />
-      <option name="METHOD_NAME" value="Test1" />
+      <option name="PACKAGE_NAME" value="com.xiaomai.cloud.testcode" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.testcode.TestDemo" />
+      <option name="METHOD_NAME" value="TestBuilder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestDemo.TestBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-nacos-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaomai.cloud.testcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xiaomai.cloud.testcode" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.testcode.TestDemo" />
+      <option name="METHOD_NAME" value="TestBuilder([Ljava.lang.String;)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestDemo.TestBuilder1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-nacos-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaomai.cloud.testcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xiaomai.cloud.testcode" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.cloud.testcode.TestDemo" />
+      <option name="METHOD_NAME" value="TestBuilder1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -754,19 +598,19 @@
       <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Spring Boot.SpringCloudGatewayKnife4jApplication" />
       <item itemvalue="Spring Boot.NacosBootKnife4jApplication" />
-      <item itemvalue="JUnit.TestDemo" />
-      <item itemvalue="JUnit.TestDemo.Test1" />
-      <item itemvalue="Application.TestLimit6" />
-      <item itemvalue="Application.RateLimiterTest" />
-      <item itemvalue="Application.ApiBootApplication" />
+      <item itemvalue="JUnit.TestDemo.TestBuilder" />
+      <item itemvalue="JUnit.TestDemo.TestBuilder (1)" />
+      <item itemvalue="JUnit.TestDemo.TestBuilder1" />
+      <item itemvalue="JUnit.PoiTest.test" />
+      <item itemvalue="Application.ThreadLocalTest01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApiBootApplication" />
-        <item itemvalue="Application.RateLimiterTest" />
-        <item itemvalue="Application.TestLimit6" />
-        <item itemvalue="JUnit.TestDemo.Test1" />
-        <item itemvalue="JUnit.TestDemo" />
+        <item itemvalue="Application.ThreadLocalTest01" />
+        <item itemvalue="JUnit.PoiTest.test" />
+        <item itemvalue="JUnit.TestDemo.TestBuilder1" />
+        <item itemvalue="JUnit.TestDemo.TestBuilder (1)" />
+        <item itemvalue="JUnit.TestDemo.TestBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -774,35 +618,35 @@
     <configuration>C:\Users\wangfeng\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TestHistory">
-    <history-entry file="Swagger2MarkupTest_generateConfluenceDocs - 2021.03.31 at 12h 04m 21s.xml">
-      <configuration name="Swagger2MarkupTest.generateConfluenceDocs" configurationId="JUnit" />
+    <history-entry file="RocketProducerTest_SendMsg - 2021.03.06 at 21h 55m 59s.xml">
+      <configuration name="RocketProducerTest.SendMsg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Swagger2MarkupTest_generateConfluenceDocs - 2021.03.31 at 12h 10m 50s.xml">
-      <configuration name="Swagger2MarkupTest.generateConfluenceDocs" configurationId="JUnit" />
+    <history-entry file="RocketProducerTest_SendMsg - 2021.03.06 at 21h 58m 05s.xml">
+      <configuration name="RocketProducerTest.SendMsg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Swagger2MarkupTest_generateMarkdownDocs - 2021.03.31 at 12h 18m 00s.xml">
-      <configuration name="Swagger2MarkupTest.generateMarkdownDocs" configurationId="JUnit" />
+    <history-entry file="RocketProducerTest_SendMsg - 2021.03.06 at 22h 00m 25s.xml">
+      <configuration name="RocketProducerTest.SendMsg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Swagger2MarkupTest_generateMarkdownDocs - 2021.03.31 at 12h 29m 41s.xml">
-      <configuration name="Swagger2MarkupTest.generateMarkdownDocs" configurationId="JUnit" />
+    <history-entry file="RocketProducerTest_SendMsg - 2021.03.06 at 22h 00m 57s.xml">
+      <configuration name="RocketProducerTest.SendMsg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_xiaomai_cloud_test_in_nacos-boot-test - 2021.04.02 at 18h 21m 08s.xml">
-      <configuration name="com.xiaomai.cloud.test in nacos-boot-test" configurationId="JUnit" />
+    <history-entry file="TestDemo_TestBuilder - 2021.03.22 at 09h 56m 23s.xml">
+      <configuration name="TestDemo.TestBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDemo - 2021.04.02 at 22h 50m 38s.xml">
-      <configuration name="TestDemo" configurationId="JUnit" />
+    <history-entry file="TestDemo_TestBuilder_(1) - 2021.03.22 at 09h 56m 38s.xml">
+      <configuration name="TestDemo.TestBuilder (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDemo - 2021.04.02 at 22h 51m 07s.xml">
-      <configuration name="TestDemo" configurationId="JUnit" />
+    <history-entry file="TestDemo_TestBuilder1 - 2021.03.22 at 09h 57m 24s.xml">
+      <configuration name="TestDemo.TestBuilder1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDemo_Test1 - 2021.04.02 at 22h 51m 29s.xml">
-      <configuration name="TestDemo.Test1" configurationId="JUnit" />
+    <history-entry file="PoiTest_test - 2021.03.28 at 11h 13m 08s.xml">
+      <configuration name="PoiTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDemo_Test1 - 2021.04.02 at 22h 52m 04s.xml">
-      <configuration name="TestDemo.Test1" configurationId="JUnit" />
+    <history-entry file="PoiTest_test - 2021.03.28 at 11h 13m 29s.xml">
+      <configuration name="PoiTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDemo_Test1 - 2021.04.02 at 22h 52m 27s.xml">
-      <configuration name="TestDemo.Test1" configurationId="JUnit" />
+    <history-entry file="PoiTest_test - 2021.03.28 at 11h 13m 54s.xml">
+      <configuration name="PoiTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
@@ -816,19 +660,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.22639485" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.2950644" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="5" weight="0.3299356" />
-      <window_info id="Structure" order="1" sideWeight="0.24500908" side_tool="true" weight="0.17060086" />
+      <window_info id="Structure" order="1" sideWeight="0.16188289" side_tool="true" visible="true" weight="0.32296136" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.41216993" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.28550932" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3696408" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.41676235" />
       <window_info anchor="right" id="Codota" order="11" weight="0.3299356" />
@@ -836,18 +679,17 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32908458" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.3719862" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.27554536" />
-      <window_info anchor="bottom" id="Run" order="16" visible="true" weight="0.19288175" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.37485448" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.27578217" />
+      <window_info anchor="bottom" id="Run" order="16" weight="0.28041714" />
       <window_info anchor="bottom" id="Sequence" order="14" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.3626883" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.23870221" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7554348" visible="true" weight="0.24517168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8381171" visible="true" weight="0.32296136" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299356" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" weight="0.32792583" />
       <window_info anchor="right" id="BPMNPalette" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3846154" />
       <window_info id="Alibaba Cloud Explorer" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -856,20 +698,21 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32908458" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.31113663" />
       <window_info anchor="right" id="Codota" order="11" weight="0.3299356" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.3626883" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="16" weight="0.28013778" />
+      <window_info anchor="bottom" id="Run" order="16" weight="0.32097334" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.23870221" />
       <window_info id="Capture Tool" order="8" />
@@ -877,29 +720,29 @@
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.38354576" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.41676235" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.3696408" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.1691773" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Sequence" order="14" />
       <window_info anchor="right" id="BPMNPalette" order="8" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32908458" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.27554536" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.17844728" />
       <window_info id="Alibaba Cloud Explorer" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.22639485" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.17757511" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" weight="0.32792583" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7554348" visible="true" weight="0.21137339" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32908458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49602544" visible="true" weight="0.22800429" />
       <window_info anchor="right" id="Database" order="5" weight="0.3299356" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3696408" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Structure" order="1" sideWeight="0.24500908" side_tool="true" weight="0.17060086" />
+      <window_info id="Structure" order="1" sideWeight="0.50397456" side_tool="true" weight="0.22585838" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.3251073" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.33487833" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299356" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.37772676" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.22363847" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -950,9 +793,7 @@
     <MESSAGE value="完善项目介绍" />
     <MESSAGE value="完善介绍" />
     <MESSAGE value="upgrade jpa" />
-    <MESSAGE value="新增Sa-token/poi等" />
-    <MESSAGE value="ADD:WAF拦截、静态接口文档生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD:WAF拦截、静态接口文档生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade jpa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -960,7 +801,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/Java8Test2.java</url>
           <line>26</line>
-          <properties class="com.xiaomai.cloud.jdk8.Java8Test2">
+          <properties class="com.xiaomai.cloud.jdk8.Java8Test2" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="8" />
@@ -985,92 +826,284 @@
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/NacosSwaggerApplication.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
-          <line>298</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
-          <line>267</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
-          <line>310</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="30" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nacos-boot-swagger/src/docs/asciidoc/generated/all.adoc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/po/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/po/order/Payment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484" />
+        <state relative-caret-position="112">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="20" />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE.jar!/META-INF/spring.factories">
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/test/TestDemo.java" />
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/testcode.java" />
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/po/test/TestVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="242">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/testcode/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-provider-sentinel/src/main/java/com/xiaomai/cloud/controller/TestSentinelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-provider-sentinel/src/main/java/com/xiaomai/cloud/NacosProviderSentinelApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
           <caret line="14" selection-start-line="14" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/config/MyMvcConfig.java" />
-    <entry file="file://$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/config/MyWebAppInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/config/MyApplicationRunner.java">
+    <entry file="file://$PROJECT_DIR$/nacos-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="-3146" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-provider-sentinel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="252" column="27" selection-start-line="252" selection-start-column="27" selection-end-line="252" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-swagger/src/main/java/com/xiaomai/cloud/NacosSwaggerApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/dev33/sa-token-core/1.12.1/sa-token-core-1.12.1.jar!/META-INF/maven/cn.dev33/sa-token-core/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/dev33/sa-token-spring-boot-starter/1.12.1/sa-token-spring-boot-starter-1.12.1.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/dev33/sa-token-spring-boot-starter/1.12.1/sa-token-spring-boot-starter-1.12.1.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/dev33/sa-token-core/1.12.1/sa-token-core-1.12.1.jar!/cn/dev33/satoken/config/SaTokenConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="-429">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="305" column="28" selection-start-line="305" selection-start-column="27" selection-end-line="305" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/ValidatorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/handler/ControllerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="86" column="85" selection-start-line="86" selection-start-column="85" selection-end-line="86" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/sa_token/StpInterfaceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding>
-            <element signature="e#714#715#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-swagger/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/sa_token/MySaTokenConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="46">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/技术文档.md">
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/dev33/sa-token-core/1.15.0/sa-token-core-1.15.0.jar!/cn/dev33/satoken/stp/StpUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/dev33/sa-token-core/1.15.0/sa-token-core-1.15.0.jar!/cn/dev33/satoken/stp/StpLogic.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5441">
+          <caret line="475" column="41" selection-start-line="475" selection-start-column="41" selection-end-line="475" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/cn/dev33/sa-token-spring-boot-starter/1.15.0/sa-token-spring-boot-starter-1.15.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.3.3.RELEASE/spring-boot-starter-test-2.3.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/dev33/sa-token-core/1.15.0/sa-token-core-1.15.0-sources.jar!/cn/dev33/satoken/stp/StpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/dev33/sa-token-core/1.15.0/sa-token-core-1.15.0-sources.jar!/cn/dev33/satoken/stp/StpLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="38" column="7" selection-start-line="36" selection-start-column="4" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/文档/RocketMQ.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="589">
-            <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <first_editor relative-caret-position="-75" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/文档/RabbitMQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/文档/MyBatis-plus文档.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="22" />
           </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/文档/java枚举常见用法.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/文档/java8新特性.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/文档/2-SpringBoot外部配置加载顺序.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/微服务系统架构图.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/常见问题解决方案.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-3855" />
           <second_editor />
         </state>
       </provider>
@@ -1078,307 +1111,82 @@
     <entry file="file://$PROJECT_DIR$/doc/技术栈,.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
+          <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/LogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/thread/ThreadLocalTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/guava/RateLimiterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/LimitAspect3.java" />
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/guava/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/guava/TestLimit6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java8/jdk1.8.0_60/src.zip!/java/lang/annotation/Inherited.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/exception/UserNotExistException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/exception/DefinitionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/service/GuavaRateLimiterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-766" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/TestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/TestGlobeExceptionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/RateLimitAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/RateLimitGuava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/RateLimit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/RateLimitGuavaAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/exception/LimitAccessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="72" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/config/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#1617#1618#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/LimitAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/bean/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/java/com/xiaomai/cloud/test/annotation/Limit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+          <first_editor relative-caret-position="506">
+            <caret line="111" column="34" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-swagger/pom.xml">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/ExcelUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="97" column="19" selection-start-line="18" selection-start-column="5" selection-end-line="97" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="124" column="21" selection-start-line="110" selection-start-column="8" selection-end-line="124" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="207" column="25" selection-start-line="203" selection-start-column="12" selection-end-line="207" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        <state relative-caret-position="271">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding>
-            <element signature="e#9896#9897#0" expanded="true" />
-            <element signature="e#9929#9930#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/PoiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="430">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/comm/R.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/doc/技术文档.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="523">
+            <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/user/controller/ApiUserController.java">
+    <entry file="jar://C:/Java8/jdk1.8.0_60/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="297" column="17" selection-start-line="297" selection-start-column="17" selection-end-line="297" selection-end-column="17" />
+          <folding>
+            <element signature="e#7765#7766#0" expanded="true" />
+            <element signature="e#7802#7803#0" expanded="true" />
+            <element signature="e#8068#8069#0" expanded="true" />
+            <element signature="e#8137#8138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java8/jdk1.8.0_60/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java8/jdk1.8.0_60/src.zip!/java/util/function/IntConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/test/java/com/xiaomai/cloud/test/thread/ThreadLocalTest01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/comm/annotation/Limiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/ApiBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/test/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/comm/exception/LimitException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/comm/aspect/RateLimiterAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-api/src/main/java/com/xiaomai/cloud/api/config/handle/MyExceptionHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
