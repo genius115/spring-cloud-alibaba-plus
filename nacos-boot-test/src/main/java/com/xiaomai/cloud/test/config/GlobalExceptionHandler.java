@@ -1,5 +1,10 @@
 package com.xiaomai.cloud.test.config;
 
+import com.xiaomai.cloud.test.bean.R;
+import com.xiaomai.cloud.test.exception.LimitAccessException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -18,7 +23,10 @@ import java.util.Set;
  */
 @ControllerAdvice
 @Component
+@Order(-1)
 public class GlobalExceptionHandler {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     @ExceptionHandler
     @ResponseBody

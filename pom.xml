@@ -27,6 +27,7 @@
         <module>nacos-boot-sharejdbc</module>
         <module>xiaomai-spring-boot-starter</module>
         <module>nacos-boot-test</module>
+        <module>nacos-boot-api</module>
     </modules>
 
     <packaging>pom</packaging>

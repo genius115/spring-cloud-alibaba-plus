@@ -39,6 +39,9 @@
 ### 2.4 cloud-plus-xxljob  30020 分布式任务调度
 
 > 基于nacos-boot-XXX项目
+### 3.1 nacos-boot-api 10888 接口服务
+  1、
+  
 
 ### 3.1 nacos-boot-jpa 10016 持久话JPA
 
@@ -70,12 +73,12 @@
   https://github.com/Swagger2Markup/spring-swagger2markup-demo
   https://github.com/Swagger2Markup/swagger2markup
   
-  4/
+  4、kk-anti-reptile 反爬虫组件
   
   5/
   
 
-### 3.3.1nacos-boot-test 1088 测试项目
+### 3.3.1nacos-boot-test 10088 测试项目
   1、sa-token 
   http://sa-token.dev33.cn/
   
@@ -85,8 +88,9 @@
   
   4、Validate入参验证
   
-  5、
+  5、Guava的Ratelimit实现接口限流 （注解+AOP）
   
+  6、
 
 ### 3.4 nacos-boot-webservice 10014 WebService服务
 

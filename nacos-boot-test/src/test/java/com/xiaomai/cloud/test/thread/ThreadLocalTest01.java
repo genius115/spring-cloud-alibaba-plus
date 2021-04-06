@@ -22,6 +22,7 @@ public class ThreadLocalTest01 {
         ThreadLocal<String> local = new ThreadLocal<>();
         //新家一个随机数类
         Random random = new Random();
+
         //使用java8的Stream新建5个线程
         IntStream.range(0,10).forEach(a-> new Thread(()-> {
             //为每个线程设置相应的local值

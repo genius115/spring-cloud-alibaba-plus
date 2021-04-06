@@ -1,8 +1,14 @@
 package com.xiaomai.cloud.test.controller;
 
 import cn.hutool.core.date.DateUtil;
+import com.xiaomai.cloud.test.annotation.Limit;
+import com.xiaomai.cloud.test.annotation.RateLimit;
 import com.xiaomai.cloud.test.bean.Demo;
+import com.xiaomai.cloud.test.bean.R;
 import com.xiaomai.cloud.test.bean.User;
+import com.xiaomai.cloud.test.exception.LimitAccessException;
+import com.xiaomai.cloud.test.service.GuavaRateLimiterService;
+import lombok.extern.slf4j.Slf4j;
 import org.hibernate.validator.constraints.Range;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
@@ -21,6 +27,7 @@ import java.util.Set;
  * @author
  * @date 2021/3/2
  */
+@Slf4j
 @Validated
 @RestController
 @RequestMapping("/test")
@@ -29,9 +36,32 @@ public class TestController {
     @Autowired
     private Validator validator;
 
-    @GetMapping("/index")
+    @Autowired
+    private GuavaRateLimiterService rateLimiterService;
+
+
+    @GetMapping("/application")
+    @RateLimit(limitNum = 100)
     public String testApplication() {
+        if(rateLimiterService.tryAcquire()){
+            log.info("成功获取许可");
+        }
+        log.info("未获取到许可");
         return DateUtil.now();
+    }
+
+
+    @GetMapping("/guavaLimit")
+    @Limit(name = "测试限流每秒3个请求", perSecond = 3)
+    public Object guavaLimit() {
+        return new R.Builder<String>().setData("请求成功！").ok();
+    }
+
+
+    @ExceptionHandler(value = LimitAccessException.class)
+    public Object LimitAccessExceptionHandler(LimitAccessException e) {
+        //LOGGER.error("LimitAccessException...", e);
+        return new R.Builder<String>().setData("请求频繁，请求限流").ok();
     }
 
     /**

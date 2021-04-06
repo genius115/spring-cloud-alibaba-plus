@@ -9,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/cloud-plus-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-plus-session" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-plus-xxljob" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-boot-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-boot-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-boot-knife4j" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-boot-rabbitmq" charset="UTF-8" />
@@ -23,7 +24,6 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-dynamic-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-knife4j" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xiaomai-spring-boot-start" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaomai-spring-boot-starter" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
