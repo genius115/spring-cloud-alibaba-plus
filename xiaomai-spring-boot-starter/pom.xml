@@ -8,6 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>xiaomai-spring-boot-starter</name>
     <description> Demo project for spring boot</description>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>

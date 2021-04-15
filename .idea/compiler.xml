@@ -29,6 +29,11 @@
         <module name="spring-cloud-gateway-dynamic-nacos" />
         <module name="spring-cloud-gateway-knife4j" />
         <module name="spring-cloud-gateway-server" />
+        <module name="xiaomai" />
+        <module name="xiaomai-spring-boot" />
+        <module name="xiaomai-spring-boot-init" />
+        <module name="xiaomai-spring-boot-starter" />
+        <module name="xiaomai-spring-boot-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,7 +44,6 @@
       <module name="cloud-plus-generator" target="1.8" />
       <module name="cloud-plus-session" target="1.8" />
       <module name="cloud-plus-xxljob" target="1.8" />
-      <module name="data-transform" target="1.8" />
       <module name="nacos-boot-api" target="1.8" />
       <module name="nacos-boot-jpa" target="1.8" />
       <module name="nacos-boot-knife4j" target="1.8" />
@@ -56,6 +60,9 @@
       <module name="spring-cloud-gateway-dynamic-nacos" target="1.8" />
       <module name="spring-cloud-gateway-knife4j" target="1.8" />
       <module name="spring-cloud-gateway-server" target="1.8" />
+      <module name="xiaomai" target="1.8" />
+      <module name="xiaomai-spring-boot" target="1.8" />
+      <module name="xiaomai-spring-boot-init" target="1.8" />
       <module name="xiaomai-spring-boot-starter" target="1.5" />
     </bytecodeTargetLevel>
   </component>

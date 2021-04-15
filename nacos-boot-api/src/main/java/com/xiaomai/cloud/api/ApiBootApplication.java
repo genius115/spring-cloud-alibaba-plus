@@ -31,5 +31,4 @@ public class ApiBootApplication {
         return DateUtil.currentDateTime()+ "*****[ApiBootApplication DataBase OK...]["+applicationName+"...]";
     }
 
-
 }

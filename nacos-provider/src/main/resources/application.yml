@@ -30,3 +30,11 @@ user:
  name: ${random.int(10)}
  code: ${random.int}
 
+
+#自定义启动器参数 xiaomai-spring-boot-starter
+nobody:
+ json:
+   enable: true
+   prefix-name: AAA
+   suffix-name: ZZZ
+

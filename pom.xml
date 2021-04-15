@@ -31,6 +31,12 @@
         <module>nacos-boot-knife4j</module>
         <module>nacos-webflux</module>
         <module>spring-cloud-gateway-knife4j</module>
+
+
+        <module>xiaomai</module>
+        <module>xiaomai-spring-boot</module>
+        <module>xiaomai-spring-boot-starter</module>
+
     </modules>
 
     <packaging>pom</packaging>
@@ -52,7 +58,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
         <java.version>1.8</java.version>
+
 
         <!--Spring相关版本-->
         <spring-boot.version>2.3.3.RELEASE</spring-boot.version>

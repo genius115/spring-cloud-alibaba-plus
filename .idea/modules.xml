@@ -25,6 +25,10 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway-dynamic-nacos/spring-cloud-gateway-dynamic-nacos.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway-dynamic-nacos/spring-cloud-gateway-dynamic-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway-knife4j/spring-cloud-gateway-knife4j.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/spring-cloud-gateway-knife4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway-server/spring-cloud-gateway-server.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway-server/spring-cloud-gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaomai/xiaomai.iml" filepath="$PROJECT_DIR$/xiaomai/xiaomai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot/xiaomai-spring-boot.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot/xiaomai-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-init/xiaomai-spring-boot-init.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-init/xiaomai-spring-boot-init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-starter/xiaomai-spring-boot-starter.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-starter/xiaomai-spring-boot-starter.iml" />
     </modules>
   </component>
 </project>
