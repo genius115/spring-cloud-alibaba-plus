@@ -14,6 +14,7 @@
         <module name="cloud-plus-generator" />
         <module name="cloud-plus-session" />
         <module name="cloud-plus-xxljob" />
+        <module name="nacos-activiti" />
         <module name="nacos-boot-api" />
         <module name="nacos-boot-jpa" />
         <module name="nacos-boot-knife4j" />
@@ -32,6 +33,7 @@
         <module name="xiaomai" />
         <module name="xiaomai-spring-boot" />
         <module name="xiaomai-spring-boot-init" />
+        <module name="xiaomai-spring-boot-pagehelper" />
         <module name="xiaomai-spring-boot-starter" />
         <module name="xiaomai-spring-boot-test" />
       </profile>
@@ -44,6 +46,8 @@
       <module name="cloud-plus-generator" target="1.8" />
       <module name="cloud-plus-session" target="1.8" />
       <module name="cloud-plus-xxljob" target="1.8" />
+      <module name="comprehensive" target="1.8" />
+      <module name="nacos-activiti" target="1.8" />
       <module name="nacos-boot-api" target="1.8" />
       <module name="nacos-boot-jpa" target="1.8" />
       <module name="nacos-boot-knife4j" target="1.8" />
@@ -63,6 +67,7 @@
       <module name="xiaomai" target="1.8" />
       <module name="xiaomai-spring-boot" target="1.8" />
       <module name="xiaomai-spring-boot-init" target="1.8" />
+      <module name="xiaomai-spring-boot-pagehelper" target="1.8" />
       <module name="xiaomai-spring-boot-starter" target="1.5" />
     </bytecodeTargetLevel>
   </component>

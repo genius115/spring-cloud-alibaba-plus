@@ -1,15 +1,16 @@
-2021-04-07 16:50:51.356  INFO 18744 --- [restartedMain] com.xiaomai.cloud.test.TestApplication   : Starting TestApplication on DESKTOP-6LPQ9E4 with PID 18744 (C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-test\target\classes started by wangfeng in C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus)
-2021-04-07 16:50:51.363 DEBUG 18744 --- [restartedMain] com.xiaomai.cloud.test.TestApplication   : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
-2021-04-07 16:50:51.363  INFO 18744 --- [restartedMain] com.xiaomai.cloud.test.TestApplication   : No active profile set, falling back to default profiles: default
-2021-04-07 16:50:51.429  INFO 18744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-04-07 16:50:51.429  INFO 18744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-04-07 16:50:53.428  INFO 18744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10088 (http)
-2021-04-07 16:50:53.439  INFO 18744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-04-07 16:50:53.440  INFO 18744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-04-07 16:50:53.527  INFO 18744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-04-07 16:50:53.527  INFO 18744 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2098 ms
-2021-04-07 16:50:53.912  INFO 18744 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-07 16:50:54.211  INFO 18744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-04-07 16:50:54.238  INFO 18744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10088 (http) with context path ''
-2021-04-07 16:50:54.247  INFO 18744 --- [restartedMain] com.xiaomai.cloud.test.TestApplication   : Started TestApplication in 3.396 seconds (JVM running for 6.924)
-2021-04-07 16:50:54.249  INFO 18744 --- [restartedMain] com.xiaomai.cloud.test.TestApplication   : 项目启动成功。。。。。。
+2021-05-11 16:42:58.975  INFO 17316 --- [restartedMain] com.xiaomai.cloud.test.TestApplication   : Starting TestApplication on DESKTOP-6LPQ9E4 with PID 17316 (C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-test\target\classes started by wangfeng in C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus)
+2021-05-11 16:42:58.983 DEBUG 17316 --- [restartedMain] com.xiaomai.cloud.test.TestApplication   : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-05-11 16:42:58.984  INFO 17316 --- [restartedMain] com.xiaomai.cloud.test.TestApplication   : No active profile set, falling back to default profiles: default
+2021-05-11 16:42:59.058  INFO 17316 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-boot-test\libs\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/wangfeng/IdeaProjects/spring-cloud-alibaba-plus/nacos-boot-test/libs/oraclepki.jar
+2021-05-11 16:42:59.058  INFO 17316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-11 16:42:59.058  INFO 17316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-11 16:43:01.216  INFO 17316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10088 (http)
+2021-05-11 16:43:01.228  INFO 17316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-11 16:43:01.228  INFO 17316 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-11 16:43:01.326  INFO 17316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-11 16:43:01.326  INFO 17316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2268 ms
+2021-05-11 16:43:01.645  INFO 17316 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 16:43:02.135  WARN 17316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-05-11 16:43:02.176  INFO 17316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10088 (http) with context path ''
+2021-05-11 16:43:02.185  INFO 17316 --- [restartedMain] com.xiaomai.cloud.test.TestApplication   : Started TestApplication in 3.821 seconds (JVM running for 5.803)
+2021-05-11 16:43:02.188  INFO 17316 --- [restartedMain] com.xiaomai.cloud.test.TestApplication   : 项目启动成功。。。。。。

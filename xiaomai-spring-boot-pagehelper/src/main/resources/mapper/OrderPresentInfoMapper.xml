@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaomai.boot.xiaomaispringbootpagehelper.mapper.OrderPresentInfoMapper" >
+    <resultMap id="BaseResultMap" type="com.xiaomai.boot.xiaomaispringbootpagehelper.entity.OrderPresentInfo" >
+        <id column="ID" property="id" jdbcType="BIGINT" />
+        <result column="ACTIVITY_NAME" property="activityName" jdbcType="VARCHAR" />
+        <result column="BEGIN_TIME" property="beginTime" jdbcType="TIMESTAMP" />
+        <result column="END_TIME" property="endTime" jdbcType="TIMESTAMP" />
+        <result column="ACTIVITY_STORES_SELECT_TYPE" property="activityStoresSelectType" jdbcType="INTEGER" />
+        <result column="ACTIVITY_STORES_IDS" property="activityStoresIds" jdbcType="VARCHAR" />
+        <result column="MEMBER_LEVEL_SELECT_TYPE" property="memberLevelSelectType" jdbcType="INTEGER" />
+        <result column="MEMBER_LEVEL_IDS" property="memberLevelIds" jdbcType="VARCHAR" />
+        <result column="ACTIVITY_ORDER_CONSUME" property="activityOrderConsume" jdbcType="DECIMAL" />
+        <result column="PAYMENT_CHANNEL_IDS" property="paymentChannelIds" jdbcType="VARCHAR" />
+        <result column="EQUITY_TYPE" property="equityType" jdbcType="INTEGER" />
+        <result column="COUPON_ID" property="couponId" jdbcType="BIGINT" />
+        <result column="LUCKY_TURNING_ID" property="luckyTurningId" jdbcType="BIGINT" />
+        <result column="ACTIVITY_STATUS" property="activityStatus" jdbcType="INTEGER" />
+        <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    </resultMap>
+    <sql id="Base_Column_List" >
+    ID, ACTIVITY_NAME, BEGIN_TIME, END_TIME, ACTIVITY_STORES_SELECT_TYPE, ACTIVITY_STORES_IDS,
+    MEMBER_LEVEL_SELECT_TYPE, MEMBER_LEVEL_IDS, ACTIVITY_ORDER_CONSUME, PAYMENT_CHANNEL_IDS,
+    EQUITY_TYPE, COUPON_ID, LUCKY_TURNING_ID, ACTIVITY_STATUS, CREATE_TIME, UPDATE_TIME
+  </sql>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+        select
+        <include refid="Base_Column_List" />
+        from dss_wsh_order_present_info
+        where ID = #{id,jdbcType=BIGINT}
+    </select>
+    <select id="getAllOrderPresent" resultMap="BaseResultMap"   >
+        select
+        <include refid="Base_Column_List" />
+        from dss_wsh_order_present_info
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from dss_wsh_order_present_info
+    where ID = #{id,jdbcType=BIGINT}
+  </delete>
+    <insert id="insert" parameterType="com.xiaomai.boot.xiaomaispringbootpagehelper.entity.OrderPresentInfo" >
+    insert into dss_wsh_order_present_info (ID, ACTIVITY_NAME, BEGIN_TIME,
+      END_TIME, ACTIVITY_STORES_SELECT_TYPE, ACTIVITY_STORES_IDS,
+      MEMBER_LEVEL_SELECT_TYPE, MEMBER_LEVEL_IDS,
+      ACTIVITY_ORDER_CONSUME, PAYMENT_CHANNEL_IDS,
+      EQUITY_TYPE, COUPON_ID, LUCKY_TURNING_ID,
+      ACTIVITY_STATUS, CREATE_TIME, UPDATE_TIME
+      )
+    values (#{id,jdbcType=BIGINT}, #{activityName,jdbcType=VARCHAR}, #{beginTime,jdbcType=TIMESTAMP},
+      #{endTime,jdbcType=TIMESTAMP}, #{activityStoresSelectType,jdbcType=INTEGER}, #{activityStoresIds,jdbcType=VARCHAR},
+      #{memberLevelSelectType,jdbcType=INTEGER}, #{memberLevelIds,jdbcType=VARCHAR},
+      #{activityOrderConsume,jdbcType=DECIMAL}, #{paymentChannelIds,jdbcType=VARCHAR},
+      #{equityType,jdbcType=INTEGER}, #{couponId,jdbcType=BIGINT}, #{luckyTurningId,jdbcType=BIGINT},
+      #{activityStatus,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+    <insert id="insertSelective" parameterType="com.xiaomai.boot.xiaomaispringbootpagehelper.entity.OrderPresentInfo" >
+        insert into dss_wsh_order_present_info
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                ID,
+            </if>
+            <if test="activityName != null" >
+                ACTIVITY_NAME,
+            </if>
+            <if test="beginTime != null" >
+                BEGIN_TIME,
+            </if>
+            <if test="endTime != null" >
+                END_TIME,
+            </if>
+            <if test="activityStoresSelectType != null" >
+                ACTIVITY_STORES_SELECT_TYPE,
+            </if>
+            <if test="activityStoresIds != null" >
+                ACTIVITY_STORES_IDS,
+            </if>
+            <if test="memberLevelSelectType != null" >
+                MEMBER_LEVEL_SELECT_TYPE,
+            </if>
+            <if test="memberLevelIds != null" >
+                MEMBER_LEVEL_IDS,
+            </if>
+            <if test="activityOrderConsume != null" >
+                ACTIVITY_ORDER_CONSUME,
+            </if>
+            <if test="paymentChannelIds != null" >
+                PAYMENT_CHANNEL_IDS,
+            </if>
+            <if test="equityType != null" >
+                EQUITY_TYPE,
+            </if>
+            <if test="couponId != null" >
+                COUPON_ID,
+            </if>
+            <if test="luckyTurningId != null" >
+                LUCKY_TURNING_ID,
+            </if>
+            <if test="activityStatus != null" >
+                ACTIVITY_STATUS,
+            </if>
+            <if test="createTime != null" >
+                CREATE_TIME,
+            </if>
+            <if test="updateTime != null" >
+                UPDATE_TIME,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                #{id,jdbcType=BIGINT},
+            </if>
+            <if test="activityName != null" >
+                #{activityName,jdbcType=VARCHAR},
+            </if>
+            <if test="beginTime != null" >
+                #{beginTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="endTime != null" >
+                #{endTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="activityStoresSelectType != null" >
+                #{activityStoresSelectType,jdbcType=INTEGER},
+            </if>
+            <if test="activityStoresIds != null" >
+                #{activityStoresIds,jdbcType=VARCHAR},
+            </if>
+            <if test="memberLevelSelectType != null" >
+                #{memberLevelSelectType,jdbcType=INTEGER},
+            </if>
+            <if test="memberLevelIds != null" >
+                #{memberLevelIds,jdbcType=VARCHAR},
+            </if>
+            <if test="activityOrderConsume != null" >
+                #{activityOrderConsume,jdbcType=DECIMAL},
+            </if>
+            <if test="paymentChannelIds != null" >
+                #{paymentChannelIds,jdbcType=VARCHAR},
+            </if>
+            <if test="equityType != null" >
+                #{equityType,jdbcType=INTEGER},
+            </if>
+            <if test="couponId != null" >
+                #{couponId,jdbcType=BIGINT},
+            </if>
+            <if test="luckyTurningId != null" >
+                #{luckyTurningId,jdbcType=BIGINT},
+            </if>
+            <if test="activityStatus != null" >
+                #{activityStatus,jdbcType=INTEGER},
+            </if>
+            <if test="createTime != null" >
+                #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null" >
+                #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.xiaomai.boot.xiaomaispringbootpagehelper.entity.OrderPresentInfo" >
+        update dss_wsh_order_present_info
+        <set >
+            <if test="activityName != null" >
+                ACTIVITY_NAME = #{activityName,jdbcType=VARCHAR},
+            </if>
+            <if test="beginTime != null" >
+                BEGIN_TIME = #{beginTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="endTime != null" >
+                END_TIME = #{endTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="activityStoresSelectType != null" >
+                ACTIVITY_STORES_SELECT_TYPE = #{activityStoresSelectType,jdbcType=INTEGER},
+            </if>
+            <if test="activityStoresIds != null" >
+                ACTIVITY_STORES_IDS = #{activityStoresIds,jdbcType=VARCHAR},
+            </if>
+            <if test="memberLevelSelectType != null" >
+                MEMBER_LEVEL_SELECT_TYPE = #{memberLevelSelectType,jdbcType=INTEGER},
+            </if>
+            <if test="memberLevelIds != null" >
+                MEMBER_LEVEL_IDS = #{memberLevelIds,jdbcType=VARCHAR},
+            </if>
+            <if test="activityOrderConsume != null" >
+                ACTIVITY_ORDER_CONSUME = #{activityOrderConsume,jdbcType=DECIMAL},
+            </if>
+            <if test="paymentChannelIds != null" >
+                PAYMENT_CHANNEL_IDS = #{paymentChannelIds,jdbcType=VARCHAR},
+            </if>
+            <if test="equityType != null" >
+                EQUITY_TYPE = #{equityType,jdbcType=INTEGER},
+            </if>
+            <if test="couponId != null" >
+                COUPON_ID = #{couponId,jdbcType=BIGINT},
+            </if>
+            <if test="luckyTurningId != null" >
+                LUCKY_TURNING_ID = #{luckyTurningId,jdbcType=BIGINT},
+            </if>
+            <if test="activityStatus != null" >
+                ACTIVITY_STATUS = #{activityStatus,jdbcType=INTEGER},
+            </if>
+            <if test="createTime != null" >
+                CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null" >
+                UPDATE_TIME = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where ID = #{id,jdbcType=BIGINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.xiaomai.boot.xiaomaispringbootpagehelper.entity.OrderPresentInfo" >
+    update dss_wsh_order_present_info
+    set ACTIVITY_NAME = #{activityName,jdbcType=VARCHAR},
+      BEGIN_TIME = #{beginTime,jdbcType=TIMESTAMP},
+      END_TIME = #{endTime,jdbcType=TIMESTAMP},
+      ACTIVITY_STORES_SELECT_TYPE = #{activityStoresSelectType,jdbcType=INTEGER},
+      ACTIVITY_STORES_IDS = #{activityStoresIds,jdbcType=VARCHAR},
+      MEMBER_LEVEL_SELECT_TYPE = #{memberLevelSelectType,jdbcType=INTEGER},
+      MEMBER_LEVEL_IDS = #{memberLevelIds,jdbcType=VARCHAR},
+      ACTIVITY_ORDER_CONSUME = #{activityOrderConsume,jdbcType=DECIMAL},
+      PAYMENT_CHANNEL_IDS = #{paymentChannelIds,jdbcType=VARCHAR},
+      EQUITY_TYPE = #{equityType,jdbcType=INTEGER},
+      COUPON_ID = #{couponId,jdbcType=BIGINT},
+      LUCKY_TURNING_ID = #{luckyTurningId,jdbcType=BIGINT},
+      ACTIVITY_STATUS = #{activityStatus,jdbcType=INTEGER},
+      CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      UPDATE_TIME = #{updateTime,jdbcType=TIMESTAMP}
+    where ID = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

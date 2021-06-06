@@ -42,6 +42,20 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
+        <!--
+        spring cloud——feign为GET请求时的对象参数传递
+        https://www.cnblogs.com/qq503665965/p/9865881.html
+
+        处理openFeign自动将get请求装换为post请求的问题
+        https://snakey.blog.csdn.net/article/details/105389846
+        -->
+        <!--<dependency>-->
+            <!--<groupId>io.github.openfeign</groupId>-->
+            <!--<artifactId>feign-httpclient</artifactId>-->
+            <!--<version>10.9</version>-->
+        <!--</dependency>-->
+
+
         <!-- ThymeLeaf 依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

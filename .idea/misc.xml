@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-activiti/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-pagehelper/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

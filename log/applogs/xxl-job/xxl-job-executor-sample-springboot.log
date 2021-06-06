@@ -1,58 +1,30 @@
-2021-02-03 09:55:11,975 INFO [main] c.x.c.plusxxljob.XxlJobApplication [StartupInfoLogger.java : 55] Starting XxlJobApplication on DESKTOP-6LPQ9E4 with PID 15564 (C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\cloud-plus-xxljob\target\classes started by wangfeng in C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus)
-2021-02-03 09:55:11,981 INFO [main] c.x.c.plusxxljob.XxlJobApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
-2021-02-03 09:55:15,319 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 30021 (http)
-2021-02-03 09:55:15,332 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-30021"]
-2021-02-03 09:55:15,332 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
-2021-02-03 09:55:15,333 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-03 09:55:15,515 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
-2021-02-03 09:55:15,516 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 285] Root WebApplicationContext: initialization completed in 2958 ms
-2021-02-03 09:55:15,682 INFO [main] c.x.c.p.core.config.XxlJobConfig [XxlJobConfig.java : 46] >>>>>>>>>>> xxl-job config init.
-2021-02-03 09:55:15,876 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-03 09:55:16,525 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:commandJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@2a4156[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#commandJobHandler]
-2021-02-03 09:55:16,526 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@12d1782[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#shardingJobHandler]
-2021-02-03 09:55:16,526 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler2, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1ef65c[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler2]
-2021-02-03 09:55:16,526 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@12976b4[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler]
-2021-02-03 09:55:16,526 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:httpJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@6934e2[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#httpJobHandler]
-2021-02-03 09:55:16,701 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-30021"]
-2021-02-03 09:55:16,757 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 30021 (http) with context path ''
-2021-02-03 09:55:16,786 INFO [main] c.x.c.plusxxljob.XxlJobApplication [StartupInfoLogger.java : 61] Started XxlJobApplication in 5.878 seconds (JVM running for 7.74)
-2021-02-03 09:55:16,806 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 22] ******************************************************************************************
-2021-02-03 09:55:16,806 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 23] Start XxlJobApplication Success.....
-2021-02-03 09:55:16,806 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 24] ******************************************************************************************
-2021-02-03 09:55:18,087 INFO [Thread-5] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 86] >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 19999
-2021-02-03 09:56:01,362 INFO [xxl-rpc, EmbedServer bizThreadPool-7628677] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 181] >>>>>>>>>>> xxl-job regist JobThread success, jobId:3, handler:com.xxl.job.core.handler.impl.MethodJobHandler@12976b4[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler]
-2021-02-03 10:33:58,589 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
+2021-05-11 16:42:51,735 INFO [main] c.x.c.plusxxljob.XxlJobApplication [StartupInfoLogger.java : 55] Starting XxlJobApplication on DESKTOP-6LPQ9E4 with PID 11240 (C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\cloud-plus-xxljob\target\classes started by wangfeng in C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus)
+2021-05-11 16:42:51,762 INFO [main] c.x.c.plusxxljob.XxlJobApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2021-05-11 16:42:54,409 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 30021 (http)
+2021-05-11 16:42:54,419 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-30021"]
+2021-05-11 16:42:54,420 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2021-05-11 16:42:54,420 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-11 16:42:54,548 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2021-05-11 16:42:54,548 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 285] Root WebApplicationContext: initialization completed in 1409 ms
+2021-05-11 16:42:54,678 INFO [main] c.x.c.p.core.config.XxlJobConfig [XxlJobConfig.java : 46] >>>>>>>>>>> xxl-job config init.
+2021-05-11 16:42:54,865 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 16:42:55,231 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:httpJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@35f3a22c[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#httpJobHandler]
+2021-05-11 16:42:55,234 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler2, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@35ee466f[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler2]
+2021-05-11 16:42:55,234 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@32e652b6[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler]
+2021-05-11 16:42:55,234 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:commandJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4ba02375[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#commandJobHandler]
+2021-05-11 16:42:55,234 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@7593ea79[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2021-05-11 16:42:55,388 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-30021"]
+2021-05-11 16:42:55,488 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 30021 (http) with context path ''
+2021-05-11 16:42:55,540 INFO [main] c.x.c.plusxxljob.XxlJobApplication [StartupInfoLogger.java : 61] Started XxlJobApplication in 4.158 seconds (JVM running for 5.885)
+2021-05-11 16:42:55,544 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 22] ******************************************************************************************
+2021-05-11 16:42:55,544 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 23] Start XxlJobApplication Success.....
+2021-05-11 16:42:55,544 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 24] ******************************************************************************************
+2021-05-11 16:42:57,596 INFO [Thread-8] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 86] >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 19999
+2021-05-11 16:42:59,642 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
 java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:340)
-	at sun.net.www.protocol.http.HttpURLConnection.setNewClient(HttpURLConnection.java:741)
-	at sun.net.www.protocol.http.HttpURLConnection.setNewClient(HttpURLConnection.java:729)
-	at sun.net.www.protocol.http.HttpURLConnection.writeRequests(HttpURLConnection.java:671)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1533)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
-	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:115)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:33:58,590 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:34:30,634 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
@@ -64,21 +36,20 @@ java.net.ConnectException: Connection refused: connect
 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
 	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
 	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1103)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
 	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
 	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
 	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
 	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:34:30,634 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:34:43,320 INFO [Thread-8] com.xxl.job.core.thread.JobThread [JobThread.java : 216] >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[Thread-8,10,main]
-2021-02-03 10:35:02,662 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
+2021-05-11 16:42:59,643 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.0.122:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
+2021-05-11 16:43:31,712 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
 java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
@@ -90,528 +61,12 @@ java.net.ConnectException: Connection refused: connect
 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
 	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
 	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1103)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
 	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
 	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
 	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
 	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:35:02,662 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:35:35,681 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Read timed out
-java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:170)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
-	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:704)
-	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1535)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
-	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:115)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:35:35,682 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Read timed out), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:36:05,695 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:36:35,699 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:37:05,706 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:37:35,713 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:38:05,724 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:38:35,739 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:39:05,743 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:39:35,751 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:40:05,754 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:40:35,762 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:41:05,773 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:41:35,786 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:42:05,793 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:42:37,856 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:42:37,856 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:43:07,962 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:43:37,975 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:44:07,987 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:44:37,992 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:45:08,024 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:45:38,032 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:46:08,043 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:46:38,051 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:47:08,066 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:47:38,076 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:48:08,094 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:48:38,113 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting fail, StatusCode(404) invalid. for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:49:10,158 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:49:10,158 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:49:42,230 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:49:42,230 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:50:14,266 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:50:14,266 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:50:46,318 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:50:46,318 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:51:18,385 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:51:18,386 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:51:50,434 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:51:50,434 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:52:22,494 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:52:22,494 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:52:54,545 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:52:54,545 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:53:26,576 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:53:26,576 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:53:58,637 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:53:58,637 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:54:30,714 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:54:30,715 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:55:02,780 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:55:02,780 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:55:34,843 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:55:34,844 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:56:06,887 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:56:06,887 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:56:38,942 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:56:38,942 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:57:11,022 ERROR [xxl-job, executor ExecutorRegistryThread] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 139] Connection refused: connect
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
-	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
-	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
-	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
-	at java.lang.Thread.run(Thread.java:745)
-2021-02-03 10:57:11,022 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.88.1:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
-2021-02-03 10:59:00,189 INFO [xxl-rpc, EmbedServer bizThreadPool-3649983] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 181] >>>>>>>>>>> xxl-job regist JobThread success, jobId:3, handler:com.xxl.job.core.handler.impl.MethodJobHandler@12976b4[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler]
-2021-02-03 11:53:54,466 INFO [main] c.x.c.plusxxljob.XxlJobApplication [StartupInfoLogger.java : 55] Starting XxlJobApplication on DESKTOP-6LPQ9E4 with PID 2852 (C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\cloud-plus-xxljob\target\classes started by wangfeng in C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus)
-2021-02-03 11:53:54,472 INFO [main] c.x.c.plusxxljob.XxlJobApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
-2021-02-03 11:53:55,703 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 30021 (http)
-2021-02-03 11:53:55,712 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-30021"]
-2021-02-03 11:53:55,712 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
-2021-02-03 11:53:55,712 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-03 11:53:55,792 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
-2021-02-03 11:53:55,792 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 285] Root WebApplicationContext: initialization completed in 1087 ms
-2021-02-03 11:53:55,850 INFO [main] c.x.c.p.core.config.XxlJobConfig [XxlJobConfig.java : 46] >>>>>>>>>>> xxl-job config init.
-2021-02-03 11:53:55,956 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-03 11:53:56,115 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:commandJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@127e03a[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#commandJobHandler]
-2021-02-03 11:53:56,116 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@5586b[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#shardingJobHandler]
-2021-02-03 11:53:56,116 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:httpJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1b17c06[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#httpJobHandler]
-2021-02-03 11:53:56,116 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1545e7a[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler]
-2021-02-03 11:53:56,116 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler2, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1f674ac[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler2]
-2021-02-03 11:53:56,189 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-30021"]
-2021-02-03 11:53:56,218 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 30021 (http) with context path ''
-2021-02-03 11:53:56,224 INFO [main] c.x.c.plusxxljob.XxlJobApplication [StartupInfoLogger.java : 61] Started XxlJobApplication in 2.103 seconds (JVM running for 2.599)
-2021-02-03 11:53:56,226 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 22] ******************************************************************************************
-2021-02-03 11:53:56,226 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 23] Start XxlJobApplication Success.....
-2021-02-03 11:53:56,226 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 24] ******************************************************************************************
-2021-02-03 11:53:56,754 INFO [Thread-5] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 86] >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 19999
-2021-02-03 11:54:00,152 INFO [xxl-rpc, EmbedServer bizThreadPool-13917094] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 181] >>>>>>>>>>> xxl-job regist JobThread success, jobId:3, handler:com.xxl.job.core.handler.impl.MethodJobHandler@1545e7a[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler]
-2021-02-03 13:31:25,340 INFO [main] c.x.c.plusxxljob.XxlJobApplication [StartupInfoLogger.java : 55] Starting XxlJobApplication on DESKTOP-6LPQ9E4 with PID 16696 (C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\cloud-plus-xxljob\target\classes started by wangfeng in C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus)
-2021-02-03 13:31:25,344 INFO [main] c.x.c.plusxxljob.XxlJobApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
-2021-02-03 13:31:26,542 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 30021 (http)
-2021-02-03 13:31:26,551 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-30021"]
-2021-02-03 13:31:26,552 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
-2021-02-03 13:31:26,552 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-02-03 13:31:26,645 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
-2021-02-03 13:31:26,645 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 285] Root WebApplicationContext: initialization completed in 1063 ms
-2021-02-03 13:31:26,703 INFO [main] c.x.c.p.core.config.XxlJobConfig [XxlJobConfig.java : 46] >>>>>>>>>>> xxl-job config init.
-2021-02-03 13:31:26,813 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-03 13:31:26,971 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@147731f[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#shardingJobHandler]
-2021-02-03 13:31:26,972 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:commandJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@a7e509[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#commandJobHandler]
-2021-02-03 13:31:26,973 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@13f304[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler]
-2021-02-03 13:31:26,973 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:httpJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@7508ca[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#httpJobHandler]
-2021-02-03 13:31:26,973 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 168] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler2, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@124420b[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler2]
-2021-02-03 13:31:27,034 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-30021"]
-2021-02-03 13:31:27,062 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 30021 (http) with context path ''
-2021-02-03 13:31:27,069 INFO [main] c.x.c.plusxxljob.XxlJobApplication [StartupInfoLogger.java : 61] Started XxlJobApplication in 2.136 seconds (JVM running for 2.669)
-2021-02-03 13:31:27,070 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 22] ******************************************************************************************
-2021-02-03 13:31:27,071 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 23] Start XxlJobApplication Success.....
-2021-02-03 13:31:27,071 INFO [main] c.x.c.plusxxljob.XxlJobApplication [XxlJobApplication.java : 24] ******************************************************************************************
-2021-02-03 13:31:27,655 INFO [Thread-5] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 86] >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 19999
-2021-02-03 13:32:00,180 INFO [xxl-rpc, EmbedServer bizThreadPool-1913837] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 181] >>>>>>>>>>> xxl-job regist JobThread success, jobId:3, handler:com.xxl.job.core.handler.impl.MethodJobHandler@13f304[class com.xiaomai.cloud.plusxxljob.service.jobhandler.SampleXxlJob#demoJobHandler]
+2021-05-11 16:43:31,712 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 54] >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='cloud-plus-xxl-job', registryValue='http://192.168.0.122:19999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]

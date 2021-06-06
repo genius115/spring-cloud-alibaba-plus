@@ -1,4 +1,6 @@
 # Nacos 注册中心 配置中心
+#你可以通过设置`spring.cloud.bootstrap.enabled=false`来禁用`bootstrap`
+
 spring:
   cloud:
     nacos:
@@ -12,8 +14,21 @@ spring:
         #namespace: bb703ef1-5b28-4dde-a97f-e97d6c5ac884
         #group: DEFAULT_GROUP
 
+        #shared-dataids: shareconfig1.yml,shareconfig2.yml
+        #refreshable-dataids: shareconfig1.yml,shareconfig2.yml
+
         #Data ID = ${spring.cloud.nacos.config.prefix}.${spring.profiles.active}.${spring.cloud.nacos.config.file-extension} 最终拼接出来的就是：member-dev.yaml  （一定要注意约定！）
-                 #Group = ${spring.cloud.nacos.config.group}
+        #Group = ${spring.cloud.nacos.config.group}
+
+        #  不同组的配置文件加载
+        #ext-config:
+         #- data-id: shareconfig3.yml
+         #  group: SHARE3_GROUP
+         #  refresh: true
+         #- data-id: shareconfig4.yml
+         #  group: SHARE4_GROUP
+         #  refresh: true
+
 
 
 

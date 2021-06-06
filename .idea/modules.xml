@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-plus-generator/cloud-plus-generator.iml" filepath="$PROJECT_DIR$/cloud-plus-generator/cloud-plus-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-plus-session/cloud-plus-session.iml" filepath="$PROJECT_DIR$/cloud-plus-session/cloud-plus-session.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-plus-xxljob/cloud-plus-xxljob.iml" filepath="$PROJECT_DIR$/cloud-plus-xxljob/cloud-plus-xxljob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-activiti/nacos-activiti.iml" filepath="$PROJECT_DIR$/nacos-activiti/nacos-activiti.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-boot-api/nacos-boot-api.iml" filepath="$PROJECT_DIR$/nacos-boot-api/nacos-boot-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-boot-jpa/nacos-boot-jpa.iml" filepath="$PROJECT_DIR$/nacos-boot-jpa/nacos-boot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-boot-knife4j/nacos-boot-knife4j.iml" filepath="$PROJECT_DIR$/nacos-boot-knife4j/nacos-boot-knife4j.iml" />
@@ -28,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/xiaomai/xiaomai.iml" filepath="$PROJECT_DIR$/xiaomai/xiaomai.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot/xiaomai-spring-boot.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot/xiaomai-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-init/xiaomai-spring-boot-init.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-init/xiaomai-spring-boot-init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-pagehelper/xiaomai-spring-boot-pagehelper.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-pagehelper/xiaomai-spring-boot-pagehelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-starter/xiaomai-spring-boot-starter.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-starter/xiaomai-spring-boot-starter.iml" />
     </modules>
   </component>

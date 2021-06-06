@@ -28,10 +28,16 @@ public class GenerateDatabaseDocumnet {
     public static void main(String[] args) {
         // 数据源
         HikariConfig hikariConfig = new HikariConfig();
-        hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
+        /*hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
         hikariConfig.setJdbcUrl("jdbc:mysql://localhost:3306/nacos_config?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&useSSL=false");
         hikariConfig.setUsername("root");
-        hikariConfig.setPassword("mysql");
+        hikariConfig.setPassword("mysql");*/
+
+        hikariConfig.setDriverClassName("oracle.jdbc.driver.OracleDriver");
+        hikariConfig.setJdbcUrl("jdbc:oracle:thin:@192.168.0.2:1521:ORCL");
+        hikariConfig.setUsername("NHMPMS");
+        hikariConfig.setPassword("MPMS");
+
         // 设置可以获取tables remarks信息
         hikariConfig.addDataSourceProperty("useInformationSchema", "true");
         hikariConfig.setMinimumIdle(2);
@@ -55,7 +61,10 @@ public class GenerateDatabaseDocumnet {
         // 忽略表名
         List<String> ignoreTableName = Arrays.asList("test");
         // 忽略表前缀
-        List<String> ignorePrefix = Arrays.asList("test_", "test");
+        List<String> ignorePrefix = Arrays.asList("test_", "test"
+                ,"A","B","C","D","E","F","G","H","I","J","K","L","M"
+                ,"NH_VISUAL","NYXT_KZ"
+                ,"O","P","Q","R","S","T","U","V","W","X","Y","Z");
         // 忽略表后缀
         List<String> ignoreSuffix = Arrays.asList("_test", "test");
 
@@ -65,7 +74,8 @@ public class GenerateDatabaseDocumnet {
 
         // 3、生成文档配置（包含以下自定义版本号、描述等配置连接）
         Configuration config = Configuration.builder()
-                .title("标题【数据库设计文档】")
+                //.title("标题【数据库设计文档】")
+                .title("【综合展现-沙盘数据库设计文档】")
                 .version("1.0.0")
                 .description("描述【数据库文档】")
                 .organization("组织【小麦科技】")

@@ -1,6 +1,7 @@
 package com.xiaomai.cloud.services;
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @FeignClient(value = "alibaba-nacos-provider",url="111")
 @RequestMapping
 public interface PaymentService {
-    @GetMapping("/get")
+    @GetMapping(value = "/get",consumes = MediaType.APPLICATION_JSON_VALUE)
     String get();
 
     @GetMapping("/one")
