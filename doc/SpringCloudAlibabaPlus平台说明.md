@@ -409,6 +409,13 @@ assertThat 使用了 Hamcrest 的 Matcher 匹配符
 
     1、spring retry机制
     
+    2、配置文件的读取
+    2.1@Value
+    2.2配置对象读取   MyConfigDemoBean类（映射-注意编码）、SnowflakeConfig类（使用）
+    
+    3、Bean注入(第三方对象)
+    @Bean
+    
 ### 7.2.4 xiaomai-spring-boot-pagehelper 15302
     1、pagehelper 分页插件
     

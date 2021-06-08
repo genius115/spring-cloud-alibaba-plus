@@ -1,11 +1,15 @@
 package com.xiaomai.xiaomaispringbootinit;
 
+import cn.hutool.core.lang.Snowflake;
+import cn.hutool.core.util.IdUtil;
 import com.xiaomai.xiaomaispringbootinit.service.RetryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ImportResource;
 import org.springframework.retry.annotation.EnableRetry;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,6 +26,7 @@ import java.util.Date;
 @RestController
 @EnableRetry
 @SpringBootApplication
+// @ImportResource(locations = {"classpath:application.properties"})
 public class XiaomaiSpringBootInitApplication {
     @Value("${spring.application.name}")
     private String applicationname;
@@ -31,6 +36,10 @@ public class XiaomaiSpringBootInitApplication {
 
     @Autowired
     private RetryService retryService;
+
+    @Autowired
+    private Snowflake snowflake;
+
 
     public static void main(String[] args) {
         SpringApplication.run(XiaomaiSpringBootInitApplication.class, args);
@@ -52,6 +61,7 @@ public class XiaomaiSpringBootInitApplication {
         // 级别由低到高 trace<debug<info<warn<error
         log.trace("这是一个trace日志...");
         log.debug("这是一个debug日志...");
+
         // SpringBoot默认是info级别，只会输出info及以上级别的日志
         log.info("这是一个info日志...");
         log.warn("这是一个warn日志...");
@@ -59,6 +69,13 @@ public class XiaomaiSpringBootInitApplication {
         String str = "https://www.baidu.com";
         log.info("======欢迎访问百度：{}\n", str);
 
+        log.info(snowflake.toString());
+        log.info("雪花算法：{}",snowflake.nextIdStr());
         return "OK";
     }
+
+//    @Bean
+//    public Snowflake getSnowflake(){
+//        return IdUtil.createSnowflake(1,1);
+//    }
 }
