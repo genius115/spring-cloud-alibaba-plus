@@ -415,6 +415,37 @@ assertThat 使用了 Hamcrest 的 Matcher 匹配符
     
     3、Bean注入(第三方对象)
     @Bean
+    示例代码：
+    MyConfig 
+    MyConfigDemoBean
+    
+    4、数据库版本管理 flyway
+    <!-- flyway与springboot整合时需要此包，如果是通过插件的方式则不需要-->
+    <dependency>
+        <groupId>org.flywaydb</groupId>
+        <artifactId>flyway-core</artifactId>
+    </dependency>
+    <!--配置flywaydb时，需要引入org.springframework:spring-jdbc包，否则会报找不到驱动bug-->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-jdbc</artifactId>
+    </dependency>
+    
+    5、magic-api接口快速开发框架
+    <dependency>
+        <groupId>org.ssssssss</groupId>
+        <artifactId>magic-api-spring-boot-starter</artifactId>
+        <version>1.3.0</version>
+    </dependency>
+    官方文档：https://ssssssss.org/guide/intro.html
+    示例网址：http://140.143.210.90:9999/magic/web/index.html
+    使用
+    1、开发界面：http://192.168.0.122:15301/magic/web/index.html
+    2、文档地址：http://192.168.0.122:15301/swagger-ui.html#
+    
+    6、定时任务 spring-boot-starter-quartz
+    示例代码：compent.quartz包
+    
     
 ### 7.2.4 xiaomai-spring-boot-pagehelper 15302
     1、pagehelper 分页插件
