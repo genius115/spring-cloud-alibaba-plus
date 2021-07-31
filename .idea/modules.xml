@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-plus-xxljob/cloud-plus-xxljob.iml" filepath="$PROJECT_DIR$/cloud-plus-xxljob/cloud-plus-xxljob.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-activiti/nacos-activiti.iml" filepath="$PROJECT_DIR$/nacos-activiti/nacos-activiti.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-boot-api/nacos-boot-api.iml" filepath="$PROJECT_DIR$/nacos-boot-api/nacos-boot-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-boot-jdbc/nacos-boot-jdbc.iml" filepath="$PROJECT_DIR$/nacos-boot-jdbc/nacos-boot-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-boot-jpa/nacos-boot-jpa.iml" filepath="$PROJECT_DIR$/nacos-boot-jpa/nacos-boot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-boot-knife4j/nacos-boot-knife4j.iml" filepath="$PROJECT_DIR$/nacos-boot-knife4j/nacos-boot-knife4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-boot-rabbitmq/nacos-boot-rabbitmq.iml" filepath="$PROJECT_DIR$/nacos-boot-rabbitmq/nacos-boot-rabbitmq.iml" />

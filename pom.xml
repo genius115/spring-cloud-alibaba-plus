@@ -36,6 +36,7 @@
         <module>xiaomai</module>
         <module>xiaomai-spring-boot</module>
         <module>xiaomai-spring-boot-starter</module>
+        <module>nacos-boot-jdbc</module>
 
     </modules>
 

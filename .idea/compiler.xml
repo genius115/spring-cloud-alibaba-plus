@@ -16,6 +16,7 @@
         <module name="cloud-plus-xxljob" />
         <module name="nacos-activiti" />
         <module name="nacos-boot-api" />
+        <module name="nacos-boot-jdbc" />
         <module name="nacos-boot-jpa" />
         <module name="nacos-boot-knife4j" />
         <module name="nacos-boot-rabbitmq" />
@@ -49,6 +50,7 @@
       <module name="comprehensive" target="1.8" />
       <module name="nacos-activiti" target="1.8" />
       <module name="nacos-boot-api" target="1.8" />
+      <module name="nacos-boot-jdbc" target="1.8" />
       <module name="nacos-boot-jpa" target="1.8" />
       <module name="nacos-boot-knife4j" target="1.8" />
       <module name="nacos-boot-rabbitmq" target="1.8" />

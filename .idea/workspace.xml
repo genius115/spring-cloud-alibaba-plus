@@ -5,16 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59476833-6d8b-47e8-961d-75549b2ec125" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_9_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-plus-generator/src/main/java/com/xiaomai/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/entity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/serviceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/JdbcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/config/JdbcTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/controller/JdbcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/dao/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/dao/DemoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/service/JdbcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-jdbc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-boot-jdbc/src/main/resources/mapper/DemoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/IWordAllow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/IWordDeny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/MyWordAllow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/MyWordDeny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/TestSensitiveWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/quartz/CustomizeScheduleConfigTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/quartz/TestJobBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/config/converter/ByteConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/config/converter/LocalDateTimeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/elasticjob/MyJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/elasticjob/MyJobDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/db/migration/V1.1.1_001__V1.2_Add_Tables.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/db/migration/V1__demo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/magic-editor-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai-spring-boot/src/test/java/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomai/src/main/java/com/xiaomai/hutool5/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-plus-generator/cloud-plus-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-plus-generator/cloud-plus-generator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-plus-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-plus-generator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiaomai-spring-boot-init/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/XiaomaiSpringBootInitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/XiaomaiSpringBootInitApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaomai-spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomai-spring-boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaomai-spring-boot/xiaomai-spring-boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomai-spring-boot/xiaomai-spring-boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaomai/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomai/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaomai/xiaomai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomai/xiaomai.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,6 +92,7 @@
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <ignored path="$PROJECT_DIR$/comprehensive/target/" />
     <ignored path="$PROJECT_DIR$/xiaomai-spring-boot-pagehelper/target/" />
+    <ignored path="$PROJECT_DIR$/nacos-boot-jdbc/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,69 +120,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="XiaomaiSpringBootInitApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/XiaomaiSpringBootInitApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="86" column="6" selection-start-line="86" selection-start-column="4" selection-end-line="126" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalDateTimeConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/config/converter/LocalDateTimeConverter.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="76" column="14" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaomai/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="TestDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot/src/test/java/TestDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3784">
-              <caret line="172" column="34" selection-start-line="172" selection-start-column="34" selection-end-line="172" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3388">
-              <caret line="154" column="39" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,10 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>10010</find>
-      <find>10013</find>
-      <find>10310</find>
-      <find>clearLocalPage</find>
       <find>smart</find>
       <find>fastjs</find>
       <find>CodeConstants.CODE_FAIL_DATE</find>
@@ -188,9 +163,12 @@
       <find>gen</find>
       <find>hutool</find>
       <find>guava</find>
+      <find>IpUtils</find>
+      <find>boot-init</find>
+      <find>流水</find>
+      <find>多数据源</find>
     </findStrings>
     <replaceStrings>
-      <replace />
       <replace>CityMongDBRepository</replace>
       <replace>city</replace>
       <replace>TestLimit6</replace>
@@ -198,6 +176,7 @@
       <replace>com.mpms.example.comprehensive.bean.comprehensive</replace>
       <replace>resultType=&quot;com.mpms</replace>
       <replace>com.xiaomai.boot.xiaomaispringbootpagehelper.entity.OrderPresentInfo</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -206,26 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-pagehelper/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/java/com/mpms/example/comprehensive/service/comprehensive/BusinessLogicSerivce.java" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/java/com/mpms/example/comprehensive/bean/comprehensive/PmsVisialZlypInfo.java" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/java/com/mpms/example/comprehensive/bean/comprehensive/PmsVisualExamInfo.java" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/java/com/mpms/example/comprehensive/bean/comprehensive/PmsVisualJlpzInfo.java" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/java/com/mpms/example/comprehensive/bean/comprehensive/PmsVisualLabInfo.java" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/java/com/mpms/example/comprehensive/bean/comprehensive/PmsVisualRiskInfo.java" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/java/com/mpms/example/comprehensive/bean/comprehensive/PmsVisualScenInfo.java" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/java/com/mpms/example/comprehensive/bean/comprehensive/PmsVisualSiteInfo.java" />
-        <option value="$PROJECT_DIR$/comprehensive/pom.xml" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/java/com/mpms/example/comprehensive/service/comprehensive/CompreHensiveService.java" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/java/com/mpms/example/comprehensive/dao/comprehensive/CompreHensiveMapper.xml" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/comprehensive/src/main/resources/config/db.setting" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/xiaomai/pom.xml" />
-        <option value="$PROJECT_DIR$/xiaomai/src/test/java/com/xiaomai/SnowflakeTest.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/test/java/com/xiaomai/xiaomaispringbootinit/XiaomaiSpringBootInitApplicationTests.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/MyConfigBean.java" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/Book.java" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/MyConfigDemoBean.java" />
@@ -250,13 +209,33 @@
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/pom.xml" />
-        <option value="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/controller/TestFile.java" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot/src/test/java/TestDemo.java" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/config/converter/LocalDateTimeConverter.java" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/XiaomaiSpringBootInitApplication.java" />
+        <option value="$PROJECT_DIR$/xiaomai/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaomai/src/main/java/com/xiaomai/hutool5/TestDemo.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/elasticjob/MyJob.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/elasticjob/MyJobDemo.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/dao/Demo.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/config/JdbcTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/service/JdbcService.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-boot-jdbc/src/main/resources/mapper/DemoMapper.xml" />
+        <option value="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/dao/DempMapper.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/JdbcApplication.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/controller/JdbcController.java" />
+        <option value="$PROJECT_DIR$/nacos-boot-jdbc/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/TestWord.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/TestSensitiveWord.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/MyWordDeny.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/IWordAllow.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/IWordDeny.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/MyWordAllow.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/TestSensitiveWord.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-init/pom.xml" />
+        <option value="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" />
       </list>
     </option>
   </component>
@@ -291,19 +270,6 @@
           <item name="xiaomai-spring-boot-init" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaomai-spring-boot-init" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-quartz:2.3.9.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaomai-spring-boot-init" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-quartz:2.3.9.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.quartz-scheduler:quartz:2.3.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -318,8 +284,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="294" />
-    <option name="y" value="62" />
+    <option name="x" value="201" />
+    <option name="y" value="250" />
     <option name="width" value="1389" />
     <option name="height" value="882" />
   </component>
@@ -333,6 +299,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,81 +308,11 @@
               <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-init" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-init" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-init" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-init" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-init" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-init" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-init" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomaispringbootinit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-init" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomaispringbootinit" type="462c0819:PsiDirectoryNode" />
-              <item name="XiaomaiSpringBootInitApplication" type="1a9f42e2:ClassTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,14 +332,14 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 -60" />
-    <property name="last_opened_file_path" value="D:/idea_workspace/comprehensive" />
+    <property name="last_opened_file_path" value="E:/阿里云部署/00基建数字化/com.soft.mpms.07.quality" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27912825" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -503,7 +401,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.16284153" />
+    <option name="contentProportion" value="0.17978142" />
   </component>
   <component name="RunManager" selected="Spring Boot.XiaomaiSpringBootInitApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -517,22 +415,44 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="JdbcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.boot.jbdc.JdbcApplication" />
+      <module name="nacos-boot-jdbc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.boot.jbdc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MyJobDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.xiaomaispringbootinit.elasticjob.MyJobDemo" />
+      <module name="xiaomai-spring-boot-init" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaomai.xiaomaispringbootinit.elasticjob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SnowflakeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xiaomai" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiaomai.*" />
+          <option name="PATTERN" value="com.xiaomai.hutool5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.SnowflakeTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.xiaomai.hutool5" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.hutool5.TestDemo" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -543,65 +463,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestJson.optionDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xiaomai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaomai.fastjson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.fastjson" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.fastjson.TestJson" />
-      <option name="METHOD_NAME" value="optionDemo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestJson.stringtojdk8Demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xiaomai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaomai.fastjson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.fastjson" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.fastjson.TestJson" />
-      <option name="METHOD_NAME" value="stringtojdk8Demo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="XiaomaiSpringBootInitApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSensitiveWord.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xiaomai-spring-boot-init" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiaomai.xiaomaispringbootinit.*" />
+          <option name="PATTERN" value="com.xiaomai.sensitive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.xiaomaispringbootinit" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.xiaomaispringbootinit.XiaomaiSpringBootInitApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="PACKAGE_NAME" value="com.xiaomai.sensitive" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.sensitive.TestSensitiveWord" />
+      <option name="METHOD_NAME" value="Test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -740,19 +614,19 @@
       <item itemvalue="Spring Boot.NacosActivitiApplication" />
       <item itemvalue="Spring Boot.ComprehensiveApplication" />
       <item itemvalue="Spring Boot.XiaomaiSpringBootPagehelperApplication" />
-      <item itemvalue="JUnit.TestJson.stringtojdk8Demo" />
-      <item itemvalue="JUnit.TestJson.optionDemo" />
-      <item itemvalue="JUnit.SnowflakeTest.test1" />
-      <item itemvalue="JUnit.XiaomaiSpringBootInitApplicationTests.contextLoads" />
       <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="JUnit.TestDemo.test" />
+      <item itemvalue="Application.MyJobDemo" />
+      <item itemvalue="Application.JdbcApplication" />
+      <item itemvalue="JUnit.TestSensitiveWord.Test01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSensitiveWord.Test01" />
+        <item itemvalue="Application.JdbcApplication" />
+        <item itemvalue="Application.MyJobDemo" />
+        <item itemvalue="JUnit.TestDemo.test" />
         <item itemvalue="Application.CodeGenerator" />
-        <item itemvalue="JUnit.XiaomaiSpringBootInitApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.SnowflakeTest.test1" />
-        <item itemvalue="JUnit.TestJson.optionDemo" />
-        <item itemvalue="JUnit.TestJson.stringtojdk8Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -760,15 +634,6 @@
     <configuration>C:\Users\wangfeng\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TestHistory">
-    <history-entry file="SnowflakeTest_test1 - 2021.06.08 at 13h 56m 19s.xml">
-      <configuration name="SnowflakeTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SnowflakeTest_test1 - 2021.06.08 at 14h 03m 15s.xml">
-      <configuration name="SnowflakeTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SnowflakeTest_test1 - 2021.06.08 at 14h 03m 56s.xml">
-      <configuration name="SnowflakeTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SnowflakeTest_test1 - 2021.06.08 at 14h 04m 14s.xml">
       <configuration name="SnowflakeTest.test1" configurationId="JUnit" />
     </history-entry>
@@ -790,6 +655,15 @@
     <history-entry file="XiaomaiSpringBootInitApplicationTests_contextLoads - 2021.06.08 at 14h 11m 43s.xml">
       <configuration name="XiaomaiSpringBootInitApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDemo_test - 2021.07.05 at 19h 04m 31s.xml">
+      <configuration name="TestDemo.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_test - 2021.07.05 at 19h 08m 21s.xml">
+      <configuration name="TestDemo.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSensitiveWord_Test01 - 2021.07.21 at 17h 22m 03s.xml">
+      <configuration name="TestSensitiveWord.Test01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -802,12 +676,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="RestServices" order="5" weight="0.29345495" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="11" weight="0.22317597" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.21125144" />
+      <window_info anchor="right" id="Maven Projects" order="11" visible="true" weight="0.1475322" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="MyBatis Log" order="14" weight="0.3295063" />
       <window_info id="Capture Tool" order="9" />
@@ -817,20 +690,20 @@
       <window_info id="Structure" order="1" sideWeight="0.24500908" side_tool="true" weight="0.17060086" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.304248" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.37772676" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3685419" />
       <window_info anchor="right" id="Codota" order="12" weight="0.3299356" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3283582" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.2893226" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.2835821" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.30884042" />
       <window_info anchor="bottom" id="Run" order="16" weight="0.35591274" />
       <window_info anchor="bottom" id="Sequence" order="14" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.36165327" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.27898967" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7554348" visible="true" weight="0.18615879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7554348" visible="true" weight="0.19581544" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299356" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" weight="0.3272101" />
@@ -855,6 +728,7 @@
       <window_info anchor="right" id="RestServices" order="5" weight="0.29345495" />
       <window_info anchor="right" id="Codota" order="12" weight="0.3299356" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3467279" />
       <window_info anchor="bottom" id="REST Client" order="14" weight="0.40183696" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.36165327" />
@@ -884,7 +758,6 @@
       <window_info anchor="right" id="Maven Projects" order="11" visible="true" weight="0.11856223" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" weight="0.3272101" />
       <window_info anchor="bottom" id="MyBatis Log" order="16" weight="0.3295063" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3846154" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7554348" visible="true" weight="0.2027897" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.44546497" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -894,7 +767,7 @@
       <window_info id="Structure" order="1" sideWeight="0.24500908" side_tool="true" weight="0.17060086" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.3251073" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3467279" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3846154" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299356" />
       <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.33983928" />
     </layout-to-restore>
@@ -952,7 +825,8 @@
     <MESSAGE value="FIX:项目结构、文档优化" />
     <MESSAGE value="FIX:文档优化" />
     <MESSAGE value="ADD:属性读取、opslabJutil升级2.0.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD:属性读取、opslabJutil升级2.0.4" />
+    <MESSAGE value="ADD:Magic-api框架、平台说明更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD:Magic-api框架、平台说明更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1003,266 +877,91 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="55" />
+      <option name="time" value="56" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/xiaomai/src/main/java/com/xiaomai/hutool5/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="440">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.9.RELEASE/spring-boot-autoconfigure-2.3.9.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.7.3/hutool-all-5.7.3-sources.jar!/cn/hutool/core/text/CharSequenceUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="175">
+          <caret line="3639" column="25" selection-start-line="3639" selection-start-column="25" selection-end-line="3639" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.context.annotation.Configuration</node>
-            <node x="" y="">org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration</node>
-            <node x="" y="">org.springframework.boot.autoconfigure.condition.ConditionalOnBean</node>
-            <node x="" y="">org.springframework.beans.factory.Aware</node>
-            <node x="" y="">org.springframework.beans.factory.SmartInitializingSingleton</node>
-            <node x="" y="">org.springframework.context.ApplicationContextAware</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="529.0" y="104.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.2.5.RELEASE/spring-cloud-context-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/elasticjob/elasticjob-api/3.0.0/elasticjob-api-3.0.0.jar!/org/apache/shardingsphere/elasticjob/api/JobConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="61" />
+        <state relative-caret-position="102">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.9.RELEASE/spring-boot-2.3.9.RELEASE.jar!/org/springframework/boot/SpringBootConfiguration.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/elasticjob/elasticjob-registry-center/3.0.0/elasticjob-registry-center-3.0.0.jar!/org/apache/shardingsphere/elasticjob/reg/zookeeper/ZookeeperRegistryCenter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/elasticjob/elasticjob-lite-core/3.0.0/elasticjob-lite-core-3.0.0.jar!/org/apache/shardingsphere/elasticjob/lite/api/bootstrap/impl/ScheduleJobBootstrap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.9.RELEASE/spring-boot-autoconfigure-2.3.9.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/IPAccessFileWatchdog.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/helpers/FileWatchdog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-swagger/src/docs/markdown/generated/all.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2904" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-boot-swagger/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" column="21" selection-start-line="41" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-quartz/2.3.9.RELEASE/spring-boot-starter-quartz-2.3.9.RELEASE.jar!/META-INF/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-quartz/2.3.9.RELEASE/spring-boot-starter-quartz-2.3.9.RELEASE.jar!/META-INF/NOTICE.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test-autoconfigure/2.3.11.RELEASE/spring-boot-test-autoconfigure-2.3.11.RELEASE.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1989" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.2/quartz-2.3.2.jar!/org/quartz/quartz.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/MyConfigDemoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/2.3.9.RELEASE/spring-boot-starter-actuator-2.3.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-aop/2.3.9.RELEASE/spring-boot-starter-aop-2.3.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.3.9.RELEASE/spring-boot-starter-2.3.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.3.9.RELEASE/spring-boot-dependencies-2.3.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34892">
-          <caret line="1696" column="21" selection-start-line="1696" selection-start-column="21" selection-end-line="1696" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.3.9.RELEASE/spring-boot-starter-parent-2.3.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/db/migration/V1__demo.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/db/migration/V1.1.1_001__V1.2_Add_Tables.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/serviceImpl.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/service.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/mapper.xml.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/mapper.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/entity.java.vm">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/elasticjob/elasticjob-lite-core/3.0.0/elasticjob-lite-core-3.0.0.jar!/org/apache/shardingsphere/elasticjob/lite/internal/schedule/JobScheduler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="136" column="9" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+        <state relative-caret-position="2706">
+          <caret line="160" column="88" selection-start-line="160" selection-start-column="88" selection-end-line="160" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/quartz/CustomizeScheduleConfigTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/quartz/TestJobBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/magic-editor-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/Dog.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/elasticjob/elasticjob-infra-common/3.0.0/elasticjob-infra-common-3.0.0.jar!/org/apache/shardingsphere/elasticjob/infra/handler/sharding/JobInstance.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/MyConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/elasticjob/elasticjob-infra-common/3.0.0/elasticjob-infra-common-3.0.0.jar!/org/apache/shardingsphere/elasticjob/infra/env/IpUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="792">
+          <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java8/jdk1.8.0_25/src.zip!/java/io/FileInputStream.java">
+    <entry file="jar://C:/Java8/jdk1.8.0_25/src.zip!/java/net/NetworkInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="122" column="67" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="67" />
+        <state relative-caret-position="6688">
+          <caret line="340" column="48" selection-start-line="340" selection-start-column="48" selection-end-line="340" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-plus-generator/src/main/resources/generator/controller.java.vm">
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/elasticjob/MyJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state relative-caret-position="660">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-plus-generator/src/main/java/com/xiaomai/CodeGenerator.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/shardingsphere/elasticjob/elasticjob-lite-core/3.0.0/elasticjob-lite-core-3.0.0.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        <state relative-caret-position="726">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-plus-generator/pom.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.18/lombok-1.18.18.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="144" column="36" lean-forward="true" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/controller/TestFile.java" />
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="-132">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1273,6 +972,205 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-test/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jpa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jpa/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/dao/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/dao/JdbcDao.java" />
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/resources/mapper/order/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/service/JdbcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibaba-nacos-provider/src/main/java/com/xiaomai/cloud/mapper/order/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/controller/JdbcController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jdbc/src/main/resources/mapper/DemoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/dao/DemoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/config/JdbcTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jdbc/src/main/java/com/cloud/boot/jbdc/JdbcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/CustomizationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/MyConfigDemoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/MyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/elasticjob/MyJobDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/compent/SnowflakeConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/IWordDeny.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/MyWordDeny.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/MyWordAllow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/IWordAllow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/sensitive/TestSensitiveWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="206" column="19" lean-forward="true" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1280,69 +1178,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="444" column="4" selection-start-line="444" selection-start-column="4" selection-end-line="444" selection-end-column="4" />
+          <first_editor relative-caret-position="188">
+            <caret line="91" column="10" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="76" column="14" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3388">
-          <caret line="154" column="39" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot/src/test/java/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3784">
-          <caret line="172" column="34" selection-start-line="172" selection-start-column="34" selection-end-line="172" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/config/converter/LocalDateTimeConverter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-init/src/main/java/com/xiaomai/xiaomaispringbootinit/XiaomaiSpringBootInitApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="86" column="6" selection-start-line="86" selection-start-column="4" selection-end-line="126" selection-end-column="7" />
+        <state relative-caret-position="22">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2054#2082#1" expanded="true" />
+            <element signature="e#2132#2148#1" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-sharejdbc/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-boot-jdbc/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-plus-xxljob/src/main/java/com/xiaomai/cloud/plusxxljob/XxlJobApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-plus-xxljob/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="ideajad">

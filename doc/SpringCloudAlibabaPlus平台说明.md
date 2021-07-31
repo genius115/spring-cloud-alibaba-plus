@@ -87,6 +87,17 @@
 
   3、
   
+### 3.1 nacos-boot-jdbc 10013 Jdbc持久化
+   1、多数据源
+   注意：多数据源必须指定@primary为主，避免类型一致时，多个实例报错或者使用@Qualifier指定实例名
+   
+   
+   2、jdbcTemplate
+   
+   
+   
+   
+   
   
 ### 3.5 nacos-boot-jpa 10016 持久化JPA
 
@@ -445,6 +456,22 @@ assertThat 使用了 Hamcrest 的 Matcher 匹配符
     
     6、定时任务 spring-boot-starter-quartz
     示例代码：compent.quartz包
+    
+    
+    7、myexcel  easyexcel  Excel文件操作  poi  poi-xml
+    
+    
+    8、
+    
+    9、
+    
+    10、
+    
+    11、
+    
+    
+    
+    
     
     
 ### 7.2.4 xiaomai-spring-boot-pagehelper 15302
