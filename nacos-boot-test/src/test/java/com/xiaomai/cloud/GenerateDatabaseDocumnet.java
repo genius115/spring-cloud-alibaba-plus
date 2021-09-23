@@ -28,15 +28,15 @@ public class GenerateDatabaseDocumnet {
     public static void main(String[] args) {
         // 数据源
         HikariConfig hikariConfig = new HikariConfig();
-        /*hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        hikariConfig.setJdbcUrl("jdbc:mysql://localhost:3306/nacos_config?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&useSSL=false");
+        hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
+        hikariConfig.setJdbcUrl("jdbc:mysql://192.168.0.11:3306/mpms_quality?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&useSSL=false");
         hikariConfig.setUsername("root");
-        hikariConfig.setPassword("mysql");*/
+        hikariConfig.setPassword("00000000");
 
-        hikariConfig.setDriverClassName("oracle.jdbc.driver.OracleDriver");
+        /*hikariConfig.setDriverClassName("oracle.jdbc.driver.OracleDriver");
         hikariConfig.setJdbcUrl("jdbc:oracle:thin:@192.168.0.2:1521:ORCL");
         hikariConfig.setUsername("NHMPMS");
-        hikariConfig.setPassword("MPMS");
+        hikariConfig.setPassword("MPMS");*/
 
         // 设置可以获取tables remarks信息
         hikariConfig.addDataSourceProperty("useInformationSchema", "true");
@@ -64,7 +64,7 @@ public class GenerateDatabaseDocumnet {
         List<String> ignorePrefix = Arrays.asList("test_", "test"
                 ,"A","B","C","D","E","F","G","H","I","J","K","L","M"
                 ,"NH_VISUAL","NYXT_KZ"
-                ,"O","P","Q","R","S","T","U","V","W","X","Y","Z");
+                ,"O","Q","R","S","T","U","V","W","X","Y","Z");
         // 忽略表后缀
         List<String> ignoreSuffix = Arrays.asList("_test", "test");
 
@@ -75,11 +75,12 @@ public class GenerateDatabaseDocumnet {
         // 3、生成文档配置（包含以下自定义版本号、描述等配置连接）
         Configuration config = Configuration.builder()
                 //.title("标题【数据库设计文档】")
-                .title("【综合展现-沙盘数据库设计文档】")
+                //.title("【综合展现-沙盘数据库设计文档】")
+                .title("【基建数字化平台-质量管理 数据库设计文档】")
                 .version("1.0.0")
                 .description("描述【数据库文档】")
-                .organization("组织【小麦科技】")
-                .organizationUrl("网址【www.baidu.com】")
+                .organization("组织【北京易用视点】")
+                .organizationUrl("网址【http://www.vrfirst.cn】")
                 .dataSource(dataSource)
                 .engineConfig(engineConfig).produceConfig(processConfig).build();
 
