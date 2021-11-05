@@ -29,8 +29,8 @@ public class GenerateDatabaseDocumnet {
         // 数据源
         HikariConfig hikariConfig = new HikariConfig();
         hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        hikariConfig.setJdbcUrl("jdbc:mysql://192.168.0.11:3306/mpms_quality?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&useSSL=false");
-        hikariConfig.setUsername("root");
+        hikariConfig.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/test_db?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&useSSL=false");
+        hikariConfig.setUsername("00000000");
         hikariConfig.setPassword("00000000");
 
         /*hikariConfig.setDriverClassName("oracle.jdbc.driver.OracleDriver");
@@ -75,12 +75,11 @@ public class GenerateDatabaseDocumnet {
         // 3、生成文档配置（包含以下自定义版本号、描述等配置连接）
         Configuration config = Configuration.builder()
                 //.title("标题【数据库设计文档】")
-                //.title("【综合展现-沙盘数据库设计文档】")
-                .title("【基建数字化平台-质量管理 数据库设计文档】")
+                .title("【数据库设计文档】")
                 .version("1.0.0")
                 .description("描述【数据库文档】")
-                .organization("组织【北京易用视点】")
-                .organizationUrl("网址【http://www.vrfirst.cn】")
+                .organization("组织【XXX】")
+                .organizationUrl("网址【http://www.baidu.com】")
                 .dataSource(dataSource)
                 .engineConfig(engineConfig).produceConfig(processConfig).build();
 

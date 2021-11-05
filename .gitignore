@@ -3,7 +3,6 @@
 ### Example user template
 
 # IntelliJ project files
-/target/
 .idea
 *.iml
 out
@@ -30,3 +29,8 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+*/target/*
+/.idea/*
+*.class
+workspace.xml
