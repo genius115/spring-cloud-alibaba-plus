@@ -204,6 +204,13 @@
             <version>3.0.0.RELEASE</version>
         </dependency>
 
+        <!-- http客户端工具  RestTemplate或者okhttp -->
+        <dependency>
+            <groupId>com.github.lianjiatech</groupId>
+            <artifactId>retrofit-spring-boot-starter</artifactId>
+            <version>2.2.9</version>
+        </dependency>
+
     </dependencies>
 
     <build>

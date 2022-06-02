@@ -29,9 +29,9 @@ public class GenerateDatabaseDocumnet {
         // 数据源
         HikariConfig hikariConfig = new HikariConfig();
         hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        hikariConfig.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/test_db?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&useSSL=false");
-        hikariConfig.setUsername("00000000");
-        hikariConfig.setPassword("00000000");
+        hikariConfig.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/db2020?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&useSSL=false");
+        hikariConfig.setUsername("root");
+        hikariConfig.setPassword("mysql");
 
         /*hikariConfig.setDriverClassName("oracle.jdbc.driver.OracleDriver");
         hikariConfig.setJdbcUrl("jdbc:oracle:thin:@192.168.0.2:1521:ORCL");
@@ -56,9 +56,12 @@ public class GenerateDatabaseDocumnet {
                 .fileType(EngineFileType.WORD)
                 // 生成模板实现  模板类型
                 //  EngineTemplateType枚举类中提供两种类型：freemarker、velocity。
-                .produceType(EngineTemplateType.freemarker).build();
+                .produceType(EngineTemplateType.freemarker)
+                //自定义模板
+                .customTemplate("C:\\Users\\wangfeng\\IdeaProjects\\spring-cloud-alibaba-plus\\nacos-boot-test\\src\\main\\resources\\template\\freemarker\\documentation_word.ftl")
+                .build();
 
-        // 忽略表名
+       /* // 忽略表名
         List<String> ignoreTableName = Arrays.asList("test");
         // 忽略表前缀
         List<String> ignorePrefix = Arrays.asList("test_", "test"
@@ -66,7 +69,14 @@ public class GenerateDatabaseDocumnet {
                 ,"NH_VISUAL","NYXT_KZ"
                 ,"O","Q","R","S","T","U","V","W","X","Y","Z");
         // 忽略表后缀
-        List<String> ignoreSuffix = Arrays.asList("_test", "test");
+        List<String> ignoreSuffix = Arrays.asList("_test", "test");*/
+        
+       // 忽略表名
+        List<String> ignoreTableName = Arrays.asList();
+        // 忽略表前缀
+        List<String> ignorePrefix = Arrays.asList();
+        // 忽略表后缀
+        List<String> ignoreSuffix = Arrays.asList();
 
         // 2、配置想要忽略的表
         ProcessConfig processConfig = ProcessConfig.builder().ignoreTableName(ignoreTableName)

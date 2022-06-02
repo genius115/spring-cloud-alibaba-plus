@@ -6,10 +6,10 @@ driver = oracle.jdbc.driver.OracleDriver
 
 ## 打印SQL的配置
 # 是否在日志中显示执行的SQL，默认false
-showSql = true
+#showSql = true
 # 是否格式化显示的SQL，默认false
-formatSql = true
+#formatSql = true
 # 是否显示SQL参数，默认false
-showParams = true
+#showParams = true
 # 打印SQL的日志等级，默认debug
-sqlLevel = debug
+#sqlLevel = debug

@@ -40,7 +40,18 @@
 ### 2.15 cloud-plus-xxljob  30020 分布式任务调度
 
 
-
+### 2.20 demo 
+  1、容器化部署 
+  ```
+   docker 容器 Dockerfile
+   
+   docker-compose 容器化编排 docker-compose.yml/docker-compose.yaml
+   
+   docker-swarm 容器化集群 Raft   
+   
+  
+  ```
+ 
 
 
 > 基于nacos-boot-XXX项目
@@ -461,7 +472,9 @@ assertThat 使用了 Hamcrest 的 Matcher 匹配符
     7、myexcel  easyexcel  Excel文件操作  poi  poi-xml
     
     
-    8、
+    8、retrofit-spring-boot-starter客户端
+    教程：https://zhuanlan.zhihu.com/p/166506903
+    
     
     9、
     
