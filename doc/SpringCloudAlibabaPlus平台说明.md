@@ -424,7 +424,15 @@ assertThat 使用了 Hamcrest 的 Matcher 匹配符
     3、tk.mybatis  通用mapper (可自行扩展BaseMapper)
     https://mapperhelper.github.io/docs/
     
-    4、MyBatis Generator  代码自动生成    
+    4、MyBatis Generator  代码自动生成  
+    
+    5、文件服务 FileService
+    @Primary
+    @Service
+    
+    6、消息服务 MsgService
+    @Configuration
+    @ConditionalOnProperty(name = "msg.type",havingValue = "rocket")
     
 
 ### 7.2.3 xiaomai-spring-boot-init  15301
