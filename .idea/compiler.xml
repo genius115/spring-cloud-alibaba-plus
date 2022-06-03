@@ -34,6 +34,7 @@
         <module name="spring-cloud-gateway-server" />
         <module name="xiaomai" />
         <module name="xiaomai-spring-boot" />
+        <module name="xiaomai-spring-boot-base" />
         <module name="xiaomai-spring-boot-init" />
         <module name="xiaomai-spring-boot-pagehelper" />
         <module name="xiaomai-spring-boot-starter" />
@@ -70,6 +71,7 @@
       <module name="spring-cloud-gateway-server" target="1.8" />
       <module name="xiaomai" target="1.8" />
       <module name="xiaomai-spring-boot" target="1.8" />
+      <module name="xiaomai-spring-boot-base" target="1.8" />
       <module name="xiaomai-spring-boot-init" target="1.8" />
       <module name="xiaomai-spring-boot-pagehelper" target="1.8" />
       <module name="xiaomai-spring-boot-starter" target="1.5" />

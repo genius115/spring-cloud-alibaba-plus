@@ -30,6 +30,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway-server/spring-cloud-gateway-server.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway-server/spring-cloud-gateway-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai/xiaomai.iml" filepath="$PROJECT_DIR$/xiaomai/xiaomai.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot/xiaomai-spring-boot.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot/xiaomai-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-base/xiaomai-spring-boot-base.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-base/xiaomai-spring-boot-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-base/xiaomai-spring-boot-base.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-base/xiaomai-spring-boot-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-init/xiaomai-spring-boot-init.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-init/xiaomai-spring-boot-init.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-pagehelper/xiaomai-spring-boot-pagehelper.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-pagehelper/xiaomai-spring-boot-pagehelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-starter/xiaomai-spring-boot-starter.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-starter/xiaomai-spring-boot-starter.iml" />

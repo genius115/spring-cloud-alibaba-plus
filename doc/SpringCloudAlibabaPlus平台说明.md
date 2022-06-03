@@ -426,13 +426,19 @@ assertThat 使用了 Hamcrest 的 Matcher 匹配符
     
     4、MyBatis Generator  代码自动生成  
     
-    5、文件服务 FileService
-    @Primary
+    5、文件服务 FileService  Minio Oss
+    @Primary  唯一性
     @Service
     
-    6、消息服务 MsgService
-    @Configuration
+    6、消息服务 MsgService  Rocket Rabbit
+    @Configuration  条件bean
     @ConditionalOnProperty(name = "msg.type",havingValue = "rocket")
+    
+    7、
+### 7.2.2.5 xiaomai-spring-boot-base  15251  
+    基本的spring boot项目  
+    1、
+    
     
 
 ### 7.2.3 xiaomai-spring-boot-init  15301
