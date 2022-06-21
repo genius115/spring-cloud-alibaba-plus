@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaomai.xiaomaispringbootbase.Dao.UserMapper">
+
+    <!--association 用法  嵌套或者复用 -->
+    <resultMap type="com.xiaomai.xiaomaispringbootbase.Bean.Card" id="cardMap">
+        <id property="cardId"
+            column="card_id"/>
+        <result property="cardNum"
+                column="card_num"/>
+        <result property="address"
+                column="address"/>
+    </resultMap>
+    
+    <resultMap type="com.xiaomai.xiaomaispringbootbase.Bean.User" id="userMap">
+        <id property="userId"
+            column="user_id"/>
+        <result property="userName"
+                column="user_name"/>
+        <result property="age"
+                column="age"/>
+        
+        <!--<association property="card"
+                     column="card_id"
+                     select="com.xiaomai.xiaomaispringbootbase.Dao.CardMapper.queryCardById">
+        </association>-->
+        
+        <!--<association property="card" resultMap="cardMap">
+        </association>-->
+        <association
+                property="card"
+                column="card_id"
+                javaType="com.xiaomai.xiaomaispringbootbase.Bean.Card">
+            <id property="cardId"
+                column="card_id"/>
+            <result property="cardNum"
+                    column="card_num"/>
+            <result property="address"
+                    column="address"/>
+        </association>
+    </resultMap> 
+    
+    <select id="queryById" parameterType="int" resultMap="userMap">
+        SELECT 
+           u.user_id,u.user_name,u.age,c.card_id,c.card_num,c.address
+        FROM 
+          tb_user u,tb_card c
+        WHERE 
+          u.card_id=c.card_id AND u.user_id=#{userId}
+    </select>
+
+    <!--Collection 用法  嵌套或者复用 -->
+    <resultMap type="com.xiaomai.xiaomaispringbootbase.Bean.User" id="userMap2">
+        <id column="user_id" property="userId" />
+        <result property="userName" column="user_name"/>
+        <result property="age" column="age"/>
+        
+        <association
+                property="card"
+                column="card_id"
+                javaType="com.xiaomai.xiaomaispringbootbase.Bean.Card">
+            <id property="cardId"
+                column="card_id"/>
+            <result property="cardNum"
+                    column="card_num"/>
+            <result property="address"
+                    column="address"/>
+        </association>
+        
+        <collection property="mobilePhone"
+                    column="user_id"
+                    ofType="com.xiaomai.xiaomaispringbootbase.Bean.MobilePhone">
+            <id column="mobile_phone_id" property="mobilePhoneId" />
+            <result column="brand"
+                    property="brand" />
+            <result column="price"
+                    property="price" />
+        </collection>
+    </resultMap>
+
+    <select id="queryPhoneById" parameterType="int" resultMap="userMap2">
+        SELECT 
+          u.user_id,u.user_name,u.age,
+          c.card_id,c.card_num,c.address,
+          m.mobile_phone_id,m.brand,m.price
+        FROM 
+          tb_user u,tb_card c,tb_mobile_phone m
+        WHERE 
+          u.card_id=c.card_id AND m.user_id=u.user_id AND u.user_id=#{userId}
+    </select>
+    
+</mapper>
+
+
+

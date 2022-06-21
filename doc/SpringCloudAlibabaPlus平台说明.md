@@ -446,6 +446,13 @@ assertThat 使用了 Hamcrest 的 Matcher 匹配符
     1、MyBatis的Collection 和 Association用法
     collection用法  has many  集合
     Association用法  has one  对象
+    
+    MyBatis标签：
+    where set trim foreach if 
+    
+    标签参考网址：
+    http://mybatis.org/dtd/mybatis-3-mapper.dtd
+    
     2、
     
 
