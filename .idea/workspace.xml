@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="59476833-6d8b-47e8-961d-75549b2ec125" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaomai-spring-boot-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomai-spring-boot-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaomai-spring-boot-base/src/test/java/com/xiaomai/xiaomaispringbootbase/XiaomaiSpringBootBaseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomai-spring-boot-base/src/test/java/com/xiaomai/xiaomaispringbootbase/XiaomaiSpringBootBaseApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,30 +76,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/service/TestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -165,8 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java" />
-        <option value="$PROJECT_DIR$/demo/Dockerfile.yml" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/demo/my.cnf" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/example/demo/hello/HelloController.java" />
@@ -200,7 +175,6 @@
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/TestMapper.fxml" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/TestMapper.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/pom.xml" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/TestMapper.xml" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/BaseApplication.java" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Bean/UserBean.java" />
@@ -216,6 +190,9 @@
         <option value="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/UserMapper.xml" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/service/TestService.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/test/java/com/xiaomai/xiaomaispringbootbase/HellControllerTest.java" />
+        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/test/java/com/xiaomai/xiaomaispringbootbase/XiaomaiSpringBootBaseApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -263,9 +240,9 @@
       <path value="$PROJECT_DIR$/nacos-activiti/src/main/resources/static/visual-ivr-master/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="201" />
-    <option name="y" value="250" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="265" />
+    <option name="y" value="75" />
     <option name="width" value="1389" />
     <option name="height" value="882" />
   </component>
@@ -279,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -343,54 +321,17 @@
               <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
               <item name="xiaomaispringbootbase" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomaispringbootbase" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomaispringbootbase" type="462c0819:PsiDirectoryNode" />
-              <item name="Dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai-spring-boot-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomai" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaomaispringbootbase" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
-    <property name="MyBatisLogPluginindexNum" value="37" />
+    <property name="MyBatisLogPluginindexNum" value="39" />
     <property name="MyBatisLogPluginparameters" value="Parameters:" />
     <property name="MyBatisLogPluginpreparing" value="Preparing:" />
     <property name="MyBatisLogPluginrunning" value="true" />
@@ -474,7 +415,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.16611843" />
+    <option name="contentProportion" value="0.15899123" />
   </component>
   <component name="RunManager" selected="Spring Boot.XiaomaiSpringBootBaseApplication">
     <configuration name="GenerateDatabaseDocumnet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -499,33 +440,45 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MyJobDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.xiaomaispringbootinit.elasticjob.MyJobDemo" />
-      <module name="xiaomai-spring-boot-init" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaomai.xiaomaispringbootinit.elasticjob.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xiaomai" />
+    <configuration name="HellControllerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xiaomai-spring-boot-base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiaomai.hutool5.*" />
+          <option name="PATTERN" value="com.xiaomai.xiaomaispringbootbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaomai.hutool5" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaomai.hutool5.TestDemo" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.xiaomai.xiaomaispringbootbase" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.xiaomaispringbootbase.HellControllerTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HellControllerTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xiaomai-spring-boot-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaomai.xiaomaispringbootbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xiaomai.xiaomaispringbootbase" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaomai.xiaomaispringbootbase.HellControllerTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -702,19 +655,19 @@
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.XiaomaiSpringbootBaseApplication" />
       <item itemvalue="Spring Boot.XiaomaiSpringBootBaseApplication" />
-      <item itemvalue="JUnit.TestDemo.test" />
-      <item itemvalue="Application.MyJobDemo" />
       <item itemvalue="Application.JdbcApplication" />
       <item itemvalue="JUnit.TestSensitiveWord.Test01" />
       <item itemvalue="Application.GenerateDatabaseDocumnet" />
+      <item itemvalue="JUnit.HellControllerTest.test1" />
+      <item itemvalue="JUnit.HellControllerTest.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HellControllerTest.test2" />
+        <item itemvalue="JUnit.HellControllerTest.test1" />
         <item itemvalue="Application.GenerateDatabaseDocumnet" />
         <item itemvalue="JUnit.TestSensitiveWord.Test01" />
         <item itemvalue="Application.JdbcApplication" />
-        <item itemvalue="Application.MyJobDemo" />
-        <item itemvalue="JUnit.TestDemo.test" />
       </list>
     </recent_temporary>
   </component>
@@ -725,21 +678,6 @@
     <configuration>C:\Users\wangfeng\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TestHistory">
-    <history-entry file="SnowflakeTest_test1 - 2021.06.08 at 14h 04m 14s.xml">
-      <configuration name="SnowflakeTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SnowflakeTest_test1 - 2021.06.08 at 14h 04m 30s.xml">
-      <configuration name="SnowflakeTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XiaomaiSpringBootInitApplicationTests_contextLoads - 2021.06.08 at 14h 05m 31s.xml">
-      <configuration name="XiaomaiSpringBootInitApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XiaomaiSpringBootInitApplicationTests_contextLoads - 2021.06.08 at 14h 06m 35s.xml">
-      <configuration name="XiaomaiSpringBootInitApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XiaomaiSpringBootInitApplicationTests_contextLoads - 2021.06.08 at 14h 08m 36s.xml">
-      <configuration name="XiaomaiSpringBootInitApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="XiaomaiSpringBootInitApplicationTests_contextLoads - 2021.06.08 at 14h 08m 57s.xml">
       <configuration name="XiaomaiSpringBootInitApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
@@ -755,6 +693,21 @@
     <history-entry file="TestSensitiveWord_Test01 - 2021.07.21 at 17h 22m 03s.xml">
       <configuration name="TestSensitiveWord.Test01" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HellControllerTest_test1 - 2022.06.22 at 13h 06m 53s.xml">
+      <configuration name="HellControllerTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HellControllerTest_test1 - 2022.06.22 at 13h 08m 23s.xml">
+      <configuration name="HellControllerTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HellControllerTest_test2 - 2022.06.22 at 13h 35m 17s.xml">
+      <configuration name="HellControllerTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HellControllerTest_test2 - 2022.06.22 at 13h 36m 11s.xml">
+      <configuration name="HellControllerTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HellControllerTest_test2 - 2022.06.22 at 13h 39m 57s.xml">
+      <configuration name="HellControllerTest.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -766,8 +719,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="RestServices" order="5" weight="0.29345495" />
@@ -783,21 +735,20 @@
       <window_info id="Structure" order="1" sideWeight="0.24500908" side_tool="true" weight="0.17060086" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.37772676" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.34067208" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.36848205" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.2962963" />
       <window_info anchor="right" id="Codota" order="12" weight="0.3299356" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3283582" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.3275463" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.21436848" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3696408" />
       <window_info anchor="bottom" id="Run" order="16" weight="0.2653534" />
       <window_info anchor="bottom" id="Sequence" order="14" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.36152956" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.27898967" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7554348" visible="true" weight="0.18240343" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7554348" visible="true" weight="0.17328326" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299356" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" weight="0.3272101" />
@@ -811,6 +762,7 @@
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.20118026" />
       <window_info anchor="bottom" id="Problems" order="18" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.2962963" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3846154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -820,6 +772,7 @@
     <layout-to-restore>
       <window_info anchor="right" id="Codota" order="12" weight="0.3299356" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3467279" />
       <window_info anchor="bottom" id="REST Client" order="14" weight="0.40183696" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -849,7 +802,6 @@
       <window_info anchor="right" id="Maven Projects" order="11" visible="true" weight="0.11856223" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" weight="0.3272101" />
       <window_info id="Structure" order="1" sideWeight="0.24500908" side_tool="true" weight="0.17060086" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3846154" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.44546497" />
       <window_info anchor="right" id="Database" order="6" weight="0.3299356" />
@@ -860,7 +812,7 @@
       <window_info anchor="right" id="RestServices" order="5" weight="0.29345495" />
       <window_info anchor="bottom" id="MyBatis Log" order="16" weight="0.3295063" />
       <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.3251073" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3467279" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3846154" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299356" />
       <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.33983928" />
     </layout-to-restore>
@@ -974,24 +926,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="56" />
+      <option name="time" value="57" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot/src/main/java/com/xiaomai/springboot/TestHuTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-pagehelper/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="28" column="58" lean-forward="true" selection-start-line="1" selection-end-line="28" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaomai/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -1156,21 +1094,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/TestMapper.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="75" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/TestDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/TestMapper.fxml" />
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/TestDao.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-484" />
@@ -1183,37 +1108,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Bean/CardBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Bean/UserBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Bean/CardBean.java" />
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Bean/UserBean.java" />
     <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/TestMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1239,9 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1249,9 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1291,20 +1181,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1320,19 +1200,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="1958">
           <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/service/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="550">
           <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/test/java/com/xiaomai/xiaomaispringbootbase/XiaomaiSpringBootBaseApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/test/java/com/xiaomai/xiaomaispringbootbase/HellControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/BaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
