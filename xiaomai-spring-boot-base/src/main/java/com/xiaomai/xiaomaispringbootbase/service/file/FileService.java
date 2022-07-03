@@ -1,4 +1,4 @@
-package com.xiaomai.springboot.service.file;
+package com.xiaomai.xiaomaispringbootbase.service.file;
 
 /**
  * @author Madison

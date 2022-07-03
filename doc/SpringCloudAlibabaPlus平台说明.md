@@ -426,15 +426,17 @@ assertThat 使用了 Hamcrest 的 Matcher 匹配符
     
     4、MyBatis Generator  代码自动生成  
     
-    5、文件服务 FileService  Minio Oss   接口多实现
+    5、单接口多实例，自动注入  文件服务 FileService  Minio Oss   接口多实现
     @Primary  唯一性
     @Service
+    5.1接口默认方法
+    5.1接口静态方法
     
-    6、消息服务 MsgService  Rocket Rabbit  接口多实现
+    6、单接口多实例，自动注入   消息服务 MsgService  Rocket Rabbit  接口多实现
     @Configuration  条件bean
     @ConditionalOnProperty(name = "msg.type",havingValue = "rocket")
     
-    7、邮件服务 MailService  AliMail SinaMail  接口多实现
+    7、单接口多实例，自动注入   邮件服务 MailService  AliMail SinaMail  接口多实现
     @Bean
     @ConditionalOnProperty(name = "mail.type",havingValue = "ali")
     
@@ -453,7 +455,21 @@ assertThat 使用了 Hamcrest 的 Matcher 匹配符
     标签参考网址：
     http://mybatis.org/dtd/mybatis-3-mapper.dtd
     
-    2、
+    2、数据结构
+    基本7种数据类型及包装类
+    Map 
+    List 
+    Collection 
+    TreeMap 
+    TreeSet 
+    数组
+    集合
+    队列
+    栈
+    LinkedBlockingQueue<String>
+    
+    3、
+    
     
 
 ### 7.2.3 xiaomai-spring-boot-init  15301

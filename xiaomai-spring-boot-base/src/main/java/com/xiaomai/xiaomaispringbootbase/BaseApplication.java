@@ -1,6 +1,5 @@
 package com.xiaomai.xiaomaispringbootbase;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,8 +10,4 @@ public class BaseApplication {
         SpringApplication.run(BaseApplication.class, args);
     }
     
-    
-    
-    
-
 }

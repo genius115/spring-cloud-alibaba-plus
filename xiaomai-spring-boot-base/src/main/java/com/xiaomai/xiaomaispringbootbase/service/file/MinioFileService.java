@@ -1,6 +1,7 @@
-package com.xiaomai.springboot.service.file;
+package com.xiaomai.xiaomaispringbootbase.service.file;
 
-import cn.hutool.core.date.DateUtil;
+import com.xiaomai.xiaomaispringbootbase.Dao.TestMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +12,9 @@ import org.springframework.stereotype.Service;
 @Primary
 @Service
 public class MinioFileService implements FileService{
+    
+    @Autowired
+    public TestMapper testMapper;
 
     /**
      * 接口默认方法重载
@@ -24,7 +28,7 @@ public class MinioFileService implements FileService{
     @Override
     public String uploadFile() {
         System.out.println("MinioFileService uploadFile！！！");
-        return "MinioFileService:"+DateUtil.today();
+        return "MinioFileService:"+testMapper.querybook();
     }
 
     @Override
