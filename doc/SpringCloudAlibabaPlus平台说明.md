@@ -468,7 +468,18 @@ assertThat 使用了 Hamcrest 的 Matcher 匹配符
     栈
     LinkedBlockingQueue<String>
     
-    3、
+    3、线程池 AsyncCOnfig
+    ThreadPoolTaskExecutor
+    ThreadPoolTaskScheduler
+    
+    4、数据库连接池 DBCP HikriCP C3P0 Druid  DbUtil
+    C3P0
+    Druid
+    DbUtil
+    
+    
+    
+    5、
     
     
 
