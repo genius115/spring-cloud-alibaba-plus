@@ -29,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway-knife4j/spring-cloud-gateway-knife4j.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway-knife4j/spring-cloud-gateway-knife4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway-server/spring-cloud-gateway-server.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway-server/spring-cloud-gateway-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai/xiaomai.iml" filepath="$PROJECT_DIR$/xiaomai/xiaomai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaomai-magic-api/xiaomai-magic-api.iml" filepath="$PROJECT_DIR$/xiaomai-magic-api/xiaomai-magic-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot/xiaomai-spring-boot.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot/xiaomai-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-base/xiaomai-spring-boot-base.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-base/xiaomai-spring-boot-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaomai-spring-boot-init/xiaomai-spring-boot-init.iml" filepath="$PROJECT_DIR$/xiaomai-spring-boot-init/xiaomai-spring-boot-init.iml" />

@@ -28,12 +28,12 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-knife4j" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaomai" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaomai-magic-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaomai-spring-boot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaomai-spring-boot-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaomai-spring-boot-init" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaomai-spring-boot-pagehelper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaomai-spring-boot-starter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xiaomai-springboot-base" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
