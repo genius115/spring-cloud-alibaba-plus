@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/pom.xml" />
         <option value="$PROJECT_DIR$/xiaomai-magic-api/pom.xml" />
+        <option value="$PROJECT_DIR$/example-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/example-boot/pom.xml" />
       </list>
     </option>
   </component>
