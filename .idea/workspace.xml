@@ -5,51 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59476833-6d8b-47e8-961d-75549b2ec125" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/Dockerfile1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/ExampleBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/bean/TbUserBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/controller/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/dao/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/dao/TestMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/server/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-boot/src/test/java/com/xiao/mai/exampleboot/ExampleBootApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/src/main/java/com/xiao/mai/examplenacos/ExampleNacosApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/src/main/java/com/xiao/mai/examplenacos/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-nacos/src/test/java/com/xiao/mai/examplenacos/ExampleNacosApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-boot-swagger/src/docs/asciidoc/html/all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/文档/容器化技术文档.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/demo/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/SpringCloudAlibabaPlus平台说明.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-swagger/src/docs/asciidoc/pdf/all.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-swagger/src/docs/asciidoc/pdf/all.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/META-INF/sun-jaxb.episode" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/META-INF/sun-jaxb.episode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ZFII00JGJSWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ZFII00JGJSWS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ZFII00JGJSWSResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/ZFII00JGJSWSResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-boot-webservice/src/main/java/com/dexcoder/ws/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/Dockerfile1" beforeDir="false" afterPath="$PROJECT_DIR$/demo/文档/Dockerfile1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -144,7 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>com.home.orderpresentdemo.entity.OrderPresentInfo</find>
       <find>PmsVisialZlypInfo</find>
       <find>lomb</find>
       <find>单元测试</find>
@@ -174,6 +134,7 @@
       <find>pagehe</find>
       <find>demo</find>
       <find>page</find>
+      <find>developer</find>
     </findStrings>
     <replaceStrings>
       <replace>CityMongDBRepository</replace>
@@ -192,19 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/service/TestService.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/test/java/com/xiaomai/xiaomaispringbootbase/HellControllerTest.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/test/java/com/xiaomai/xiaomaispringbootbase/XiaomaiSpringBootBaseApplicationTests.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/Dao/CardMapper.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot/src/main/java/com/xiaomai/springboot/service/file/FileService.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot/src/main/java/com/xiaomai/springboot/service/file/MinioFileService.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot/src/main/java/com/xiaomai/springboot/service/file/LocalFileService.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot/src/main/java/com/xiaomai/springboot/service/file/FileTest.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/config/ThreadPoolConfig.java" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/service/file/FileTest.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/service/file/MinioFileService.java" />
-        <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/service/file/LocalFileService.java" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot/src/main/java/com/xiaomai/springboot/TestHuTool.java" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot/pom.xml" />
@@ -223,7 +171,6 @@
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/util/TestDruidAndDbUtil.java" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/config/AsyncConfig.java" />
         <option value="$PROJECT_DIR$/xiaomai-spring-boot-base/src/main/java/com/xiaomai/xiaomaispringbootbase/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/demo/docker-compose.yml" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/example/demo/hello/HelloController.java" />
         <option value="$PROJECT_DIR$/xiaomai-magic-api/src/main/java/com/xiaomai/magicapi/Test.java" />
@@ -238,11 +185,25 @@
         <option value="$PROJECT_DIR$/example-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/example-nacos/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/example-nacos/src/main/java/com/xiao/mai/examplenacos/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/demo/Dockerfile1" />
         <option value="$PROJECT_DIR$/example-boot/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/Test.java" />
         <option value="$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/ExampleBootApplication.java" />
         <option value="$PROJECT_DIR$/example-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/demo/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/demo/Dockerfile1" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/docker-compose-mpms.yml" />
+        <option value="$PROJECT_DIR$/demo/文档/redis.conf" />
+        <option value="$PROJECT_DIR$/demo/文档/rocketmq/conf/broker.conf" />
+        <option value="$PROJECT_DIR$/demo/文档/docker-compose-mpms.yml" />
+        <option value="$PROJECT_DIR$/demo/文档/.env" />
+        <option value="$PROJECT_DIR$/demo/文档/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/demo/自动部署目录/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/demo/自动部署目录/install/install-docker.sh" />
+        <option value="$PROJECT_DIR$/demo/自动部署目录/install/install-docker-compose.sh" />
+        <option value="$PROJECT_DIR$/demo/自动部署目录/准备资料.md" />
+        <option value="$PROJECT_DIR$/demo/Dockerr容器文档.md" />
       </list>
     </option>
   </component>
@@ -317,9 +278,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="197" />
-    <option name="y" value="36" />
-    <option name="width" value="1528" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1202" />
     <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -332,8 +293,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,11 +303,218 @@
               <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloController" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiao" type="462c0819:PsiDirectoryNode" />
+              <item name="mai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiao" type="462c0819:PsiDirectoryNode" />
+              <item name="mai" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiao" type="462c0819:PsiDirectoryNode" />
+              <item name="mai" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiao" type="462c0819:PsiDirectoryNode" />
+              <item name="mai" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-nacos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-nacos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-nacos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-nacos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-alibaba-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-alibaba-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="example-nacos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,7 +542,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27912825" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -389,11 +558,11 @@
       <recent name="com.xiaomai.cloud.rocket" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\demo" />
       <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\example-boot\src\main\java\com\xiao\mai" />
       <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\example-boot\src\main\java\com\xiao\mai\server" />
       <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\example-boot\src\main\java\com\xiao\mai\dao" />
       <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\example-boot\src\main\java\com\xiao\mai\controller" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\example-boot\src\main\java\com\xiao\mai\bean" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xiaomai" />
@@ -403,11 +572,11 @@
       <recent name="com.xiaomai.cloud.rocket.base" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\demo\文档" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\demo\自动部署目录\install" />
+      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\demo\文档\redis\conf" />
       <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\nacos-activiti\src\main\resources" />
       <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\comprehensive\src\main\resources\config" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\comprehensive\src\main\java\com\mpms\example\test" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\alibaba-nacos-provider\src\test\java\com" />
-      <recent name="C:\Users\wangfeng\IdeaProjects\spring-cloud-alibaba-plus\xiaomai\src" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -436,7 +605,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.13815789" />
+    <option name="contentProportion" value="0.15734649" />
   </component>
   <component name="RunManager" selected="Spring Boot.ExampleBootApplication">
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -743,11 +912,12 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="RestServices" order="5" weight="0.29345495" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50160944" side_tool="true" weight="0.5724218" />
-      <window_info anchor="right" id="Maven Projects" order="11" visible="true" weight="0.16523606" />
+      <window_info anchor="right" id="Maven Projects" order="11" weight="0.32705098" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="MyBatis Log" order="14" weight="0.3295063" />
       <window_info id="Capture Tool" order="9" />
       <window_info id="Designer" order="2" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.19742489" />
       <window_info anchor="bottom" id="Statistic" order="15" weight="0.25578704" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" weight="0.20600858" />
@@ -756,19 +926,18 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.36732328" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.36811593" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.400927" />
       <window_info anchor="right" id="Codota" order="12" weight="0.19635193" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3283582" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49839056" visible="true" weight="0.2746234" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49839056" weight="0.18539977" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3696408" />
       <window_info anchor="bottom" id="Run" order="16" weight="0.382387" />
       <window_info anchor="bottom" id="Sequence" order="14" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.2815759" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.27898967" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7520278" visible="true" weight="0.15987125" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7520278" visible="true" weight="0.14860515" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299356" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" weight="0.27346465" />
@@ -780,9 +949,9 @@
       <window_info anchor="bottom" id="REST Client" order="14" weight="0.44087255" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.20118026" />
       <window_info anchor="bottom" id="Problems" order="18" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3846154" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.400927" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.26071844" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Coverage" order="13" side_tool="true" visible="true" weight="0.09227468" />
@@ -792,6 +961,7 @@
       <window_info anchor="right" id="RestServices" order="5" weight="0.29345495" />
       <window_info anchor="right" id="Codota" order="12" weight="0.3299356" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3467279" />
       <window_info anchor="bottom" id="REST Client" order="14" weight="0.40183696" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.36165327" />
@@ -821,7 +991,6 @@
       <window_info anchor="right" id="Maven Projects" order="11" visible="true" weight="0.11856223" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" weight="0.3272101" />
       <window_info anchor="bottom" id="MyBatis Log" order="16" weight="0.3295063" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3846154" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7554348" visible="true" weight="0.2027897" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.44546497" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -831,7 +1000,7 @@
       <window_info id="Structure" order="1" sideWeight="0.24500908" side_tool="true" weight="0.17060086" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.3251073" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3467279" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3846154" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299356" />
       <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.33983928" />
     </layout-to-restore>
@@ -869,7 +1038,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add:完善平台，增加说明" />
     <MESSAGE value="Add:OSS存储优化" />
     <MESSAGE value="Add:Spring-Jpa集成" />
     <MESSAGE value="Mix:完善、优化" />
@@ -894,7 +1062,8 @@
     <MESSAGE value="文件服务、消息服务测试" />
     <MESSAGE value="获取bean、邮件服务" />
     <MESSAGE value="MyBatis的Collection和Association用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyBatis的Collection和Association用法" />
+    <MESSAGE value="Nacos相关示例项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nacos相关示例项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -902,7 +1071,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/alibaba-nacos-provider/src/test/java/com/xiaomai/cloud/jdk8/Java8Test2.java</url>
           <line>26</line>
-          <properties class="com.xiaomai.cloud.jdk8.Java8Test2" method="main">
+          <properties class="com.xiaomai.cloud.jdk8.Java8Test2">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="8" />
@@ -949,77 +1118,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xiaomai-magic-api/src/main/java/com/xiaomai/magicapi/Test.java" />
-    <entry file="file://$PROJECT_DIR$/xiaomai-magic-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-magic-api/src/main/resources/magic-editor-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-magic-api/doc/SpringBoot配置.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-magic-api/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-magic-api/src/main/java/com/xiaomai/magicapi/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomai-magic-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ssssssss/magic-api/2.0.2/magic-api-2.0.2.jar!/META-INF/maven/org.ssssssss/magic-api/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ssssssss/magic-api/2.0.2/magic-api-2.0.2.jar!/META-INF/maven/org.ssssssss/magic-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ssssssss/magic-api-spring-boot-starter/2.0.2/magic-api-spring-boot-starter-2.0.2.jar!/META-INF/maven/org.ssssssss/magic-api-spring-boot-starter/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ssssssss/magic-api-spring-boot-starter/2.0.2/magic-api-spring-boot-starter-2.0.2.jar!/META-INF/maven/org.ssssssss/magic-api-spring-boot-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ssssssss/magic-editor/2.0.2/magic-editor-2.0.2.jar!/magic-editor/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ssssssss/magic-editor/2.0.2/magic-editor-2.0.2.jar!/magic-editor/favicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ssssssss/magic-api/2.0.2/magic-api-2.0.2.jar!/org/ssssssss/magicapi/core/config/Backup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example-nacos/HELP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1030,23 +1128,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example-1/HELP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/example-1/HELP.md" />
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.6.12/spring-boot-starter-parent-2.6.12.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1936" />
@@ -1096,9 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,20 +1189,10 @@
         <state relative-caret-position="-484" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example-nacos/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example-nacos/src/main/java/com/xiao/mai/examplenacos/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,26 +1210,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/Dockerfile1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example-1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/bean/TbUserBean.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/example-1/pom.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final-sources.jar!/javax/validation/Valid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1200,10 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="2546" column="33" selection-start-line="2546" selection-start-column="33" selection-end-line="2546" selection-end-column="33" />
-          <folding>
-            <element signature="e#101595#101596#0" expanded="true" />
-            <element signature="e#101642#101643#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1221,36 +1267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/server/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/ExampleBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#584#599#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/dao/TestMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1265,10 +1281,185 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example-nacos/example-nacos.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" column="62" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="27" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example-boot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="2882">
           <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-nacos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/自动部署目录/redis/conf/redis.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/自动部署目录/rocketmq/conf/broker.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/自动部署目录/install/install-docker.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/自动部署目录/install/install-docker-compose.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/自动部署目录/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/自动部署目录/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="156" column="22" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/自动部署目录/local.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/自动部署目录/准备资料.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-39">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/文档/Dockerfile1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/文档/容器化技术文档.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="599">
+            <caret line="35" selection-start-line="35" selection-end-line="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.xiao.mai.bean.TbUserBean">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.xiao.mai.bean.TbUserBean</OriginalElement>
+          <nodes>
+            <node x="" y="">com.xiao.mai.bean.TbUserBean</node>
+            <node x="" y="">lombok.Data</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="70.5" y="61.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/ExampleBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+          <folding>
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/server/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-boot/src/main/java/com/xiao/mai/bean/TbUserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/hello/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1318,6 +1509,17 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27912825" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />

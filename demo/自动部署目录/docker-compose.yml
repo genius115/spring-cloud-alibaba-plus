@@ -1,0 +1,361 @@
+# 版本
+version: "3.3"
+
+# 服务
+services:
+  portainer:
+    restart: always
+    image: "portainer/portainer:1.24.1"
+    container_name: mpms-portainer
+    ports:
+      - "9000:9000"
+    networks:
+      - mpms
+    environment:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock 
+      - ./portainer/data:/data
+    env_file:
+      - ./local.env
+  minio:
+    restart: always
+    image: "minio/minio:RELEASE.2020-11-12T22-33-34Z"
+    container_name: mpms-minio
+    ports:
+      - "18000:9000"
+    networks:
+      - mpms
+    environment:
+      MINIO_ACCESS_KEY: admin
+      MINIO_SECRET_KEY: admin123456
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./minio/data:/data
+      - ./minio/config:/root/.minio
+    command: server /data
+  mysql:
+    restart: always
+    image: "mysql:5.7.26"
+    container_name: mpms-mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - mpms
+    environment:
+      TZ: Asia/shanghai
+      MYSQL_ROOT_PASSWORD: 00000000
+    volumes:
+      - ./mysql/db:/var/lib/mysql
+    command: 
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_general_ci
+      --explicit_defaults_for_timestamp
+      --lower_case_table_names=1
+      --max_allowed_packet=128M
+      --sql-mode="STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION,NO_ZERO_DATE,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO"
+  redis:
+    restart: always
+    image: "redis:6.2.5"    
+    container_name: mpms-redis 
+    ports:
+      - "6379:6379"
+    networks:
+      - mpms
+    environment:
+      TZ: Asia/Shanghai
+    volumes:
+      - ./redis/conf:/etc/redis
+      - ./redis/data:/data
+    command: ["redis-server","/etc/redis/redis.conf"]
+  nacos:
+    restart: always
+    image: "nacos/nacos-server:v2.1.0"
+    container_name: mpms-nacos
+    ports:
+      - "8848:8848"
+    networks:
+      - mpms
+    environment:
+      MODE: standalone 
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+  elasticsearch:
+    restart: always
+    image: "elasticsearch:6.5.4"
+    container_name: mpms-elasticsearch
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+  dejavu:
+    restart: always
+    image: "appbaseio/dejavu:3.5.1"
+    container_name: mpms-dejavu
+    ports:
+      - "1358:1358"
+  # docker-compose启动rocketmq https://www.jianshu.com/p/1eeb5134a7d4  foxiswho/rocketmq:4.8.0或者server 镜像
+  rmpnamesrv:
+    restart: always
+    image: "rocketmqinc/rocketmq:4.4.0"
+    container_name: rmqnamesrv
+    ports:
+      - "9876:9876"
+    environment:
+      MAX_POSSIBLE_HEAP: 100000000
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./rocketmq/namesrv/logs:/root/logs
+      - ./rocketmq/namesrv/store:/root/store
+    command: mqnamesrv
+    networks:
+      mpms:
+        aliases:
+          - rmqnamesrv
+  # 修改配置文件broker.conf的IP
+  rmqbroker:
+    restart: always
+    image: "rocketmqinc/rocketmq:4.4.0"
+    container_name: rmqbroker
+    ports:
+      - "10911:10911"
+      - "10909:10909"
+    environment:
+      NAMESRV_ADDR: rmqnamesrv:9876
+      MAX_POSSIBLE_HEAP: 200000000
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./rocketmq/broker/logs:/root/logs
+      - ./rocketmq/broker/store:/root/store
+      - ./rocketmq/conf/broker.conf:/opt/rocketmq-4.4.0/conf/broker.conf 
+    command: mqbroker -c /opt/rocketmq-4.4.0/conf/broker.conf   
+    links:
+      - rmqnamesrv:namesrv
+    networks:
+      mpms:
+        aliases:
+          - rmqbroker
+  # 修改环境变量rocketmq.namesrv.addr的IP
+  rmqadmin:
+    restart: always
+    image: "pangliang/rocketmq-console-ng:latest"
+    container_name: rmqadmin
+    ports:
+      - "9999:8080"
+    environment:
+      JAVA_OPTS: "-Drocketmq.namesrv.addr=192.168.0.100:9876 -Dcom.rocketmq.sendMessageWithVIPChannel=false"
+    volumes:
+        - /etc/localtime:/etc/localtime:ro
+    networks:
+      mpms:
+        aliases:
+          - rmqadmin
+  # docker run --name 00-webpage -p 28000:28000 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 00-webpage:$myver
+  webpage:
+    image: "00-webpage:${TAG}"
+    container_name: 00-webpage
+    ports:
+      - "28000:28000"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+  #docker run --name 01-gateway -p 80:80 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 01-gateway:$myver
+  gateway:
+    image: "01-gateway:${TAG}"
+    container_name: 01-gateway
+    ports:
+      - "80:80"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+  #docker run --name 02-platform -p 21002:21002 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 02-platform:$myver
+  platform:
+    image: "02-platform:${TAG}"
+    container_name: 02-platform
+    ports:
+      - "21002:21002"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+  #docker run --name 03-logger -p 21003:21003 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 03-logger:$myver
+  logger:
+    image: "03-logger:${TAG}"
+    container_name: 03-logger
+    ports:
+      - "21003:21003"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+  #docker run --name 04-activiti -p 21004:21004 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 04-activiti:$myver
+  activiti:
+    image: "04-activiti:${TAG}"
+    container_name: 04-activiti
+    ports:
+      - "21004:21004"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+  #docker run --name 05-logy -p 21005:21005 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 05-logy:$myver
+  logy:
+    image: "05-logy:${TAG}"
+    container_name: 05-logy
+    ports:
+      - "21005:21005"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+  #docker run --name 06-quality -p 21006:21006 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 06-quality:$myver
+  quality:
+    image: "06-quality:${TAG}"
+    container_name: 06-quality
+    ports:
+      - "21006:21006"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+  #docker run --name 07-safe -p 21007:21007 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 07-safe:$myver
+  safe:
+    image: "07-safe:${TAG}"
+    container_name: 07-safe
+    ports:
+      - "21007:21007"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+  #docker run --name 08-speed -p 21008:21008 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 08-speed:$myver
+  speed:
+    image: "08-speed:${TAG}"
+    container_name: 08-speed
+    ports:
+      - "21008:21008"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+  #docker run --name 09-techecon -p 21009:21009 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 09-techecon:$myver
+  techecon:
+    image: "09-techecon:${TAG}"
+    container_name: 09-techecon
+    ports:
+      - "21009:21009"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+  #docker run --name 10-file -p 21010:21010 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 10-file:$myver
+  file:
+    image: "10-file:${TAG}"
+    container_name: 10-file
+    ports:
+      - "21010:21010"
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+  #docker run --name 11-netty -p 21011:21011 -p 28088:28088 -v /data:/data -v /etc/localtime:/etc/localtime:ro -d 11-netty:$myver
+  netty:
+    image: "11-netty:${TAG}"
+    container_name: 11-netty
+    ports:
+      - "21011:21011"
+      - "28088:28088" 
+    networks:
+      - mpms
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/data:/data
+    depends_on:
+      - minio
+      - mysql
+      - redis
+      - nacos
+      - elasticsearch
+#网络      
+networks:
+  mpms:
+    name: mpms
+    driver: bridge 
+  #rmq:
+    #name: rmq
+    #driver: bridge
