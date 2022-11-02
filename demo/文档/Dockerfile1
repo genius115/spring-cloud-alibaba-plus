@@ -14,5 +14,6 @@ VOLUME /tmp
 ADD demo-0.0.1-SNAPSHOT.jar app.jar
 # 运行jar包
 RUN bash -c 'touch /app.jar'
+# CMD 与 ENTRYPOINT 的区别
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 
