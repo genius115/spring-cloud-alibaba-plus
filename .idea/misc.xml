@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/xiaomai-magic-api/pom.xml" />
         <option value="$PROJECT_DIR$/example-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/example-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/magic-api-demo/pom.xml" />
       </list>
     </option>
   </component>

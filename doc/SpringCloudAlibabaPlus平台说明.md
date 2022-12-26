@@ -442,8 +442,16 @@ MySQL在Linux下数据库名、表名、列名、别名大小写规则是这样�
   
   6、Hutool工具包 API及使用方法
   
-  7、
-
+  7、smart-doc接口文档
+  smart-doc是一款同时支持java restful api和apache dubbo rpc接口文档生成的工具。完全基于注释生成文档，做到零侵入
+  smart-doc-maven-plugin
+  
+  8、torna
+  企业接口文档解决方案，目标是让文档管理变得更加方便、快捷。Torna采用团队协作的方式管理和维护项目API文档。
+  
+  9、
+  
+  
 ### 3.30 nacos-boot-webservice 10014 WebService服务  SpringBoot2.0.1
 
 ### 3.35 nacos-provider 10017 提供者2
@@ -513,6 +521,10 @@ MySQL在Linux下数据库名、表名、列名、别名大小写规则是这样�
 ### 7.2.1 xiaomai  15101
 1、Junit 
 assertThat 使用了 Hamcrest 的 Matcher 匹配符
+
+### 7.2.1.10 xiaomai-magic-api  15110
+1、magic-api
+
 
 
 ### 7.2.2 xiaomai-spring-boot  15201

@@ -17,6 +17,7 @@
         <module name="demo" />
         <module name="example-boot" />
         <module name="example-nacos" />
+        <module name="magic-api-demo" />
         <module name="nacos-activiti" />
         <module name="nacos-boot-api" />
         <module name="nacos-boot-jdbc" />
@@ -57,6 +58,7 @@
       <module name="example-1" target="1.8" />
       <module name="example-boot" target="1.8" />
       <module name="example-nacos" target="1.8" />
+      <module name="magic-api-demo" target="1.8" />
       <module name="nacos-activiti" target="1.8" />
       <module name="nacos-boot-api" target="1.8" />
       <module name="nacos-boot-jdbc" target="1.8" />

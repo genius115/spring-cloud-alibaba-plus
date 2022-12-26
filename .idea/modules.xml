@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/example-boot/example-boot.iml" filepath="$PROJECT_DIR$/example-boot/example-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/example-nacos/example-nacos.iml" filepath="$PROJECT_DIR$/example-nacos/example-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/magic-api-demo/magic-api-demo.iml" filepath="$PROJECT_DIR$/magic-api-demo/magic-api-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-activiti/nacos-activiti.iml" filepath="$PROJECT_DIR$/nacos-activiti/nacos-activiti.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-boot-api/nacos-boot-api.iml" filepath="$PROJECT_DIR$/nacos-boot-api/nacos-boot-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-boot-jdbc/nacos-boot-jdbc.iml" filepath="$PROJECT_DIR$/nacos-boot-jdbc/nacos-boot-jdbc.iml" />
