@@ -1,4 +1,3 @@
-
 ### Example user template template
 ### Example user template
 
@@ -34,3 +33,5 @@ yarn-error.log*
 /.idea/*
 *.class
 workspace.xml
+/.idea/libraries/*
+/.gitignore
